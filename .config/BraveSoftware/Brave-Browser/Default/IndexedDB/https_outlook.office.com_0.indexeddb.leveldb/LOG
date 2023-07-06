@@ -1,0 +1,14 @@
+2023/07/06-15:18:12.919 15a8 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/06-15:18:12.919 15a8 Recovering log #21
+2023/07/06-15:18:12.919 15a8 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000021.log 
+2023/07/06-15:18:12.919 15a8 Delete type=2 #19
+2023/07/06-15:18:13.419 15ac Level-0 table #26: started
+2023/07/06-15:18:13.423 15ac Level-0 table #26: 1256 bytes OK
+2023/07/06-15:18:13.430 15ac Delete type=0 #21
+2023/07/06-15:18:13.430 15a8 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 312 : 1
+2023/07/06-15:18:13.430 15a8 Compacting 1@0 + 1@1 files
+2023/07/06-15:18:13.435 15a8 Generated table #27@0: 33 keys, 6047 bytes
+2023/07/06-15:18:13.435 15a8 Compacted 1@0 + 1@1 files => 6047 bytes
+2023/07/06-15:18:13.441 15a8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/07/06-15:18:13.441 15a8 Delete type=2 #26
+2023/07/06-15:18:13.441 15a8 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 312 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

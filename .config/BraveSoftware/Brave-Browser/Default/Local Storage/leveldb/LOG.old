@@ -1,0 +1,6 @@
+2023/07/06-15:19:19.312 3 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2023/07/06-15:19:19.313 3 Recovering log #116
+2023/07/06-15:19:19.313 3 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000116.log 
+2023/07/06-15:19:34.282 3 Level-0 table #120: started
+2023/07/06-15:19:34.289 3 Level-0 table #120: 41408 bytes OK
+2023/07/06-15:19:34.297 3 Delete type=0 #116

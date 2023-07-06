@@ -1,0 +1,4 @@
+#!/rofi -no-lazy-grab -show run -config ~/.config/rofi/configbin/bash
+
+rofi -no-lazy-grab -show run -config ~/.config/rofi/config.rasi
+

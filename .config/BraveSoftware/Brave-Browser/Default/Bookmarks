@@ -1,0 +1,188 @@
+{
+   "checksum": "c0a5ea033e817d0d67b3921eb5b387f8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13310641593171942",
+            "date_last_used": "0",
+            "guid": "ef6bcdd0-50d3-4fd9-9df6-76953b05c6fd",
+            "id": "5",
+            "name": "Yasuhiko Yoshikazu Gundam Cover Art Collection Art Book - E-Hentai Galleries",
+            "type": "url",
+            "url": "https://e-hentai.org/g/718946/b89f2fa3cc/?p=1"
+         }, {
+            "date_added": "13324590180209977",
+            "date_last_used": "13333043788779981",
+            "guid": "ee9ae8dd-17de-4e5f-b031-581f474cd422",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Shigenori Soejima Art Works 2004-2010 - E-Hentai Galleries",
+            "type": "url",
+            "url": "https://e-hentai.org/g/322755/d758801ada/"
+         }, {
+            "date_added": "13314978480255427",
+            "date_last_used": "0",
+            "guid": "228e2e7e-ddb4-4f6f-a130-89ff8b0b8dab",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Scarlight's POE notebook~~ - Fogli Google",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1wBxgsvjD4UT0b4lTc5saZV_2inCtsnhzWxT3ZzXDMJY/edit#gid=0"
+         }, {
+            "date_added": "13321786479818001",
+            "date_last_used": "13333046307258240",
+            "guid": "cb6a9d6c-d25f-4c02-80dd-2651c8eee038",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Posta - Alessio Spineto - Outlook",
+            "type": "url",
+            "url": "https://outlook.office.com/mail/"
+         }, {
+            "date_added": "13321105311136194",
+            "date_last_used": "0",
+            "guid": "52750512-13e1-45bc-b9e0-627e4db049ff",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Watch Free Puss in Boots: The Last Wish Full Movies Online",
+            "type": "url",
+            "url": "https://dopebox.to/watch-movie/watch-puss-in-boots-the-last-wish-online-hd-91342.9221629"
+         }, {
+            "date_added": "13322144031353739",
+            "date_last_used": "13333108126124690",
+            "guid": "5a272b8f-5660-4848-a21b-28debd45d68e",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Robotics - Chrome",
+            "type": "url",
+            "url": "https://chrome.deib.polimi.it/index.php?title=Robotics"
+         }, {
+            "date_added": "13326045521379143",
+            "date_last_used": "0",
+            "guid": "8bb2be41-5f46-4310-bb14-7aad5c59cb83",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LanguageCert Language Exams & Certifications",
+            "type": "url",
+            "url": "https://www.languagecert.org/en"
+         }, {
+            "date_added": "13327244595944170",
+            "date_last_used": "0",
+            "guid": "7a1feced-a907-4099-ab89-a2c611a2c1ee",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Anycubic Prusa i3 Manuals | ManualsLib",
+            "type": "url",
+            "url": "https://www.manualslib.com/products/Anycubic-Prusa-I3-11262647.html"
+         }, {
+            "date_added": "13330002727659733",
+            "date_last_used": "0",
+            "guid": "f5943ac6-54a2-4b48-b7bf-ca8287d38750",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Shared - Google Drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/folders/1W36wPi0H7kA7qYGiOfbyR5ikBASlyCpZ?usp=drive_open"
+         }, {
+            "date_added": "13330168033350877",
+            "date_last_used": "13333106698762040",
+            "guid": "3d3a71b6-7e78-4f7d-aeae-0601b69dbdb6",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "This is perhaps my favorite password manager for the terminal - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=FhwsfH2TpFA"
+         }, {
+            "date_added": "13330984352935790",
+            "date_last_used": "13332033445265885",
+            "guid": "99ccd21b-30ec-4f0c-96b4-4cce698e76d6",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "d-graz/robotics-prj2-2022",
+            "type": "url",
+            "url": "https://github.com/d-graz/robotics-prj2-2022"
+         }, {
+            "date_added": "13332063999506426",
+            "date_last_used": "13332582581906446",
+            "guid": "71039905-e366-49e5-9d5d-9a3b6257d73a",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "robotics/project2 at main · filippolazzati/robotics",
+            "type": "url",
+            "url": "https://github.com/filippolazzati/robotics/tree/main/project2"
+         }, {
+            "date_added": "13333039684312064",
+            "date_last_used": "0",
+            "guid": "a5cc7007-c372-4e17-906f-43b48a68e3ea",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "051289 - ECONOMIA E ORGANIZZA... 787837: TEMI D'ESAME",
+            "type": "url",
+            "url": "https://webeep.polimi.it/mod/folder/view.php?id=172108"
+         }, {
+            "date_added": "13333043856418313",
+            "date_last_used": "13333120118913117",
+            "guid": "70c5d8fa-c496-46b3-844f-2b18813ce5fc",
+            "id": "19",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Browse :: Nyaa",
+            "type": "url",
+            "url": "https://nyaa.si/"
+         } ],
+         "date_added": "13333022243982533",
+         "date_last_used": "0",
+         "date_modified": "13333043856418313",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13333022243982535",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13333022243982536",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CowBChAIiIECEgqOmZ/zpGIAAAAAEgAaWGhwbk1GdGQ5MTBaL0xER0kreXZ4UmZKUXpwRi9jTlNERVFub0JJN2psL1RPSU1lMjlVSVhSajFmSXlKUm5rY2FXUlVMbWJZUXZQR0dSTm8rVCtSdnVnPT0gASoYemlJK3k3dEFpN2VlVTcwMjR4MnBuZz09SAMSgwEIAxJ/ChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EiQ0OTY3NjBjOS03MDcxLTQzMDItODc2My0zYjRkZjgxOTk4YzgYACAAKAAwATjJ/tqoiTBAyf7aqIkwShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABKrAQgPEqYBChxlTXJRUEVPR2Faa2tZaTBaM3dGd09FRHdab0E9EiQ1NjQ0NjQzNi0zYTZmLTRmNWMtOWM0Yi05M2RhNTRhZTM2MmYYACACKAIwlOHlqpIxOKep/96KMUDf2uWqkjFKHEFFZlBaM00xc3RrSzA4UisxaDQ0TGxyUnZCTT1aIiIg////23EvcVlnN1NvaGdsS2pOSm9WNjNLNzBDWEFUOD1l1Ezo0BKqAQgNEqUBChw5RmhCMm4rdXkyZWFaUzAxblh3akorK05SaHc9EiQwOWNlZWFlZC01MDA5LTQ1ODItODc0Ni0xMmMxNGRiMGYyNmYYACACKAIw/uDlqpIxOOzV9YqHMUDd2uWqkjFKHDVVbWFxOUJ2Vk90NEF0VjkrWW15K3FwU0REQT1aISIf///2bXZyM2pIZzFqZFJXR3Q5MGw3VjZQVVBPTkRzPWX6kd7bEqsBCBASpgEKHDJweXd4akVWMXJvMUEzcUFueHNha1ZMZjVOaz0SJGJlMWJlZmYxLTNmN2UtNDYwMy04YWMyLTc4NjVmZWQyNzk5NRgAIAIoAjD64OWqkjE4k9zn4Y4xQN/a5aqSMUocWmxITWJGb1NiY0VsdmNJSTVWczlGbHlNa0o4PVoiIiD////7TmplNnBzQk5Jc3pSSGJyVGJwUmI2S1hCYXdVPWXUTOjQEqoBCA4SpQEKHFRaOVNCYk95MElmeHhuSlp3VnNrZFVyMlZwRT0SJDdmMjA5MWE2LWU0YzEtNGZmZi04N2YzLWNmZDNiMzc4NWY3ZBgAIAIoAjCj4eWqkjE4x5Df2YcxQN7a5aqSMUoccEJaakdIT09qYXVqRkRuSDVPU01KRVlWZ0VBPVohIh////9sc3pRZlY4eVFudk1GbytocElRSFhwZUhwejQ9ZTj5OTMSqwEIEhKmAQocck1wR1VNakVsdFhoRzMrNEtMdVpORUNwa3drPRIkODU4OTIxYTEtMTA0NS00N2I2LTk4MTItNzllYjhiN2RiZjBhGAAgAigCMMPMz7mSMTjY5YazkjFAw8zPuZIxShxtN0UvUVFmSk94dnZ4c3pMTEZBTGRadmd4ZVE9WiIiIP////1mU1hqbnltV213NDkwQ3hjUzRKSTlseHdLbTA9ZXIMM/gSqwEIExKmAQocanNoNXhLcnZEU0ZhK1BIS0hIUXBiWXdSd2o4PRIkMTA2ZTdiMDQtMDY5Yi00NmNiLTg5OTEtZGM5OTg4ZDRhZjJiGAAgAigCMMfMz7mSMTiiuIW1kjFAx8zPuZIxShx6MElOSXlTYXVaUGJLdHF5aUplemdZSEZaUjQ9WiIiIP////4xdDR2b0F2ZGtFV2xrUWxJMFd2K2kwN1lUZ3M9ZcBBquwSqQEICxKkAQocM1dnVGpERzV5VVVVSU5UeFRuRW5nZDZvQ3BzPRIkZDcwMjcwOWUtZTNhMC00ODc4LTg0YjYtZmVhNmI3M2UxNjdkGAAgAigCMI/h5aqSMTjj+/yr+DBA3NrlqpIxShwvZWxRRHlpNHBkQkZtMnMybzAzRDFadklpQ1U9WiAiHv//YmJmTEJiYW02aC9vUSt4WWNqTGlINkc3MmtRPWXqYnJrEqcBCAYSogEKHGh3bkZBT2pxM0d1Wk9kcmFJWXRaemIzelZ0cz0SJDczNDgyZDYyLWUyYmMtNGIwYi1hMjQyLTlkNzRkMThhNDAzORgAIAIoAjCf4eWqkjE48v6B9vIwQNra5aqSMUocOUJudWViaFZvVzBEbUhUbEhnTldaS25aRG80PVoeIhxHUlMxSVgrei80OXJITnBGd0tjZjJOSURJZEE9ZVvDXPwSqQEICRKkAQocNEZsTXdaY1QwTi9NZU11dnRYeEJaREMxZTFZPRIkMzVkYTc0ZjctZTM3MS00MDhiLWEwYWQtMTNlYjA5MTA5NzIzGAAgAigCMPXg5aqSMTigu6b45TBA3NrlqpIxShxrLzNMRExTMitScGVmVCtta25WcXVyRXFpT0k9WiAiHv/2RGxxUTFsR3Z4UzI0akRXS3A3dnRjaXRMWDFRPWUdCpsFEqkBCAgSpAEKHFFUV3RjSlhOZUhDREpYcGUrUWR2ZVNVUTREYz0SJGJmMzBkZTJjLWYxMTQtNDdmMS05MTE4LTVhZTA0MzQwN2E0OBgAIAQoBDDnlPyrkjE4ytmNvegwQP2E/KuSMUocdjdBYzJhdDByZE93bGNkdk5kTlNKOFFER0g4PVogIh7/1G8ybm5sOHlVVUFDazlXdjcwczdqQWxENEVhcz1l+4WAkRKpAQgHEqQBChxDZHpzU050VGRZU2hQNjVOZXVjRmZ2ajUrcEU9EiRkZmE0NTUwNC1jODBkLTQ2NjAtYTEyZi1lOWE0YWM0MTE1NzQYACACKAIwg+HlqpIxOP+w5o7PMEDb2uWqkjFKHHRrM1RTNXBUYmRqSm1hVDdXaEVqc3I1YUdZND1aICIe/7NYVThKQjhQRkRrL3J6UWRxZ3UraWZXbzU3Qmc9ZaBm2+gSqgEIDBKlAQocQk1ha0FmU0RSbXh3Y2tkMldnMzBPandMdVhzPRIkZmQwMzhlODMtMGZlZS00ZmRkLWExZGMtM2UyNmFhNTA5ZDc3GAAgAigCMOTg5aqSMTjo1d7n/DBA3NrlqpIxShxiMjNVODg3QmpRWUlFcUhFMzBNeGFqWDBXelk9WiEiH///7FFYaW5BOE00dUxCaEh4SlVWOTB0VHVkblljWT1l8xRo0xKDAQgCEn8KHFljU1RvbnZFU1B3cUNzNEwyY3JWaHY2OEw5OD0SJDAyMmJmYjllLTU2NzYtNDNhOS05OTQyLWRjZGZkNTRhNWNmYhgAIAAoADABOMn+2qiJMEDJ/tqoiTBKHG9QVmtod0JSYlY2NUtDV1IyK0lPTkhXb091OD1aAGUAAAAAEqkBCAoSpAEKHDVRa1IyUnpzOFRYbnFMazQ2QWNHbmMxSGR2ND0SJDFkOTI3ZmM5LTUwMmItNDBiMy1iNDI1LWNhOGU5YzViYzJkNxgAIAAoADCGis3n6TA4+vTM5+kwQPr0zOfpMEocbThFbnFkQU1wUXZvK2hyY3lrL2d2TjNNbVh3PVogIh7//m5OckNJcnZFVWVvOGRiQThDNWozUmdMUDlGbz1lAAAAABKnAQgFEqIBChxEc3dPWjFtUng5d0hoYUVzT2g3bHNjSTFvSE09EiQ2ZTBjMzhhMy05NGU5LTQ5NWYtODgwOC1mMDlkMDRmMThjZWQYACACKAIw3eDlqpIxONTm5/q+MEDa2uWqkjFKHDRlRVdMd1NRcW5VVVphUGk4elJHVnJKOVJ5bz1aHiIcQ2lZNVFJd3FRRnJTZ1pqMWRac05QQzVSV1EwPWVbw1z8EoMBCAESfwoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMTJjYzYzN2MtODU3ZC00Nzc2LWIzYTMtNGQ5NGU2YjVlOGUxGAAgACgAMAE4yf7aqIkwQMn+2qiJMEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAwATgA",
+   "version": 1
+}
