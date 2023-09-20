@@ -1,0 +1,26 @@
+2023/09/19-08:28:32.068 7ea Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/19-08:28:32.069 7ea Recovering log #6
+2023/09/19-08:28:32.087 7ea Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.dropbox.com_0.indexeddb.leveldb/000006.log 
+2023/09/19-08:28:32.088 7ea Delete type=2 #5
+2023/09/19-08:28:32.088 7ea Delete type=2 #7
+2023/09/19-08:32:44.782 7eb Level-0 table #11: started
+2023/09/19-08:32:44.810 7eb Level-0 table #11: 924636 bytes OK
+2023/09/19-08:32:44.823 7eb Delete type=0 #6
+2023/09/19-08:33:54.023 7ec Compacting 1@1 + 1@2 files
+2023/09/19-08:33:54.036 7ec Generated table #12@1: 71 keys, 2134 bytes
+2023/09/19-08:33:54.036 7ec Compacted 1@1 + 1@2 files => 2134 bytes
+2023/09/19-08:33:54.048 7ec compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/19-08:33:54.048 7ec Delete type=2 #8
+2023/09/19-08:33:54.048 7ec Delete type=2 #11
+2023/09/19-08:49:23.545 7ea Level-0 table #14: started
+2023/09/19-08:49:23.562 7ea Level-0 table #14: 480773 bytes OK
+2023/09/19-08:49:23.570 7ea Delete type=0 #10
+2023/09/19-08:49:23.570 7ea Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/09/19-08:49:23.570 7ea Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x04\x1f\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x00\x04\x03\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x04\x02\x01\x0e\x00c\x00l\x00i\x00e\x00n\x00t\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n\x01\x0b\x00o\x00r\x00i\x00g\x00i\x00n\x00_\x00k\x00i\x00n\x00d\x04\x02\x01\x02\x002\x006\x01\x0a\x00m\x00e\x00t\x00a\x00s\x00e\x00r\x00v\x00e\x00r' @ 65811 : 1
+2023/09/19-08:49:23.570 7ea Compacting 1@1 + 1@2 files
+2023/09/19-08:49:23.581 7ea Generated table #15@1: 98 keys, 5602 bytes
+2023/09/19-08:49:23.581 7ea Compacted 1@1 + 1@2 files => 5602 bytes
+2023/09/19-08:49:23.587 7ea compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/19-08:49:23.587 7ea Delete type=2 #14
+2023/09/19-08:49:23.587 7ea Delete type=2 #12
+2023/09/19-08:49:23.589 7ea Manual compaction at level-1 from '\x00\x02\x04\x1f\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x00\x04\x03\x01\x0a\x00a\x00m\x00p\x00_\x00c\x00l\x00i\x00e\x00n\x00t\x04\x02\x01\x0e\x00c\x00l\x00i\x00e\x00n\x00t\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n\x01\x0b\x00o\x00r\x00i\x00g\x00i\x00n\x00_\x00k\x00i\x00n\x00d\x04\x02\x01\x02\x002\x006\x01\x0a\x00m\x00e\x00t\x00a\x00s\x00e\x00r\x00v\x00e\x00r' @ 65811 : 1 .. (end); will stop at (end)

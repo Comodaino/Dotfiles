@@ -1,0 +1,21 @@
+2023-09-20 10:52:09.704 [info] Telemetry level is off
+2023-09-20 10:52:09.704 [info] Experiments are disabled, only manually opted experiments are active.
+2023-09-20 10:52:09.704 [info] Test server listening.
+2023-09-20 10:52:09.704 [info] > conda info --json
+2023-09-20 10:52:09.718 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.718 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.719 [info] Found: /run/current-system/sw/bin/python --> /nix/store/bc45k1n0pkrdkr3xa6w84w1xhkl1kkyp-python3-3.10.12/bin/python3.10
+2023-09-20 10:52:09.720 [info] Found: /run/current-system/sw/bin/python3 --> /nix/store/bc45k1n0pkrdkr3xa6w84w1xhkl1kkyp-python3-3.10.12/bin/python3.10
+2023-09-20 10:52:09.721 [info] Found: /run/current-system/sw/bin/python3.10 --> /nix/store/bc45k1n0pkrdkr3xa6w84w1xhkl1kkyp-python3-3.10.12/bin/python3.10
+2023-09-20 10:52:09.724 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-20 10:52:09.725 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-09-20 10:52:09.743 [info] > /run/current-system/sw/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-09-20 10:52:09.800 [info] Python interpreter path: /run/current-system/sw/bin/python
+2023-09-20 10:52:09.832 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-09-20 10:52:10.882 [info] Starting Jedi language server for default.

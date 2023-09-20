@@ -1,0 +1,25 @@
+VSCodium (1.78.2, undefined, desktop)
+Jupyter Extension Version: 2023.3.100.
+Python Extension Version: 2023.8.0.
+Workspace folder /home/comodino/labFOR
+info 10:52:14.220: LSP Notebooks experiment is enabled
+info 10:52:14.311: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 10:52:14.322: Process Execution: > jupyter lab --version
+> jupyter lab --version
+warn 10:52:14.388: Failed to get activated env vars for /run/current-system/sw/bin/python in 110ms
+info 10:52:14.400: Process Execution: > /run/current-system/sw/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+> /run/current-system/sw/bin/python -c "import site;print("USER_BASE_VALUE");print(site.USER_BASE);print("USER_BASE_VALUE");"
+info 10:52:14.425: Process Execution: > /run/current-system/sw/bin/python -m pip list
+> /run/current-system/sw/bin/python -m pip list
+info 10:52:14.452: Process Execution: > /run/current-system/sw/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+> /run/current-system/sw/bin/python -c "import pip;print('6af208d0-cb9c-427f-b937-ff563e17efdf')"
+error 10:52:14.467: interpreterPackages getPackageInformation, Class name = Kd, completed in 190ms, has a falsy return value, Arg 1: {"interpreter":{"id":"/run/current-system/sw/bin/python","sysPrefix":"/nix/store/bc45k1n0pkrdkr3xa6w84w1xhkl1kkyp-python3-3.10.12","displayPath":{"$mid":1,"fsPath":"/run/current-system/sw/bin/python","path":"/run/current-system/sw/bin/python","scheme":"file"},"envName":"","uri":{"$mid":1,"fsPath":"/run/current-system/sw/bin/python","external":"file:///run/current-system/sw/bin/python","path":"/run/current-system/sw/bin/python","scheme":"file"},"displayName":"","envType":"Unknown","isCondaEnvWithoutPython":false,"version":{"major":3,"minor":10,"patch":12,"raw":"3.10.12 (main, Jun  6 2023, 22:43:10) [GCC 12.2.0]"}}} [su [Error]: Module 'pip' not installed.
+	at au.execModule (/home/comodino/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:7:27794)
+	at async Kd.getPackageInformation (/home/comodino/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal/out/extension.node.js:7:19123)] {
+  category: 'notinstalled',
+  moduleName: 'pip'
+}
+info 11:00:56.611: Shutting down notebooks for 5160c1cd-5d12-4360-861f-45f0ce88c09f
+info 11:00:56.612: Disposing HostJupyterExecution 7721f3d2-b705-4752-9111-b94c30ab3e10
+info 11:00:56.612: Disposing HostJupyterExecution 7721f3d2-b705-4752-9111-b94c30ab3e10

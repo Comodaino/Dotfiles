@@ -1,0 +1,12 @@
+2023/09/20-13:32:09.693 6dd Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/20-13:32:09.693 6dd Recovering log #54
+2023/09/20-13:32:09.708 6dd Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000054.log 
+2023/09/20-13:32:12.324 6dd Level-0 table #60: started
+2023/09/20-13:32:12.344 6dd Level-0 table #60: 1852547 bytes OK
+2023/09/20-13:32:12.352 6dd Delete type=0 #54
+2023/09/20-13:32:23.207 6dd Compacting 1@1 + 1@2 files
+2023/09/20-13:32:23.216 6dd Generated table #61@1: 133 keys, 196397 bytes
+2023/09/20-13:32:23.216 6dd Compacted 1@1 + 1@2 files => 196397 bytes
+2023/09/20-13:32:23.228 6dd compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/20-13:32:23.228 6dd Delete type=2 #60
+2023/09/20-13:32:23.228 6dd Delete type=2 #57

@@ -1,0 +1,6 @@
+2023/09/14-15:52:54.160 1532 Reusing MANIFEST /home/comodino/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/09/14-15:52:54.161 1532 Recovering log #13
+2023/09/14-15:52:54.161 1532 Reusing old log /home/comodino/.config/discord/Local Storage/leveldb/000013.log 
+2023/09/15-14:24:47.848 3aa3 Level-0 table #17: started
+2023/09/15-14:24:47.865 3aa3 Level-0 table #17: 1908842 bytes OK
+2023/09/15-14:24:47.872 3aa3 Delete type=0 #13

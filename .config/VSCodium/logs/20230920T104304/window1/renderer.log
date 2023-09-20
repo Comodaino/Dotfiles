@@ -1,0 +1,5 @@
+2023-09-20 10:43:05.354 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-09-20 10:43:05.404 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/comodino/lab0/1-intro-python.ipynb","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-09-20 10:43:05.803 [info] Started initializing default profile extensions in extensions installation folder. file:///home/comodino/.vscode-oss/extensions
+2023-09-20 10:43:06.012 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/comodino/.vscode-oss/extensions
+2023-09-20 10:43:08.746 [info] [perf] Render performance baseline is 29ms

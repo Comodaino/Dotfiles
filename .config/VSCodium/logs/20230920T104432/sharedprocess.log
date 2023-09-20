@@ -1,0 +1,69 @@
+2023-09-20 10:52:03.093 [info] Getting Manifest... ms-python.python
+2023-09-20 10:52:03.095 [info] Getting Manifest... ms-toolsai.jupyter
+2023-09-20 10:52:03.503 [info] Installing extension: ms-toolsai.jupyter
+2023-09-20 10:52:03.514 [info] Installing extension: ms-python.python
+2023-09-20 10:52:06.939 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-09-20 10:52:07.283 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-09-20 10:52:07.492 [info] Extension signature verification is not done: ms-python.python
+2023-09-20 10:52:07.621 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-09-20 10:52:07.810 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-09-20 10:52:08.050 [info] Installing extension: ms-toolsai.jupyter-renderers ms-toolsai.jupyter
+2023-09-20 10:52:08.051 [info] Installing extension: ms-toolsai.jupyter-keymap ms-toolsai.jupyter
+2023-09-20 10:52:08.051 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-toolsai.jupyter
+2023-09-20 10:52:08.051 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-toolsai.jupyter
+2023-09-20 10:52:08.721 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-cell-tags
+2023-09-20 10:52:08.750 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.accdd6b5-ffa4-45b5-885a-8da627978295: ms-toolsai.vscode-jupyter-cell-tags
+2023-09-20 10:52:08.757 [info] Renamed to /home/comodino/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2023-09-20 10:52:08.759 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-09-20 10:52:08.805 [info] Extension signature verification is not done: ms-toolsai.vscode-jupyter-slideshow
+2023-09-20 10:52:08.820 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.0d01d820-770f-42ec-8935-0f44ca6e779d: ms-toolsai.vscode-jupyter-slideshow
+2023-09-20 10:52:08.825 [info] Renamed to /home/comodino/.vscode-oss/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2023-09-20 10:52:08.826 [info] Extracting extension completed. ms-toolsai.vscode-jupyter-slideshow
+2023-09-20 10:52:08.915 [info] Extension signature verification is not done: ms-toolsai.jupyter-keymap
+2023-09-20 10:52:08.922 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.dcba3bc1-9a4c-467d-b65c-9750178abc6b: ms-toolsai.jupyter-keymap
+2023-09-20 10:52:08.928 [info] Renamed to /home/comodino/.vscode-oss/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+2023-09-20 10:52:08.931 [info] Extracting extension completed. ms-toolsai.jupyter-keymap
+2023-09-20 10:52:09.198 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.8aa197c4-45fa-47bd-85ca-bf5ccdbf3b3d: ms-python.python
+2023-09-20 10:52:09.206 [info] Renamed to /home/comodino/.vscode-oss/extensions/ms-python.python-2023.8.0-universal
+2023-09-20 10:52:09.212 [info] Extracting extension completed. ms-python.python
+2023-09-20 10:52:09.222 [info] Extension installed successfully: ms-python.python
+2023-09-20 10:52:09.638 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2023-09-20 10:52:09.881 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.9de14308-a0a8-4742-965a-f5e6053c7bdc: ms-toolsai.jupyter-renderers
+2023-09-20 10:52:09.893 [info] Renamed to /home/comodino/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.15-universal
+2023-09-20 10:52:09.895 [info] Extracting extension completed. ms-toolsai.jupyter-renderers
+2023-09-20 10:52:13.330 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2023-09-20 10:52:13.649 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.5f26f9f3-8422-4e02-9a88-84401899f4c2: ms-toolsai.jupyter
+2023-09-20 10:52:13.657 [info] Renamed to /home/comodino/.vscode-oss/extensions/ms-toolsai.jupyter-2023.3.100-universal
+2023-09-20 10:52:13.664 [info] Extracting extension completed. ms-toolsai.jupyter
+2023-09-20 10:52:13.675 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-09-20 10:52:13.676 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-09-20 10:52:13.676 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-09-20 10:52:13.676 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-09-20 10:52:13.677 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-09-20 10:56:05.345 [info] Getting Manifest... edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:05.484 [info] Installing extension: edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:05.723 [info] Getting Manifest... james-yu.latex-workshop
+2023-09-20 10:56:06.227 [info] Installing extension: james-yu.latex-workshop edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:12.315 [info] Extension signature verification is not done: james-yu.latex-workshop
+2023-09-20 10:56:12.613 [info] Getting Manifest... mjpvs.latex-previewer
+2023-09-20 10:56:12.756 [info] Installing extension: mjpvs.latex-previewer
+2023-09-20 10:56:13.522 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.8c78bab4-838a-478c-87ec-612c32bf9aa9: james-yu.latex-workshop
+2023-09-20 10:56:13.535 [info] Renamed to /home/comodino/.vscode-oss/extensions/james-yu.latex-workshop-9.14.0-universal
+2023-09-20 10:56:13.537 [info] Extracting extension completed. james-yu.latex-workshop
+2023-09-20 10:56:14.117 [info] Extension signature verification is not done: edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:14.123 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.02b5d98d-c8e7-413f-8840-14c42942af37: edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:14.128 [info] Renamed to /home/comodino/.vscode-oss/extensions/edwinkofler.vscode-hyperupcall-pack-latex-0.1.5-universal
+2023-09-20 10:56:14.129 [info] Extracting extension completed. edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:14.139 [info] Extension installed successfully: james-yu.latex-workshop
+2023-09-20 10:56:14.139 [info] Extension installed successfully: edwinkofler.vscode-hyperupcall-pack-latex
+2023-09-20 10:56:15.788 [info] Extension signature verification is not done: mjpvs.latex-previewer
+2023-09-20 10:56:15.847 [info] Extracted extension to /home/comodino/.vscode-oss/extensions/.86944ca3-2f91-469b-8e9e-e96f8333321f: mjpvs.latex-previewer
+2023-09-20 10:56:15.853 [info] Renamed to /home/comodino/.vscode-oss/extensions/mjpvs.latex-previewer-0.9.5-universal
+2023-09-20 10:56:15.855 [info] Extracting extension completed. mjpvs.latex-previewer
+2023-09-20 10:56:15.862 [info] Extension installed successfully: mjpvs.latex-previewer
+2023-09-20 10:56:15.889 [info] Uninstalling extension from the profile: edwinkofler.vscode-hyperupcall-pack-latex@0.1.5 vscode-userdata:/home/comodino/.vscode-oss/extensions/extensions.json
+2023-09-20 10:56:15.904 [info] Uninstalling extension from the profile: james-yu.latex-workshop@9.14.0 vscode-userdata:/home/comodino/.vscode-oss/extensions/extensions.json
+2023-09-20 10:56:15.915 [info] Marked extension as uninstalled edwinkofler.vscode-hyperupcall-pack-latex-0.1.5-universal
+2023-09-20 10:56:15.928 [info] Marked extension as uninstalled james-yu.latex-workshop-9.14.0-universal
+2023-09-20 10:56:16.062 [info] Successfully uninstalled extension from the profile edwinkofler.vscode-hyperupcall-pack-latex@0.1.5 vscode-userdata:/home/comodino/.vscode-oss/extensions/extensions.json
+2023-09-20 10:56:16.204 [info] Successfully uninstalled extension from the profile james-yu.latex-workshop@9.14.0 vscode-userdata:/home/comodino/.vscode-oss/extensions/extensions.json

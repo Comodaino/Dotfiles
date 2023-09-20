@@ -1,0 +1,993 @@
+[2023-09-18 15:31:13.489] [18512] (engine.cpp:309): Created native Engine, time: Mon Sep 18 15:31:13 2023 CEST, logPath: /home/comodino/.config/discord/0.0.29/modules/discord_voice/, logLevel: 2
+[2023-09-18 15:31:13.505] [18512] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-09-18 15:31:13.505] [18512] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-18 15:31:13.505] [18512] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 0, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:354): ActiveAudioLayer
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:66): AudioDeviceBuffer::ctor
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:143): current platform is Linux
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:162): CreatePlatformSpecificObjects
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:991): PlatformAudioLayer
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:298): PulseAudio support is enabled.
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:303): Linux PulseAudio APIs will be utilized
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:344): AttachAudioBuffer
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:183): SetRecordingSampleRate(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:189): SetPlayoutSampleRate(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(0)
+[2023-09-18 15:31:13.507] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(0)
+[2023-09-18 15:31:13.507] [18512] (audio_processing_impl.cc:295): Injected APM submodules:
+Echo control factory: 0
+Echo detector: 0
+Capture analyzer: 0
+Capture post processor: 0
+Render pre processor: 0
+[2023-09-18 15:31:13.507] [18512] (audio_processing_impl.cc:304): Denormal disabler: supported
+[2023-09-18 15:31:13.507] [18512] (audio_engine.cpp:526): Creating audio engine: standard
+[2023-09-18 15:31:13.507] [18512] (audio_device_impl.cc:364): Init
+[2023-09-18 15:31:13.740] [18512] (audio_device_impl.cc:364): Init
+[2023-09-18 15:31:13.763] [18472] (discord.cpp:690): JS console: ["%c[DatabaseManager]","active user changed (now: 174896162048835584, was: null, was: undefined)"]
+[2023-09-18 15:31:13.777] [18472] (discord.cpp:690): JS console: ["%c[default]","[BUILD INFO] Release Channel: stable, Build Number: 228672, Version Hash: e9ebae8bba279cd2bfc6393030c7967617a12ab4"]
+[2023-09-18 15:31:13.882] [18512] (audio_coding.cpp:147): Using software Opus decoder
+[2023-09-18 15:31:13.882] [18512] (audio_coding.cpp:164): Using software Opus encoder
+[2023-09-18 15:31:13.882] [18512] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-18 15:31:13.882] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(100)
+[2023-09-18 15:31:13.882] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 15:31:13.882] [18512] (audio_device_impl.cc:895): RegisterAudioCallback
+[2023-09-18 15:31:13.882] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-18 15:31:13.882] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-18 15:31:13.882] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-18 15:31:13.882] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-18 15:31:13.883] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-18 15:31:13.884] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-18 15:31:13.884] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-18 15:31:13.884] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-18 15:31:13.884] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-18 15:31:13.884] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-18 15:31:13.884] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 15:31:13.884] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-18 15:31:13.884] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-18 15:31:13.884] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-18 15:31:13.885] [18512] (audio_device_impl.cc:619): output: 1
+[2023-09-18 15:31:13.885] [18512] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-18 15:31:13.885] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-18 15:31:13.885] [18512] (audio_device_impl.cc:911): BuiltInAECIsAvailable
+[2023-09-18 15:31:13.885] [18512] (audio_device_generic.cc:32): BuiltInAECIsAvailable: Not supported on this platform
+[2023-09-18 15:31:13.885] [18512] (audio_device_impl.cc:914): output: 0
+[2023-09-18 15:31:13.885] [18512] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 0, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-18 15:31:13.888] [18512] (transparent_mode.cc:239): AEC3 Transparent Mode: Legacy
+[2023-09-18 15:31:13.889] [18512] (echo_canceller3.cc:793): AEC3 created with sample rate: 16000 Hz, num render channels: 1, num capture channels: 1
+[2023-09-18 15:31:13.889] [18512] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 0, level: Moderate }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-18 15:31:13.889] [18512] (clipping_predictor.cc:357): [agc] Clipping prediction disabled.
+[2023-09-18 15:31:13.889] [18512] (agc_manager_direct.cc:500): [agc] analog controller enabled: yes
+[2023-09-18 15:31:13.889] [18512] (agc_manager_direct.cc:503): [agc] Min mic level: 12 (overridden: no)
+[2023-09-18 15:31:13.889] [18512] (agc_manager_direct.cc:507): [agc] Startup min volume: 0
+[2023-09-18 15:31:13.889] [18512] (captured_audio_processor.cpp:119): SetNoiseCancellation: 0
+[2023-09-18 15:31:13.889] [18512] (audio_processing_impl.cc:511): AudioProcessing::ApplyConfig: AudioProcessing::Config{ pipeline: { maximum_internal_processing_rate: 48000, multi_channel_render: 0, multi_channel_capture: 0 }, pre_amplifier: { enabled: 0, fixed_gain_factor: 1 },capture_level_adjustment: { enabled: 0, pre_gain_factor: 1, post_gain_factor: 1, analog_mic_gain_emulation: { enabled: 0, initial_level: 255 }}, high_pass_filter: { enabled: 1 }, echo_canceller: { enabled: 1, mobile_mode: 0, enforce_high_pass_filtering: 1 }, noise_suppression: { enabled: 1, level: High }, transient_suppression: { enabled: 0 }, gain_controller1: { enabled: 1, mode: AdaptiveAnalog, target_level_dbfs: 3, compression_gain_db: 9, enable_limiter: 1, analog_gain_controller { enabled: 1, startup_min_volume: 0, clipped_level_min: 70, enable_digital_adaptive: 1, clipped_level_step: 15, clipped_ratio_threshold: 0.1, clipped_wait_frames: 300, clipping_predictor:  { enabled: 0, mode: 0, window_length: 5, reference_window_length: 5, reference_window_delay: 5, clipping_threshold: -1, crest_factor_margin: 3, use_predicted_step: 1 }}}, gain_controller2: { enabled: 0, fixed_digital: { gain_db: 0 }, adaptive_digital: { enabled: 0, dry_run: 0, headroom_db: 6, max_gain_db: 30, initial_gain_db: 8, vad_reset_period_ms: 1500, adjacent_speech_frames_threshold: 12, max_gain_change_db_per_second: 3, max_output_noise_level_dbfs: -50}}
+[2023-09-18 15:31:13.890] [18512] (field_trial.cc:141): Setting field trial string:WebRTC-Audio-NetEqDecisionLogicConfig/reinit_after_expands:100/
+[2023-09-18 15:31:13.893] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-18 15:31:13.893] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-18 15:31:13.893] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-18 15:31:13.893] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-18 15:31:13.893] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-18 15:31:13.893] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-18 15:31:13.894] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-18 15:31:13.894] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-18 15:31:13.894] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-18 15:31:13.894] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-18 15:31:13.894] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-18 15:31:13.894] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 15:31:13.894] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-18 15:31:13.894] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-18 15:31:13.894] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-18 15:31:13.894] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-18 15:31:13.895] [18512] (audio_device_impl.cc:619): output: 1
+[2023-09-18 15:31:13.895] [18512] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-18 15:31:13.895] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-18 15:31:13.895] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-18 15:31:13.895] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-18 15:31:13.895] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:194): - default: bluez_output.B8_27_EB_91_BA_B7.1.monitor ()
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:194): - default: bluez_output.B8_27_EB_91_BA_B7.1.monitor ()
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:199): - default: poulumio ()
+[2023-09-18 15:31:13.895] [18512] (engine.cpp:199): - poulumio ()
+[2023-09-18 15:31:13.959] [18472] (discord.cpp:690): JS console: ["%c[CloudSyncUtils]","CloudSync is not supported on this platform"]
+[2023-09-18 15:31:14.028] [18472] (discord.cpp:690): JS console: ["%c[default]","[NATIVE INFO] host 0.0.29, modules: discord_desktop_core: 2, discord_erlpack: 1, discord_spellcheck: 1, discord_utils: 2, discord_voice: 2, discord_krisp: 1, discord_game_utils: 1, discord_rpc: 1, build: null"]
+[2023-09-18 15:31:14.050] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-18 15:31:14.050] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-18 15:31:14.050] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-18 15:31:14.050] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-18 15:31:14.050] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-18 15:31:14.050] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-18 15:31:14.051] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-18 15:31:14.051] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-18 15:31:14.051] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-18 15:31:14.051] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-18 15:31:14.051] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-18 15:31:14.051] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 15:31:14.051] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-18 15:31:14.051] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-18 15:31:14.051] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-18 15:31:14.051] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-18 15:31:14.052] [18512] (audio_device_impl.cc:619): output: 1
+[2023-09-18 15:31:14.052] [18512] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-18 15:31:14.052] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-18 15:31:14.069] [18472] (discord.cpp:690): JS console: ["Initializing krisp module"]
+[2023-09-18 15:31:14.417] [18472] (discord.cpp:690): JS console: ["%c[MediaEngineStore]","Failed to load Krisp module: Failed to setup Krisp module, error code: -3"]
+[2023-09-18 15:31:14.730] [18472] (discord.cpp:690): JS console: ["%c[Spellchecker]","sh is not a valid locale."]
+[2023-09-18 15:31:14.771] [18472] (discord.cpp:690): JS console: ["%c[Spellchecker]","Switching to it-IT","(available)"]
+[2023-09-18 15:31:15.274] [18472] (discord.cpp:690): JS console: ["Deprecation warning: value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are discouraged and will be removed in an upcoming major release. Please refer to http://momentjs.com/guides/#/warnings/js-date/ for more info.\nArguments: \n[0] _isAMomentObject: true, _isUTC: false, _useUTC: false, _l: undefined, _i: 5/13/2022 10:00 -0800, _f: undefined, _strict: undefined, _locale: [object Object]\nError\n    at Function.createFromInputFallback (https://discordapp.com/assets/dde48701fa08789fbe33.js:1469:330)\n    at Bn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1495:696)\n    at Wn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:356)\n    at Zn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:199)\n    at Yn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1497:886)\n    at Kn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:697)\n    at zn (https://discordapp.com/assets/dde48701fa08789fbe33.js:1498:731)\n    at i (https://discordapp.com/assets/dde48701fa08789fbe33.js:1465:961)\n    at 408481 (https://discordapp.com/assets/59ccf8997a078f6a51dd.js:21:346)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 558820 (https://discordapp.com/assets/59ccf8997a078f6a51dd.js:14:338)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 308739 (https://discordapp.com/assets/59ccf8997a078f6a51dd.js:2:331)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 173242 (https://discordapp.com/assets/d68962f34a4f3cfddb71.js:364:101)\n    at l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)\n    at 121638 (https://discordapp.com/assets/729d207481831a94e488.js:35:278)\n    at Function.l (https://discordapp.com/assets/d5e9c36651d5e8efb261.js:1:154)"]
+[2023-09-18 15:31:15.331] [18472] (discord.cpp:690): JS console: ["[DEPRECATED] Please use `subscribeWithSelector` middleware"]
+[2023-09-18 15:31:15.907] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","Socket is reconnecting because of starting new session"]
+[2023-09-18 15:31:15.907] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]",".connect() called, new state is WILL_RECONNECT"]
+[2023-09-18 15:31:15.907] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-18 15:31:15.907] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-18 15:31:15.907] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-18 15:31:15.908] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-18 15:31:15.908] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[FAST CONNECT] successfully took over websocket, state:","[object Object]"]
+[2023-09-18 15:31:15.908] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 0 ms"]
+[2023-09-18 15:31:15.909] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-09-18 15:31:15.909] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-09-18 15:31:15.909] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-09-18 15:31:15.917] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-9lq2: 0, heartbeat interval: 41250, took 8 ms"]
+[2023-09-18 15:31:15.940] [18472] (discord.cpp:690): JS console: ["%c[RPCServer:WSS]","Starting on 6463"]
+[2023-09-18 15:31:15.942] [18472] (discord.cpp:690): JS console: ["%c[RPCServer:IPC]","Starting on /run/user/1000/discord-ipc-0"]
+[2023-09-18 15:31:16.565] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[READY] took 656ms, as 29b21745808ac7879e5446127e4c4cc5 via \ngateway-prd-us-east1-b-9lq2: 426.624\n|  id_created: 1.329\n|  session_lookup_time: 0.748\n|  session_lookup_finished: 0.02\n|  discord-sessions-prd-2-136: 421.53\n|  |  start_session: 267.475\n|  |  |  discord-api-7cd4b6fc99-s9hbg: 254.212\n|  |  |  |  get_user: 26.18\n|  |  |  |  get_guilds: 103.889\n|  |  |  |  user_settings_proto: 0.124\n|  |  |  |  relationships: 53.754\n|  |  |  |  friend_suggestion: 0.054\n|  |  |  |  connections: 0.248\n|  |  |  |  serialized_read_states: 0.006\n|  |  |  |  pending_payments: 0.001\n|  |  |  |  send_scheduled_deletion_message: 0.001\n|  |  |  |  sanitize_premium_perks: 0.001\n|  |  |  |  guild_join_requests: 0.001\n|  |  |  |  broadcaster_user_ids: 0.001\n|  |  |  |  user_guild_settings: 0.001\n|  |  |  |  serialized_private_channels: 0.001\n|  |  |  |  user_segments: 0.001\n|  |  |  |  game_invites: 0.001\n|  |  |  |  experiments: 20.281\n|  |  |  |  affine_user_ids: 31.251\n|  |  |  |  required_action: 0.005\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.14\n|  |  presence_started: 0.357\n|  |  guilds_started: 0.432\n|  |  guilds_connect: 149.775\n|  |  presence_connect: 0.001\n|  |  connect_finished: 149.825\n|  |  build_ready: 0.596\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 2.605\n|  |  split_ready: 0.095"]
+[2023-09-18 15:31:16.565] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-18 15:31:16.575] [18472] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-09-18 15:31:16.577] [18472] (discord.cpp:690): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-09-18 15:31:16.577] [18472] (discord.cpp:690): JS console: ["%c[DatabaseManager]","removing database (user: 174896162048835584, database: undefined)"]
+[2023-09-18 15:31:16.577] [18472] (discord.cpp:690): JS console: ["%c[DatabaseManager]","added database (174896162048835584 → null)"]
+[2023-09-18 15:31:16.592] [18472] (discord.cpp:690): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-09-18 15:31:16.604] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:31:16.605] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","Added account: 21bwv2pp3wdabs5bqfjnggicq"]
+[2023-09-18 15:31:16.633] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 906232534512328737 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-18 15:31:16.641] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-b.discord.gg"]
+[2023-09-18 15:31:16.649] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 740ms"]
+[2023-09-18 15:31:16.649] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-18 15:31:16.961] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 906232534512328737 isBefore:false isAfter:false"]
+[2023-09-18 15:31:17.219] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 1433ms"]
+[2023-09-18 15:31:18.930] [18472] (discord.cpp:690): JS console: ["%c[Flux]","Slow dispatch on GAMES_DATABASE_UPDATE: 584.5ms"]
+[2023-09-18 15:31:18.938] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:31:18.954] [18512] (engine.cpp:744): Engine::SetClipBufferLength(0)
+[2023-09-18 15:31:19.228] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 4382ms"]
+[2023-09-18 15:31:23.612] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:31:24.494] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 6646ms"]
+[2023-09-18 15:31:28.942] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-18 15:31:28.982] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 164, Client revision: 156"]
+[2023-09-18 15:31:29.050] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Retrieved delta, domains added: 51, domains removed: 0"]
+[2023-09-18 15:31:29.063] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28255 before update"]
+[2023-09-18 15:31:29.063] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Delta applied successfully"]
+[2023-09-18 15:31:29.063] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28306 after update"]
+[2023-09-18 15:31:31.139] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:31:31.691] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 27559ms"]
+[2023-09-18 15:31:37.916] [18803] (region_latency_tester.cpp:72): Sending 5 latency test pings to region rotterdam
+[2023-09-18 15:31:37.916] [18803] (region_latency_tester.cpp:72): Sending 5 latency test pings to region milan
+[2023-09-18 15:31:37.916] [18803] (region_latency_tester.cpp:72): Sending 5 latency test pings to region madrid
+[2023-09-18 15:31:37.916] [18803] (region_latency_tester.cpp:72): Sending 5 latency test pings to region stockholm
+[2023-09-18 15:31:37.916] [18803] (region_latency_tester.cpp:72): Sending 5 latency test pings to region bucharest
+[2023-09-18 15:31:38.123] [18803] (region_latency_tester.cpp:271): Average RTT for region rotterdam is 208
+[2023-09-18 15:31:38.123] [18803] (region_latency_tester.cpp:271): Average RTT for region milan is 208
+[2023-09-18 15:31:38.123] [18803] (region_latency_tester.cpp:271): Average RTT for region madrid is 208
+[2023-09-18 15:31:38.123] [18803] (region_latency_tester.cpp:271): Average RTT for region stockholm is 208
+[2023-09-18 15:31:38.123] [18803] (region_latency_tester.cpp:271): Average RTT for region bucharest is 208
+[2023-09-18 15:31:38.128] [18472] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","rotterdam,milan,madrid,stockholm,bucharest"]
+[2023-09-18 15:31:57.393] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 835553751787896853 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-18 15:31:57.504] [18472] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/253247023128510464/835553751787896853"]
+[2023-09-18 15:31:57.852] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 835553751787896853 isBefore:false isAfter:false"]
+[2023-09-18 15:31:59.260] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:32:00.216] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:32:00.465] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 1152289664129060877 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-18 15:32:00.584] [18472] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1152289662560383077/1152289664129060877"]
+[2023-09-18 15:32:00.722] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 18 messages for 1152289664129060877 isBefore:false isAfter:false"]
+[2023-09-18 15:32:02.831] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 1152298857938559066 between undefined and undefined. jump={\"isHighlight\":false,\"jumpType\":\"ANIMATED\"}"]
+[2023-09-18 15:32:02.902] [18472] (discord.cpp:690): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1152289662560383077/1152298857938559066"]
+[2023-09-18 15:32:03.148] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 1152298857938559066 isBefore:false isAfter:false"]
+[2023-09-18 15:33:00.220] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:33:02.228] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:34:02.232] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:34:03.532] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:35:03.537] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:35:04.771] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:36:04.775] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:36:05.297] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:37:05.300] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:37:11.542] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:38:11.546] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:38:13.142] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:39:13.146] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:39:20.161] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:40:20.195] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:40:22.006] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:41:22.009] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:41:23.649] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:42:23.653] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:42:26.223] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:43:26.226] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:43:29.400] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:44:29.400] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:44:30.631] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:45:30.635] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:45:34.338] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:46:34.338] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:46:36.280] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:47:36.284] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:47:41.739] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:48:41.739] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:48:47.910] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:49:47.911] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:49:49.731] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:50:49.735] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:50:50.542] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:51:50.546] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:51:52.212] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:52:52.215] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:52:53.622] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:53:53.672] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:53:55.266] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:54:55.272] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:54:56.915] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:55:56.919] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:55:59.382] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:56:59.382] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:56:59.949] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:57:59.953] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:58:01.276] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 15:59:01.280] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 15:59:01.974] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:00:01.978] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:00:03.706] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:01:03.710] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:01:05.731] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:02:05.734] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:02:06.867] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:03:06.871] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:03:08.290] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:04:08.295] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:04:10.083] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:05:10.087] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:05:11.723] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:06:11.726] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:06:13.573] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:07:13.573] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:07:14.026] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:08:14.030] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:08:14.566] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:09:14.573] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:09:15.204] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:10:15.209] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:10:15.705] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:11:15.709] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:11:22.134] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:12:22.137] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:12:22.693] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:13:22.696] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:13:24.063] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:14:24.066] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:14:24.537] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:15:24.542] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:15:25.368] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:16:25.373] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:16:27.359] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:17:27.362] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:17:28.595] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:18:28.599] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:18:29.908] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:19:29.912] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:19:31.476] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:20:31.479] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:20:33.327] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:21:33.330] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:21:35.380] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:22:35.383] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:22:37.643] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:23:37.644] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:23:39.902] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:24:39.906] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:24:41.683] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:25:41.688] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:25:44.622] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:26:44.626] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:26:46.472] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:27:46.476] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:27:48.119] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:28:48.122] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:28:49.354] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:29:49.358] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:29:49.919] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:30:49.923] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:30:50.590] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:31:50.593] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:31:52.627] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:32:52.631] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:32:54.690] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:33:41.091] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 16:33:41.091] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:194): - default: @DEFAULT_SOURCE@ ()
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:199): - default: poulumio ()
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:199): - poulumio ()
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:194): - default: @DEFAULT_SOURCE@ ()
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 16:33:41.092] [18512] (engine.cpp:199): - default: @DEFAULT_SINK@ ()
+[2023-09-18 16:33:41.098] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-18 16:33:41.098] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-18 16:33:41.099] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-18 16:33:41.100] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-18 16:33:41.100] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-18 16:33:41.100] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-18 16:33:41.100] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-18 16:33:41.100] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-18 16:33:41.100] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-18 16:33:41.100] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-18 16:33:41.100] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-18 16:33:41.100] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 16:33:41.123] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-18 16:33:41.123] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-18 16:33:41.123] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-18 16:33:41.123] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-18 16:33:41.124] [18512] (audio_mixer_manager_pulse_linux.cc:399): output device index has not been set
+[2023-09-18 16:33:41.124] [18512] (audio_device_impl.cc:624): SetStereoPlayout(0)
+[2023-09-18 16:33:41.124] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(1)
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:194): - default: auto_null.monitor ()
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:199): - default: @DEFAULT_SINK@ ()
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:191): * audioInput:
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:194): - default: auto_null.monitor ()
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:199): - default: Dummy Output ()
+[2023-09-18 16:33:42.091] [18512] (engine.cpp:199): - Dummy Output ()
+[2023-09-18 16:33:42.091] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-18 16:33:42.091] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-18 16:33:42.091] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-18 16:33:42.091] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-18 16:33:42.091] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-18 16:33:42.092] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-18 16:33:42.092] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-18 16:33:42.092] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-18 16:33:42.092] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-18 16:33:42.092] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-18 16:33:42.092] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-18 16:33:42.092] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-18 16:33:42.092] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-18 16:33:42.092] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-18 16:33:42.092] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-18 16:33:42.093] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-18 16:33:42.093] [18512] (audio_device_impl.cc:619): output: 1
+[2023-09-18 16:33:42.093] [18512] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-18 16:33:42.093] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-18 16:33:54.695] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:33:57.990] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:34:57.991] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:34:59.253] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:35:59.257] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:36:00.870] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:37:00.873] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:37:02.516] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:38:02.519] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:38:03.050] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:39:03.054] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:39:05.188] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:40:05.193] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:40:06.737] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:41:06.741] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:41:08.683] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:42:08.688] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:42:10.328] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:43:10.332] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:43:12.595] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:44:12.599] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:44:20.175] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:45:20.176] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:45:32.069] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:46:32.070] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:46:33.705] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:47:33.709] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:47:35.351] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:48:35.355] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:48:43.038] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:49:43.040] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:49:44.783] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:50:44.787] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:50:51.753] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:51:51.755] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:51:54.013] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:52:54.015] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:52:55.859] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:53:55.863] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:53:56.891] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:54:56.895] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:54:58.197] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:55:58.201] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:55:59.349] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:56:07.290] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","Dispatched 4 messages in 113ms"]
+[2023-09-18 16:56:07.367] [18472] (discord.cpp:690): JS console: ["react-spring: The \"interpolate\" function is deprecated in v10 (use \"to\" instead)"]
+[2023-09-18 16:56:59.353] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:57:00.290] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:58:00.294] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:58:01.832] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 16:59:01.838] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 16:59:04.301] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:00:04.301] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:00:04.856] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:01:04.860] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:01:06.068] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:02:06.073] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:02:07.391] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:03:07.395] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:03:07.921] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:04:07.926] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:04:09.238] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:05:09.242] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:05:10.643] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:06:10.647] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:06:11.201] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:07:11.205] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:07:12.723] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:08:12.727] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:08:14.393] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:09:14.398] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:09:16.216] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:10:16.220] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:10:18.501] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:11:18.505] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:11:19.865] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:12:19.869] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:12:22.205] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:13:22.206] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:13:24.051] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:14:24.056] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:14:26.106] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:15:26.110] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:15:26.963] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:16:26.967] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:16:28.577] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:17:28.581] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:17:30.260] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:18:30.265] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:18:31.662] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:19:31.666] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:19:32.231] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:20:32.235] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:20:33.223] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:21:33.227] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:21:34.344] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:22:34.348] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:22:35.784] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:23:35.788] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:23:37.430] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:24:37.433] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:24:39.689] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:25:39.693] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:25:41.091] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:26:41.096] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:26:42.979] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:27:42.983] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:27:45.238] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:28:49.825] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:28:51.671] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:29:51.675] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:29:53.934] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:30:53.983] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:31:01.209] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:32:01.210] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:32:03.258] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:33:03.262] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:33:04.763] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:34:04.769] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:34:06.786] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:35:06.789] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:35:08.884] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:36:08.885] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:36:10.321] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:37:10.324] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:37:11.360] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:38:11.364] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:38:12.682] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:39:12.686] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:39:13.923] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:40:13.926] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:40:15.557] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:41:15.561] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:41:16.844] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:42:16.848] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:42:22.750] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:43:22.751] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:43:24.149] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:44:24.154] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:44:24.937] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:45:24.941] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:45:26.406] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:46:26.409] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:46:26.970] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:47:26.974] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:47:28.460] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:48:28.464] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:48:29.582] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:49:29.587] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:49:30.853] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:50:30.857] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:50:32.566] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:51:32.570] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:51:34.208] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:52:34.213] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:52:35.207] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:53:35.212] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:53:35.964] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:54:35.967] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:54:38.314] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:55:38.318] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:55:40.365] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:56:40.369] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:56:41.802] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:57:41.806] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:57:44.234] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:58:44.240] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:58:45.541] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 17:59:45.544] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 17:59:47.066] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:00:47.070] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:00:48.256] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:01:48.262] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:01:48.896] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:02:48.946] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:02:50.430] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:03:50.434] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:03:51.671] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:04:51.675] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:04:52.890] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:05:52.894] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:05:54.838] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:06:54.842] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:06:56.585] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:07:56.639] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:07:58.676] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:08:58.680] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:08:59.230] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:09:59.234] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:10:01.209] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:11:01.214] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:11:02.650] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:11:27.181] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-18 18:11:27.184] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-18 18:11:27.184] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-18 18:11:27.185] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-18 18:11:27.187] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-18 18:11:27.727] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 541 ms"]
+[2023-09-18 18:11:27.728] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-18 18:11:27.728] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 29b21745808ac7879e5446127e4c4cc5, seq: 602"]
+[2023-09-18 18:11:27.729] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-hwfr: 0, heartbeat interval: 41250, took 544 ms"]
+[2023-09-18 18:11:27.997] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 812ms, via \ngateway-prd-us-east1-b-hwfr: 1.395\n|  id_created: 0\n|  session_lookup_time: 0.401\n|  session_lookup_finished: 0.022\n|  discord-sessions-prd-2-136: 0.042, replayed 1 events, new seq: 603"]
+[2023-09-18 18:11:27.997] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-18 18:11:28.032] [18472] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-18 18:12:02.654] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:12:04.657] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:13:04.661] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:13:05.896] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:14:05.900] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:14:07.953] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:15:07.958] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:15:09.675] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:16:09.680] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:16:11.044] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:17:11.048] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:17:13.485] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:18:13.487] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:18:14.747] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:19:14.750] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:19:16.396] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:20:16.402] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:20:17.296] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:21:17.301] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:21:18.456] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:22:18.460] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:22:19.409] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:23:19.413] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:23:20.009] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:24:20.014] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:24:21.957] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:25:21.962] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:25:23.126] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:26:23.130] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:26:24.640] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:27:24.644] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:27:26.692] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:28:26.696] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:28:27.928] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:29:27.932] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:29:29.573] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:30:29.577] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:30:31.424] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:31:31.428] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:31:32.864] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:32:32.868] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:32:34.222] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:33:34.225] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:33:35.746] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:34:35.750] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:34:37.800] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:35:37.804] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-18 18:35:44.875] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-18 18:36:31.740] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: network detected offline."]
+[2023-09-19 08:05:25.786] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Performing an expedited heartbeat reason: power monitor resumed"]
+[2023-09-19 08:05:30.792] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:05:30.793] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[ACK TIMEOUT] reconnecting in 2.87 seconds."]
+[2023-09-19 08:05:32.446] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Connection has reset backoff for reason: network detected online."]
+[2023-09-19 08:05:32.447] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:05:32.447] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:05:32.447] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:05:32.453] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:05:32.453] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 1.38 seconds."]
+[2023-09-19 08:05:33.829] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:05:33.829] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:05:33.830] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:05:33.833] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:05:33.833] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 2.11 seconds."]
+[2023-09-19 08:05:34.896] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:05:34.903] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:191): * audioInput:
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:194): - default: bluez_output.6C_D3_EE_27_D5_C7.1.monitor ()
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:199): - default: Dummy Output ()
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:199): - Dummy Output ()
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:191): * audioInput:
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:194): - default: bluez_output.6C_D3_EE_27_D5_C7.1.monitor ()
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:199): - default: Redmi Buds 3 Pro ()
+[2023-09-19 08:05:35.739] [18512] (engine.cpp:199): - Redmi Buds 3 Pro ()
+[2023-09-19 08:05:35.739] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-19 08:05:35.739] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-19 08:05:35.740] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-19 08:05:35.740] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-19 08:05:35.740] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-19 08:05:35.741] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-19 08:05:35.741] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-19 08:05:35.741] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-19 08:05:35.741] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-19 08:05:35.741] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-19 08:05:35.741] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-19 08:05:35.741] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-19 08:05:35.741] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-19 08:05:35.741] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-19 08:05:35.741] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-19 08:05:35.742] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-19 08:05:35.742] [18512] (audio_device_impl.cc:619): output: 1
+[2023-09-19 08:05:35.742] [18512] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-19 08:05:35.742] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-19 08:05:35.939] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:05:35.939] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:05:35.939] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:05:35.942] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:05:35.942] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 3.79 seconds."]
+[2023-09-19 08:05:39.738] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:05:39.738] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:05:39.739] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:05:39.808] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:05:39.808] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 7.41 seconds."]
+[2023-09-19 08:05:45.364] [18472] (discord.cpp:690): JS console: ["[AnalyticsTrackingStore] Track:","Request has been terminated\nPossible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc."]
+[2023-09-19 08:05:47.219] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:05:47.219] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:05:47.219] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:05:47.242] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:05:47.242] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[WS CLOSED] (false, 0, An error with the websocket occurred) retrying in 12.93 seconds."]
+[2023-09-19 08:05:47.242] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESET] (false, 0, An error with the websocket occurred)"]
+[2023-09-19 08:05:47.243] [18472] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_CLOSED"]
+[2023-09-19 08:05:47.246] [18472] (discord.cpp:690): JS console: ["%c[AuthenticationStore]","handleConnectionClosed called with code 0.","[object Object]"]
+[2023-09-19 08:05:47.250] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","connection closed dispatched"]
+[2023-09-19 08:05:52.297] [18472] (discord.cpp:690): JS console: ["[AnalyticsTrackingStore] Track:","Request has been terminated\nPossible causes: the network is offline, Origin is not allowed by Access-Control-Allow-Origin, the page is being unloaded, etc."]
+[2023-09-19 08:06:00.180] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:06:00.180] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:06:00.181] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:06:00.348] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 167 ms"]
+[2023-09-19 08:06:00.349] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","handleIdentify called","[object Object]"]
+[2023-09-19 08:06:00.349] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to IDENTIFYING"]
+[2023-09-19 08:06:00.349] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[IDENTIFY]"]
+[2023-09-19 08:06:00.358] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-n70r: 0, heartbeat interval: 41250, took 178 ms"]
+[2023-09-19 08:06:00.881] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","Dispatched INITIAL_GUILD 1152289662560383077"]
+[2023-09-19 08:06:01.050] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[READY] took 869ms, as 4fc3fdaab750570adc7db1fe2d071f47 via \ngateway-prd-us-east1-b-n70r: 437.331\n|  id_created: 1.653\n|  session_lookup_time: 6.7\n|  session_lookup_finished: 0.017\n|  discord-sessions-prd-2-79: 426.77\n|  |  start_session: 331.873\n|  |  |  discord-api-c78b486b7-zjmpc: 318.163\n|  |  |  |  get_user: 35.193\n|  |  |  |  get_guilds: 20.653\n|  |  |  |  user_settings_proto: 0.174\n|  |  |  |  relationships: 159.86\n|  |  |  |  friend_suggestion: 0.063\n|  |  |  |  connections: 0.361\n|  |  |  |  serialized_read_states: 0.007\n|  |  |  |  pending_payments: 0.002\n|  |  |  |  send_scheduled_deletion_message: 0.002\n|  |  |  |  sanitize_premium_perks: 0.002\n|  |  |  |  guild_join_requests: 0.002\n|  |  |  |  broadcaster_user_ids: 0.002\n|  |  |  |  user_guild_settings: 0.002\n|  |  |  |  serialized_private_channels: 0.002\n|  |  |  |  user_segments: 0.002\n|  |  |  |  game_invites: 0.001\n|  |  |  |  experiments: 20.117\n|  |  |  |  affine_user_ids: 52.673\n|  |  |  |  required_action: 0.005\n|  |  |  |  authorized_ip_coro: 0.002\n|  |  starting_guild_connect: 0.073\n|  |  presence_started: 9.095\n|  |  guilds_started: 0.849\n|  |  guilds_connect: 82.5\n|  |  presence_connect: 0.001\n|  |  connect_finished: 82.515\n|  |  build_ready: 0.618\n|  |  clean_ready: 0.001\n|  |  optimize_ready: 1.637\n|  |  split_ready: 0.105"]
+[2023-09-19 08:06:01.050] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-19 08:06:01.095] [18472] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_OPEN"]
+[2023-09-19 08:06:01.096] [18472] (discord.cpp:690): JS console: ["%c[AuthenticationStore]","handleConnectionOpen called","[object Object]"]
+[2023-09-19 08:06:01.098] [18472] (discord.cpp:690): JS console: ["%c[DatabaseManager]","removing database (user: 174896162048835584, database: null)"]
+[2023-09-19 08:06:01.099] [18472] (discord.cpp:690): JS console: ["%c[DatabaseManager]","added database (174896162048835584 → null)"]
+[2023-09-19 08:06:01.119] [18472] (discord.cpp:690): JS console: ["%c[NativeDispatchUtils]","Tried getting Dispatch instance before instantiated"]
+[2023-09-19 08:06:01.161] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetching messages for 1152298857938559066 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-09-19 08:06:01.182] [18472] (discord.cpp:690): JS console: ["%c[ConnectionStore]","Dispatched 1 messages in 114ms"]
+[2023-09-19 08:06:01.183] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Updating resume url to wss://gateway-us-east1-b.discord.gg"]
+[2023-09-19 08:06:01.192] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[READY_SUPPLEMENTAL] took 1012ms"]
+[2023-09-19 08:06:01.192] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-19 08:06:01.418] [18472] (discord.cpp:690): JS console: ["%c[MessageActionCreators]","Fetched 14 messages for 1152298857938559066 isBefore:false isAfter:false"]
+[2023-09-19 08:06:03.478] [18512] (engine.cpp:744): Engine::SetClipBufferLength(0)
+[2023-09-19 08:06:19.402] [254271] (region_latency_tester.cpp:72): Sending 5 latency test pings to region milan
+[2023-09-19 08:06:19.403] [254271] (region_latency_tester.cpp:72): Sending 5 latency test pings to region frankfurt
+[2023-09-19 08:06:19.405] [254271] (region_latency_tester.cpp:72): Sending 5 latency test pings to region rotterdam
+[2023-09-19 08:06:19.405] [254271] (region_latency_tester.cpp:72): Sending 5 latency test pings to region madrid
+[2023-09-19 08:06:19.406] [254271] (region_latency_tester.cpp:72): Sending 5 latency test pings to region bucharest
+[2023-09-19 08:06:19.445] [254271] (region_latency_tester.cpp:271): Average RTT for region milan is 10.25
+[2023-09-19 08:06:19.445] [254271] (region_latency_tester.cpp:271): Average RTT for region frankfurt is 21
+[2023-09-19 08:06:19.445] [254271] (region_latency_tester.cpp:271): Average RTT for region rotterdam is 27
+[2023-09-19 08:06:19.445] [254271] (region_latency_tester.cpp:271): Average RTT for region madrid is 34
+[2023-09-19 08:06:19.445] [254271] (region_latency_tester.cpp:271): Average RTT for region bucharest is 43
+[2023-09-19 08:06:19.450] [18472] (discord.cpp:690): JS console: ["%c[RTCLatencyTestManager]","RTC region latency test completed: ","milan,frankfurt,rotterdam,madrid,bucharest"]
+[2023-09-19 08:06:34.908] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:06:35.621] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:07:35.624] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:07:35.931] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:08:35.936] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:08:36.215] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:09:36.219] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:09:36.831] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:10:36.838] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:10:37.181] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:11:37.187] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:11:38.098] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:12:38.102] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:12:38.357] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:13:38.362] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:13:38.737] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:14:38.743] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:14:38.993] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:15:39.000] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:15:39.467] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:16:39.471] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:16:40.045] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:17:40.049] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:17:40.667] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:18:40.671] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:18:40.936] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:19:40.940] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:19:41.183] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:20:41.188] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:20:41.690] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:191): * audioInput:
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:194): - default: @DEFAULT_SOURCE@ ()
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:199): - default: Redmi Buds 3 Pro ()
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:199): - Redmi Buds 3 Pro ()
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:191): * audioInput:
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:194): - default: @DEFAULT_SOURCE@ ()
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:199): - default: @DEFAULT_SINK@ ()
+[2023-09-19 08:20:57.704] [18512] (engine.cpp:199): - Dummy Output ()
+[2023-09-19 08:20:57.704] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-19 08:20:57.704] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-19 08:20:57.705] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-19 08:20:57.705] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-19 08:20:57.705] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-19 08:20:57.705] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-19 08:20:57.705] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-19 08:20:57.705] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-19 08:20:57.705] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-19 08:20:57.705] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-19 08:20:57.705] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-19 08:20:57.705] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-19 08:20:57.706] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-19 08:20:57.706] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-19 08:20:57.706] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-19 08:20:57.706] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-19 08:20:57.707] [18512] (audio_mixer_manager_pulse_linux.cc:399): output device index has not been set
+[2023-09-19 08:20:57.707] [18512] (audio_device_impl.cc:624): SetStereoPlayout(0)
+[2023-09-19 08:20:57.707] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(1)
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:191): * audioInput:
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:194): - default: auto_null.monitor ()
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:199): - default: @DEFAULT_SINK@ ()
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:199): - Dummy Output ()
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:190): *** OnDevicesChanged:
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:191): * audioInput:
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:194): - default: auto_null.monitor ()
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:196): * audioOutput:
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:199): - default: Dummy Output ()
+[2023-09-19 08:20:58.705] [18512] (engine.cpp:199): - Dummy Output ()
+[2023-09-19 08:20:58.706] [18512] (audio_engine.cpp:187): Setting audio input device: 'default'
+[2023-09-19 08:20:58.706] [18512] (audio_device_impl.cc:826): RecordingIsInitialized
+[2023-09-19 08:20:58.706] [18512] (audio_device_impl.cc:578): SetStereoRecording(1)
+[2023-09-19 08:20:58.706] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(2)
+[2023-09-19 08:20:58.706] [18512] (audio_device_impl.cc:776): SetRecordingDevice(0)
+[2023-09-19 08:20:58.706] [18512] (audio_device_impl.cc:566): StereoRecordingIsAvailable
+[2023-09-19 08:20:58.706] [18512] (audio_mixer_manager_pulse_linux.cc:429): input device index has not been set
+[2023-09-19 08:20:58.706] [18512] (audio_device_impl.cc:578): SetStereoRecording(0)
+[2023-09-19 08:20:58.706] [18512] (audio_device_buffer.cc:203): SetRecordingChannels(1)
+[2023-09-19 08:20:58.706] [18512] (audio_mixer_manager_pulse_linux.cc:669): input device index has not been set
+[2023-09-19 08:20:58.706] [18512] (audio_device_impl.cc:547): SetMicrophoneVolume(255)
+[2023-09-19 08:20:58.706] [18512] (audio_mixer_manager_pulse_linux.cc:575): input device index has not been set
+[2023-09-19 08:20:58.707] [18512] (audio_engine.cpp:204): Setting audio output device: 'default'
+[2023-09-19 08:20:58.707] [18512] (audio_device_impl.cc:820): PlayoutIsInitialized
+[2023-09-19 08:20:58.707] [18512] (audio_device_impl.cc:708): SetPlayoutDevice(0)
+[2023-09-19 08:20:58.707] [18512] (audio_device_impl.cc:612): StereoPlayoutIsAvailable
+[2023-09-19 08:20:58.707] [18512] (audio_device_impl.cc:619): output: 1
+[2023-09-19 08:20:58.707] [18512] (audio_device_impl.cc:624): SetStereoPlayout(1)
+[2023-09-19 08:20:58.707] [18512] (audio_device_buffer.cc:209): SetPlayoutChannels(2)
+[2023-09-19 08:21:41.694] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:21:42.819] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:22:42.823] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:22:43.493] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:23:43.498] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:23:43.908] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:24:43.912] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:24:44.195] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:25:44.202] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:25:44.782] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:26:44.787] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:26:45.038] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:27:45.041] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:27:45.347] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:28:45.351] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:28:45.884] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:29:45.889] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:29:46.200] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:30:46.204] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:30:46.966] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:31:46.970] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:31:47.434] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:32:47.440] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:32:47.919] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:33:47.924] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:33:48.417] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:34:48.422] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:34:48.832] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:35:48.837] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:35:49.197] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:36:49.201] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:36:49.789] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:37:49.794] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:37:50.236] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:38:50.240] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:38:50.549] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:39:50.554] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:39:50.863] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:40:50.868] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:40:51.270] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:41:51.275] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:41:51.693] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:42:51.698] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:42:52.294] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:43:19.397] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RECONNECT] gateway requested I reconnect."]
+[2023-09-19 08:43:19.397] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to WILL_RECONNECT"]
+[2023-09-19 08:43:19.397] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to CONNECTING"]
+[2023-09-19 08:43:19.397] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECT] wss://gateway-us-east1-b.discord.gg, encoding: etf, version: 9, compression: zlib-stream"]
+[2023-09-19 08:43:19.398] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","newOrTakeoverWebSocket()"]
+[2023-09-19 08:43:19.803] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[CONNECTED] wss://gateway-us-east1-b.discord.gg/?encoding=etf&v=9&compress=zlib-stream in 406 ms"]
+[2023-09-19 08:43:19.803] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to RESUMING"]
+[2023-09-19 08:43:19.803] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUME] resuming session 4fc3fdaab750570adc7db1fe2d071f47, seq: 30"]
+[2023-09-19 08:43:19.804] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[HELLO] via \ngateway-prd-us-east1-b-j9c9: 0, heartbeat interval: 41250, took 407 ms"]
+[2023-09-19 08:43:19.925] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","[RESUMED] took 527ms, via \ngateway-prd-us-east1-b-j9c9: 8.979\n|  id_created: 0\n|  session_lookup_time: 8.723\n|  session_lookup_finished: 0.011\n|  discord-sessions-prd-2-79: 0.022, replayed 1 events, new seq: 31"]
+[2023-09-19 08:43:19.925] [18472] (discord.cpp:690): JS console: ["%c[GatewaySocket]","Setting connection state to SESSION_ESTABLISHED"]
+[2023-09-19 08:43:19.960] [18472] (discord.cpp:690): JS console: ["%c[Flux]","Dispatching CONNECTION_RESUMED"]
+[2023-09-19 08:43:52.298] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:43:52.625] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:44:52.631] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:44:52.888] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:45:52.893] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:45:53.378] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:46:53.382] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:46:53.869] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:47:53.873] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:47:54.462] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:48:54.467] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:48:54.933] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:49:54.938] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:49:55.390] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:50:55.394] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:50:55.648] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:51:55.653] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:51:56.467] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:52:56.472] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:52:56.731] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:53:56.737] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:53:57.089] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:54:57.095] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:54:57.913] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:55:57.918] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:55:58.286] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:56:58.291] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:56:59.239] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:57:59.242] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:57:59.977] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 08:58:59.983] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 08:59:00.631] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:00:00.637] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:00:00.907] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:00:13.554] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Fetching blocked domain list"]
+[2023-09-19 09:00:13.609] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Server revision: 167, Client revision: 164"]
+[2023-09-19 09:00:13.645] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Retrieved delta, domains added: 16, domains removed: 0"]
+[2023-09-19 09:00:13.679] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28306 before update"]
+[2023-09-19 09:00:13.679] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Delta applied successfully"]
+[2023-09-19 09:00:13.680] [18472] (discord.cpp:690): JS console: ["%c[FetchBlockedDomain]","Blocked domains list length: 28322 after update"]
+[2023-09-19 09:01:00.913] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:01:01.645] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:02:01.649] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:02:02.115] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:03:02.119] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:03:02.459] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:04:02.465] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:04:02.819] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:05:02.824] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:05:03.088] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:06:03.096] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:06:03.652] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:07:03.657] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:07:04.252] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:08:04.255] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:08:05.366] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:09:05.370] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:09:05.668] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:10:05.672] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:10:05.918] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:11:05.923] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:11:06.191] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:12:06.197] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:12:06.759] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:13:06.763] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:13:07.488] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:14:07.493] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:14:08.296] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:15:08.302] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:15:08.828] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:16:08.833] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:16:09.297] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:17:09.301] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:17:09.609] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:18:09.612] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:18:09.878] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:19:09.882] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:19:10.138] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:20:10.143] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:20:10.545] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:21:10.549] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:21:10.807] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:22:10.812] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:22:11.276] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:23:11.280] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:23:11.531] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:24:11.535] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:24:12.208] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:25:12.213] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:25:12.625] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:26:12.630] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:26:13.106] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:27:13.110] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:27:13.482] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:28:13.487] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:28:13.735] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:29:13.739] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:29:13.992] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:30:13.997] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:30:14.394] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:31:14.399] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:31:14.842] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]
+[2023-09-19 09:32:14.847] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Connecting"]
+[2023-09-19 09:32:15.126] [18472] (discord.cpp:690): JS console: ["%c[Spotify]","WS Disconnected. Next retry in 60000ms"]

@@ -1,4 +1,13 @@
+[Default Applications]
+application/zip=thunar.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-0XWEB2.desktop
+message/rfc822=userapp-Thunderbird-0XWEB2.desktop
+x-scheme-handler/mid=userapp-Thunderbird-0XWEB2.desktop
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+
 [Added Associations]
+application/zip=feh.desktop;thunar.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-0XWEB2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-0XWEB2.desktop;
 image/png=feh.desktop;
-image/jpeg=feh.desktop;
-application/pdf=org.pwmt.zathura-pdf-mupdf.desktop;
+application/x-ipynb+json=codium.desktop;nvim.desktop;

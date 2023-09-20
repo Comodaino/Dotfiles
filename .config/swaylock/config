@@ -1,7 +1,7 @@
 ignore-empty-password
 font=Ubuntu
 
-
+image=/home/comodino/.config/hypr/89322415_p0.png
 effect-blur=20x2
 #effect-greyscale
 effect-scale=0.3

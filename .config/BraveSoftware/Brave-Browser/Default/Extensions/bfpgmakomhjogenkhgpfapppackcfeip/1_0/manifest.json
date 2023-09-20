@@ -1,0 +1,32 @@
+{
+   "description": "Songbirds: By Khôi Bảo Phạm",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkFRMbTk3ygsikwc/inD+5BJR+xE53S3xyg5rjLFNxb9LlLzf6d361MJEAxf1HH7SHjZR5xoIS2rIO0SEAJvWlHKp6NG8NxKJ+8FptWVBTi5ivOgazvcT1gVBACvtnqP4hhi2x5XIfRgwPuC5D9XVv+Vzi/SrMV5ElRFeHvXf7RVLVxE4JUvo35bNSdLaZNuBI/5cCiTTE6jYtfEakbP09LHBXdAAk4aBd1NlIgPdGBO39qmdFivo6jUq2+bSSVmqo29o/gl/vZokNv93vGbvVBxy1e0qe+rVNcpsFIn2MapsEL2xeGpHTrJVLWesqpdnpgJFbdF8f8lTGh3pcDA1+QIDAQAB",
+   "manifest_version": 3,
+   "name": "Songbirds",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "frame": [ 20, 21, 26 ],
+         "ntp_background": [ 20, 21, 26 ],
+         "tab_background_text": [ 255, 255, 255 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 61, 64, 76 ]
+      },
+      "images": {
+         "theme_ntp_background": "cosmic_cowboys_1366x768.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top",
+         "ntp_background_repeat": "no_repeat",
+         "ntp_logo_alternate": 1
+      },
+      "tints": {
+         "buttons": [ 1, 1, 1 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

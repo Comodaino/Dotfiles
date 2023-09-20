@@ -1,14 +1,14 @@
-2023/07/06-14:25:17.689 3b5 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/06-14:25:17.689 3b5 Recovering log #17
-2023/07/06-14:25:17.689 3b5 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000017.log 
-2023/07/06-14:25:17.689 3b5 Delete type=2 #15
-2023/07/06-14:25:27.181 3c4 Level-0 table #22: started
-2023/07/06-14:25:27.186 3c4 Level-0 table #22: 11310 bytes OK
-2023/07/06-14:25:27.192 3c4 Delete type=0 #17
-2023/07/06-14:25:27.192 3b5 Manual compaction at level-0 from '\x00\x08\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at '\x00\x08\x00\x00\x05' @ 257 : 1
-2023/07/06-14:25:27.192 3b5 Compacting 1@0 + 1@1 files
-2023/07/06-14:25:27.196 3b5 Generated table #23@0: 27 keys, 5985 bytes
-2023/07/06-14:25:27.197 3b5 Compacted 1@0 + 1@1 files => 5985 bytes
-2023/07/06-14:25:27.203 3b5 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/07/06-14:25:27.203 3b5 Delete type=2 #22
-2023/07/06-14:25:27.203 3b5 Manual compaction at level-0 from '\x00\x08\x00\x00\x05' @ 257 : 1 .. '\x00\x09\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/20-10:31:27.326 73a Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/20-10:31:27.326 73a Recovering log #322
+2023/09/20-10:31:27.326 73a Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_outlook.office.com_0.indexeddb.leveldb/000322.log 
+2023/09/20-10:31:27.326 73a Delete type=2 #321
+2023/09/20-10:31:27.583 739 Level-0 table #327: started
+2023/09/20-10:31:27.587 739 Level-0 table #327: 570 bytes OK
+2023/09/20-10:31:27.593 739 Delete type=0 #322
+2023/09/20-10:31:27.593 739 Manual compaction at level-0 from '\x00_\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00`\x00\x00\x00' @ 0 : 0; will stop at '\x00_\x00\x00\x05' @ 4043 : 1
+2023/09/20-10:31:27.593 739 Compacting 1@0 + 1@1 files
+2023/09/20-10:31:27.597 739 Generated table #328@0: 140 keys, 7144 bytes
+2023/09/20-10:31:27.597 739 Compacted 1@0 + 1@1 files => 7144 bytes
+2023/09/20-10:31:27.603 739 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/20-10:31:27.604 739 Delete type=2 #327
+2023/09/20-10:31:27.604 739 Manual compaction at level-0 from '\x00_\x00\x00\x05' @ 4043 : 1 .. '\x00`\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,3 +1,27 @@
-2023/07/06-15:19:19.307 1b04 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
-2023/07/06-15:19:19.307 1b04 Recovering log #108
-2023/07/06-15:19:19.308 1b04 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000108.log 
+2023/09/20-12:29:41.745 706 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/MANIFEST-000001
+2023/09/20-12:29:41.746 706 Recovering log #556
+2023/09/20-12:29:41.749 706 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/Sync Data/LevelDB/000556.log 
+2023/09/20-12:31:35.110 6ea Level-0 table #560: started
+2023/09/20-12:31:35.116 6ea Level-0 table #560: 181712 bytes OK
+2023/09/20-12:31:35.122 6ea Delete type=0 #556
+2023/09/20-12:51:59.406 6de Level-0 table #562: started
+2023/09/20-12:51:59.412 6de Level-0 table #562: 82161 bytes OK
+2023/09/20-12:51:59.418 6de Delete type=0 #559
+2023/09/20-13:08:54.477 6ec Level-0 table #564: started
+2023/09/20-13:08:54.529 6ec Level-0 table #564: 108823 bytes OK
+2023/09/20-13:08:54.544 6ec Delete type=0 #561
+2023/09/20-13:08:54.545 6ec Compacting 4@0 + 1@1 files
+2023/09/20-13:08:54.554 6ec Generated table #565@0: 207 keys, 33036 bytes
+2023/09/20-13:08:54.554 6ec Compacted 4@0 + 1@1 files => 33036 bytes
+2023/09/20-13:08:54.564 6ec compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/20-13:08:54.565 6ec Delete type=2 #554
+2023/09/20-13:08:54.565 6ec Delete type=2 #560
+2023/09/20-13:08:54.565 6ec Delete type=2 #564
+2023/09/20-13:08:54.565 6ec Delete type=2 #562
+2023/09/20-13:08:54.565 6ec Delete type=2 #557
+2023/09/20-13:39:01.291 6de Level-0 table #567: started
+2023/09/20-13:39:01.298 6de Level-0 table #567: 95035 bytes OK
+2023/09/20-13:39:01.305 6de Delete type=0 #563
+2023/09/20-14:27:00.296 6ea Level-0 table #569: started
+2023/09/20-14:27:00.307 6ea Level-0 table #569: 103757 bytes OK
+2023/09/20-14:27:00.318 6ea Delete type=0 #566

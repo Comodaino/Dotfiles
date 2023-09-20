@@ -1,3 +1,12 @@
-2023/07/06-13:38:18.101 3b5 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/06-13:38:18.101 3b5 Recovering log #4
-2023/07/06-13:38:18.101 3b5 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000004.log 
+2023/09/20-10:59:52.611 739 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/20-10:59:52.611 739 Recovering log #65
+2023/09/20-10:59:52.611 739 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000065.log 
+2023/09/20-11:23:05.208 73a Level-0 table #70: started
+2023/09/20-11:23:05.220 73a Level-0 table #70: 1137095 bytes OK
+2023/09/20-11:23:05.228 73a Delete type=0 #65
+2023/09/20-11:35:33.972 73a Compacting 1@1 + 1@2 files
+2023/09/20-11:35:34.026 73a Generated table #71@1: 478 keys, 46036 bytes
+2023/09/20-11:35:34.026 73a Compacted 1@1 + 1@2 files => 46036 bytes
+2023/09/20-11:35:34.035 73a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/09/20-11:35:34.036 73a Delete type=2 #70
+2023/09/20-11:35:34.036 73a Delete type=2 #67

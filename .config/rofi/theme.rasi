@@ -2,13 +2,14 @@
 
     
 * {
-	background:                     #0d000155;
-	bordercolor:                    #e62e0020;
+	
+  background:                     #1A1B26FF;
+  bordercolor:                    #494D64FF;
 	separatorcolor:                 transparent;
 	normal-background:              transparent;
-	normal-foreground:              #FCFAFA;
-	selected-background:            #A1051855;
-	selected-foreground:            #FCFAFA;
+	normal-foreground:              #F4DBD6FF;
+	selected-background:            #F5BDE6FF;
+	selected-foreground:            #1A1B26FF;
 	foreground:                     @normal-foreground;
 }
 

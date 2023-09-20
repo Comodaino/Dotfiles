@@ -1,0 +1,909 @@
+2023-09-07T12:25:35.478Z [Modules] Modules initializing
+2023-09-07T12:25:35.478Z [Modules] Distribution: remote
+2023-09-07T12:25:35.478Z [Modules] Host updates: disabled
+2023-09-07T12:25:35.479Z [Modules] Module updates: enabled
+2023-09-07T12:25:35.479Z [Modules] Module install path: /home/comodino/.config/discord/0.0.29/modules
+2023-09-07T12:25:35.479Z [Modules] Module installed file path: /home/comodino/.config/discord/0.0.29/modules/installed.json
+2023-09-07T12:25:35.479Z [Modules] Module download path: /home/comodino/.config/discord/0.0.29/modules/pending
+2023-09-07T12:25:35.648Z [Modules] Bootstrapping...
+2023-09-07T12:25:35.649Z [Modules] Installing discord_desktop_core@0 from /nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_desktop_core.zip
+2023-09-07T12:25:35.653Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_desktop_core.zip'
+2023-09-07T12:25:35.654Z [Modules] Installing discord_erlpack@0 from /nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_erlpack.zip
+2023-09-07T12:25:35.656Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_erlpack.zip'
+2023-09-07T12:25:35.656Z [Modules] Installing discord_spellcheck@0 from /nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_spellcheck.zip
+2023-09-07T12:25:35.657Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_spellcheck.zip'
+2023-09-07T12:25:35.658Z [Modules] Installing discord_utils@0 from /nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_utils.zip
+2023-09-07T12:25:35.659Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_utils.zip'
+2023-09-07T12:25:35.659Z [Modules] Installing discord_voice@0 from /nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_voice.zip
+2023-09-07T12:25:35.661Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/nix/store/xaxp3j4c0ij84w85g18vyj8lllmfij2m-discord-0.0.29/opt/Discord/resources/bootstrap/discord_voice.zip'
+2023-09-07T12:25:35.661Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-09-07T12:25:35.661Z [Modules] Host is up to date.
+2023-09-07T12:25:35.661Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-07T12:25:36.290Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-09-07T12:25:36.290Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-09-07T12:25:36.290Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-09-07T12:25:36.290Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-09-07T12:25:36.290Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-09-07T12:25:36.290Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-09-07T12:25:36.290Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip
+2023-09-07T12:25:36.627Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 1%
+2023-09-07T12:25:36.640Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 2%
+2023-09-07T12:25:36.660Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 3%
+2023-09-07T12:25:36.669Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 4%
+2023-09-07T12:25:36.675Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 5%
+2023-09-07T12:25:36.686Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 6%
+2023-09-07T12:25:36.692Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 7%
+2023-09-07T12:25:36.698Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 8%
+2023-09-07T12:25:36.705Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 9%
+2023-09-07T12:25:36.708Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 10%
+2023-09-07T12:25:36.711Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 11%
+2023-09-07T12:25:36.715Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 12%
+2023-09-07T12:25:36.718Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 13%
+2023-09-07T12:25:36.724Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 14%
+2023-09-07T12:25:36.728Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 15%
+2023-09-07T12:25:36.731Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 16%
+2023-09-07T12:25:36.735Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 17%
+2023-09-07T12:25:36.738Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 19%
+2023-09-07T12:25:36.754Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 20%
+2023-09-07T12:25:36.757Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 21%
+2023-09-07T12:25:36.760Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 22%
+2023-09-07T12:25:36.764Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 24%
+2023-09-07T12:25:36.767Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 25%
+2023-09-07T12:25:36.771Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 27%
+2023-09-07T12:25:36.774Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 29%
+2023-09-07T12:25:36.776Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 32%
+2023-09-07T12:25:36.784Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 34%
+2023-09-07T12:25:36.790Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 37%
+2023-09-07T12:25:36.796Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 40%
+2023-09-07T12:25:36.796Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 41%
+2023-09-07T12:25:36.807Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 44%
+2023-09-07T12:25:36.807Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 46%
+2023-09-07T12:25:36.811Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 47%
+2023-09-07T12:25:36.813Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 50%
+2023-09-07T12:25:36.818Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 52%
+2023-09-07T12:25:36.821Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 54%
+2023-09-07T12:25:36.823Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 57%
+2023-09-07T12:25:36.829Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 60%
+2023-09-07T12:25:36.830Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 62%
+2023-09-07T12:25:36.836Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 65%
+2023-09-07T12:25:36.842Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 68%
+2023-09-07T12:25:36.847Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 70%
+2023-09-07T12:25:36.850Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 72%
+2023-09-07T12:25:36.852Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 75%
+2023-09-07T12:25:36.859Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 78%
+2023-09-07T12:25:36.860Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 79%
+2023-09-07T12:25:36.865Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 82%
+2023-09-07T12:25:36.866Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 83%
+2023-09-07T12:25:36.872Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 86%
+2023-09-07T12:25:36.872Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 87%
+2023-09-07T12:25:36.878Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 90%
+2023-09-07T12:25:36.885Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 93%
+2023-09-07T12:25:36.892Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 96%
+2023-09-07T12:25:36.893Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 97%
+2023-09-07T12:25:36.894Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 99%
+2023-09-07T12:25:36.895Z [Modules] Streaming discord_desktop_core@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip: 100%
+2023-09-07T12:25:36.897Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-09-07T12:25:36.897Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip
+2023-09-07T12:25:37.089Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 3%
+2023-09-07T12:25:37.098Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 6%
+2023-09-07T12:25:37.099Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 10%
+2023-09-07T12:25:37.101Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 13%
+2023-09-07T12:25:37.102Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 14%
+2023-09-07T12:25:37.114Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 17%
+2023-09-07T12:25:37.115Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 22%
+2023-09-07T12:25:37.120Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 25%
+2023-09-07T12:25:37.121Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 26%
+2023-09-07T12:25:37.127Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 29%
+2023-09-07T12:25:37.128Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 30%
+2023-09-07T12:25:37.133Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 34%
+2023-09-07T12:25:37.135Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 35%
+2023-09-07T12:25:37.140Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 38%
+2023-09-07T12:25:37.141Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 39%
+2023-09-07T12:25:37.146Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 42%
+2023-09-07T12:25:37.151Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 43%
+2023-09-07T12:25:37.153Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 47%
+2023-09-07T12:25:37.157Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 48%
+2023-09-07T12:25:37.160Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 51%
+2023-09-07T12:25:37.163Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 52%
+2023-09-07T12:25:37.166Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 55%
+2023-09-07T12:25:37.172Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 59%
+2023-09-07T12:25:37.179Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 62%
+2023-09-07T12:25:37.180Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 63%
+2023-09-07T12:25:37.183Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 64%
+2023-09-07T12:25:37.186Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 67%
+2023-09-07T12:25:37.188Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 70%
+2023-09-07T12:25:37.193Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 71%
+2023-09-07T12:25:37.195Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 75%
+2023-09-07T12:25:37.195Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 76%
+2023-09-07T12:25:37.202Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 79%
+2023-09-07T12:25:37.203Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 80%
+2023-09-07T12:25:37.208Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 83%
+2023-09-07T12:25:37.209Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 84%
+2023-09-07T12:25:37.215Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 88%
+2023-09-07T12:25:37.216Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 89%
+2023-09-07T12:25:37.221Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 93%
+2023-09-07T12:25:37.225Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 95%
+2023-09-07T12:25:37.228Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 97%
+2023-09-07T12:25:37.235Z [Modules] Streaming discord_erlpack@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip: 100%
+2023-09-07T12:25:37.237Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-09-07T12:25:37.237Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip
+2023-09-07T12:25:37.424Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 1%
+2023-09-07T12:25:37.429Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 2%
+2023-09-07T12:25:37.436Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 3%
+2023-09-07T12:25:37.443Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 4%
+2023-09-07T12:25:37.449Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 5%
+2023-09-07T12:25:37.452Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 6%
+2023-09-07T12:25:37.459Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 7%
+2023-09-07T12:25:37.466Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 8%
+2023-09-07T12:25:37.476Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 9%
+2023-09-07T12:25:37.485Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 10%
+2023-09-07T12:25:37.495Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 11%
+2023-09-07T12:25:37.502Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 12%
+2023-09-07T12:25:37.508Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 13%
+2023-09-07T12:25:37.514Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 14%
+2023-09-07T12:25:37.524Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 15%
+2023-09-07T12:25:37.525Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 16%
+2023-09-07T12:25:37.531Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 17%
+2023-09-07T12:25:37.543Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 18%
+2023-09-07T12:25:37.550Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 19%
+2023-09-07T12:25:37.556Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 20%
+2023-09-07T12:25:37.563Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 21%
+2023-09-07T12:25:37.569Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 22%
+2023-09-07T12:25:37.579Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 23%
+2023-09-07T12:25:37.586Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 24%
+2023-09-07T12:25:37.592Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 25%
+2023-09-07T12:25:37.595Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 26%
+2023-09-07T12:25:37.602Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 27%
+2023-09-07T12:25:37.609Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 28%
+2023-09-07T12:25:37.624Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 29%
+2023-09-07T12:25:37.625Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 30%
+2023-09-07T12:25:37.630Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 31%
+2023-09-07T12:25:37.636Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 32%
+2023-09-07T12:25:37.643Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 33%
+2023-09-07T12:25:37.650Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 34%
+2023-09-07T12:25:37.659Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 35%
+2023-09-07T12:25:37.666Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 36%
+2023-09-07T12:25:37.672Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 37%
+2023-09-07T12:25:37.679Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 38%
+2023-09-07T12:25:37.686Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 39%
+2023-09-07T12:25:37.689Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 40%
+2023-09-07T12:25:37.702Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 41%
+2023-09-07T12:25:37.705Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 42%
+2023-09-07T12:25:37.711Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 43%
+2023-09-07T12:25:37.718Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 44%
+2023-09-07T12:25:37.728Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 45%
+2023-09-07T12:25:37.729Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 46%
+2023-09-07T12:25:37.741Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 47%
+2023-09-07T12:25:37.747Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 48%
+2023-09-07T12:25:37.751Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 49%
+2023-09-07T12:25:37.757Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 50%
+2023-09-07T12:25:37.764Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 51%
+2023-09-07T12:25:37.770Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 52%
+2023-09-07T12:25:37.777Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 53%
+2023-09-07T12:25:37.787Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 54%
+2023-09-07T12:25:37.793Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 55%
+2023-09-07T12:25:37.800Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 56%
+2023-09-07T12:25:37.806Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 57%
+2023-09-07T12:25:37.809Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 58%
+2023-09-07T12:25:37.816Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 59%
+2023-09-07T12:25:37.833Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 60%
+2023-09-07T12:25:37.835Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 61%
+2023-09-07T12:25:37.839Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 62%
+2023-09-07T12:25:37.842Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 63%
+2023-09-07T12:25:37.849Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 64%
+2023-09-07T12:25:37.856Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 65%
+2023-09-07T12:25:37.865Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 66%
+2023-09-07T12:25:37.873Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 67%
+2023-09-07T12:25:37.878Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 68%
+2023-09-07T12:25:37.885Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 69%
+2023-09-07T12:25:37.891Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 70%
+2023-09-07T12:25:37.898Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 71%
+2023-09-07T12:25:37.908Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 72%
+2023-09-07T12:25:37.914Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 73%
+2023-09-07T12:25:37.921Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 74%
+2023-09-07T12:25:37.927Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 75%
+2023-09-07T12:25:37.930Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 76%
+2023-09-07T12:25:37.937Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 77%
+2023-09-07T12:25:37.951Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 78%
+2023-09-07T12:25:37.957Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 79%
+2023-09-07T12:25:37.960Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 80%
+2023-09-07T12:25:37.967Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 81%
+2023-09-07T12:25:37.976Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 82%
+2023-09-07T12:25:37.980Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 83%
+2023-09-07T12:25:37.989Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 84%
+2023-09-07T12:25:37.996Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 85%
+2023-09-07T12:25:38.003Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 86%
+2023-09-07T12:25:38.009Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 87%
+2023-09-07T12:25:38.016Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 88%
+2023-09-07T12:25:38.019Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 89%
+2023-09-07T12:25:38.035Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 90%
+2023-09-07T12:25:38.036Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 91%
+2023-09-07T12:25:38.041Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 92%
+2023-09-07T12:25:38.048Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 93%
+2023-09-07T12:25:38.055Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 94%
+2023-09-07T12:25:38.062Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 95%
+2023-09-07T12:25:38.069Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 96%
+2023-09-07T12:25:38.078Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 97%
+2023-09-07T12:25:38.082Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 98%
+2023-09-07T12:25:38.087Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 99%
+2023-09-07T12:25:38.093Z [Modules] Streaming discord_spellcheck@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip: 100%
+2023-09-07T12:25:38.095Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-09-07T12:25:38.095Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip
+2023-09-07T12:25:38.285Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 2%
+2023-09-07T12:25:38.291Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 4%
+2023-09-07T12:25:38.297Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 6%
+2023-09-07T12:25:38.298Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 7%
+2023-09-07T12:25:38.304Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 9%
+2023-09-07T12:25:38.310Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 11%
+2023-09-07T12:25:38.311Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 12%
+2023-09-07T12:25:38.314Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 13%
+2023-09-07T12:25:38.318Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 14%
+2023-09-07T12:25:38.320Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 16%
+2023-09-07T12:25:38.327Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 18%
+2023-09-07T12:25:38.327Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 19%
+2023-09-07T12:25:38.333Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 21%
+2023-09-07T12:25:38.342Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 23%
+2023-09-07T12:25:38.343Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 25%
+2023-09-07T12:25:38.344Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 26%
+2023-09-07T12:25:38.348Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 28%
+2023-09-07T12:25:38.355Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 30%
+2023-09-07T12:25:38.356Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 31%
+2023-09-07T12:25:38.362Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 33%
+2023-09-07T12:25:38.366Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 35%
+2023-09-07T12:25:38.369Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 36%
+2023-09-07T12:25:38.374Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 38%
+2023-09-07T12:25:38.378Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 40%
+2023-09-07T12:25:38.382Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 41%
+2023-09-07T12:25:38.385Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 42%
+2023-09-07T12:25:38.385Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 43%
+2023-09-07T12:25:38.388Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 45%
+2023-09-07T12:25:38.394Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 47%
+2023-09-07T12:25:38.401Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 49%
+2023-09-07T12:25:38.402Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 50%
+2023-09-07T12:25:38.405Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 51%
+2023-09-07T12:25:38.408Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 52%
+2023-09-07T12:25:38.410Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 54%
+2023-09-07T12:25:38.415Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 55%
+2023-09-07T12:25:38.417Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 57%
+2023-09-07T12:25:38.424Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 58%
+2023-09-07T12:25:38.424Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 60%
+2023-09-07T12:25:38.431Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 62%
+2023-09-07T12:25:38.437Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 64%
+2023-09-07T12:25:38.437Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 65%
+2023-09-07T12:25:38.446Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 67%
+2023-09-07T12:25:38.447Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 69%
+2023-09-07T12:25:38.452Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 71%
+2023-09-07T12:25:38.453Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 72%
+2023-09-07T12:25:38.459Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 74%
+2023-09-07T12:25:38.466Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 76%
+2023-09-07T12:25:38.472Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 78%
+2023-09-07T12:25:38.472Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 79%
+2023-09-07T12:25:38.476Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 81%
+2023-09-07T12:25:38.481Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 83%
+2023-09-07T12:25:38.482Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 84%
+2023-09-07T12:25:38.488Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 86%
+2023-09-07T12:25:38.495Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 88%
+2023-09-07T12:25:38.495Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 89%
+2023-09-07T12:25:38.501Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 91%
+2023-09-07T12:25:38.504Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 93%
+2023-09-07T12:25:38.508Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 94%
+2023-09-07T12:25:38.512Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 95%
+2023-09-07T12:25:38.515Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 96%
+2023-09-07T12:25:38.517Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 98%
+2023-09-07T12:25:38.520Z [Modules] Streaming discord_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip: 100%
+2023-09-07T12:25:38.522Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-09-07T12:25:38.522Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip
+2023-09-07T12:25:38.722Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 1%
+2023-09-07T12:25:38.733Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 2%
+2023-09-07T12:25:38.749Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 3%
+2023-09-07T12:25:38.755Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 4%
+2023-09-07T12:25:38.768Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 5%
+2023-09-07T12:25:38.785Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 6%
+2023-09-07T12:25:38.801Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 7%
+2023-09-07T12:25:38.813Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 8%
+2023-09-07T12:25:38.827Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 9%
+2023-09-07T12:25:38.836Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 10%
+2023-09-07T12:25:38.850Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 11%
+2023-09-07T12:25:38.860Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 12%
+2023-09-07T12:25:38.873Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 13%
+2023-09-07T12:25:38.883Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 14%
+2023-09-07T12:25:38.898Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 15%
+2023-09-07T12:25:38.912Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 16%
+2023-09-07T12:25:38.924Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 17%
+2023-09-07T12:25:38.938Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 18%
+2023-09-07T12:25:38.951Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 19%
+2023-09-07T12:25:38.960Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 20%
+2023-09-07T12:25:38.970Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 21%
+2023-09-07T12:25:38.984Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 22%
+2023-09-07T12:25:38.996Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 23%
+2023-09-07T12:25:39.008Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 24%
+2023-09-07T12:25:39.019Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 25%
+2023-09-07T12:25:39.031Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 26%
+2023-09-07T12:25:39.041Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 27%
+2023-09-07T12:25:39.055Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 28%
+2023-09-07T12:25:39.070Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 29%
+2023-09-07T12:25:39.086Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 30%
+2023-09-07T12:25:39.100Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 31%
+2023-09-07T12:25:39.109Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 32%
+2023-09-07T12:25:39.123Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 33%
+2023-09-07T12:25:39.133Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 34%
+2023-09-07T12:25:39.148Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 35%
+2023-09-07T12:25:39.158Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 36%
+2023-09-07T12:25:39.176Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 37%
+2023-09-07T12:25:39.185Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 38%
+2023-09-07T12:25:39.199Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 39%
+2023-09-07T12:25:39.210Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 40%
+2023-09-07T12:25:39.223Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 41%
+2023-09-07T12:25:39.238Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 42%
+2023-09-07T12:25:39.246Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 43%
+2023-09-07T12:25:39.261Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 44%
+2023-09-07T12:25:39.273Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 45%
+2023-09-07T12:25:39.283Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 46%
+2023-09-07T12:25:39.296Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 47%
+2023-09-07T12:25:39.313Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 48%
+2023-09-07T12:25:39.322Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 49%
+2023-09-07T12:25:39.338Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 50%
+2023-09-07T12:25:39.352Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 51%
+2023-09-07T12:25:39.360Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 52%
+2023-09-07T12:25:39.375Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 53%
+2023-09-07T12:25:39.387Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 54%
+2023-09-07T12:25:39.397Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 55%
+2023-09-07T12:25:39.410Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 56%
+2023-09-07T12:25:39.422Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 57%
+2023-09-07T12:25:39.436Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 58%
+2023-09-07T12:25:39.449Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 59%
+2023-09-07T12:25:39.459Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 60%
+2023-09-07T12:25:39.471Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 61%
+2023-09-07T12:25:39.484Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 62%
+2023-09-07T12:25:39.497Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 63%
+2023-09-07T12:25:39.506Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 64%
+2023-09-07T12:25:39.521Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 65%
+2023-09-07T12:25:39.533Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 66%
+2023-09-07T12:25:39.543Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 67%
+2023-09-07T12:25:39.557Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 68%
+2023-09-07T12:25:39.569Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 69%
+2023-09-07T12:25:39.578Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 70%
+2023-09-07T12:25:39.591Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 71%
+2023-09-07T12:25:39.605Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 72%
+2023-09-07T12:25:39.618Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 73%
+2023-09-07T12:25:39.634Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 74%
+2023-09-07T12:25:39.643Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 75%
+2023-09-07T12:25:39.655Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 76%
+2023-09-07T12:25:39.671Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 77%
+2023-09-07T12:25:39.680Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 78%
+2023-09-07T12:25:39.693Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 79%
+2023-09-07T12:25:39.707Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 80%
+2023-09-07T12:25:39.719Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 81%
+2023-09-07T12:25:39.728Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 82%
+2023-09-07T12:25:39.742Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 83%
+2023-09-07T12:25:39.758Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 84%
+2023-09-07T12:25:39.771Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 85%
+2023-09-07T12:25:39.782Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 86%
+2023-09-07T12:25:39.790Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 87%
+2023-09-07T12:25:39.805Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 88%
+2023-09-07T12:25:39.817Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 89%
+2023-09-07T12:25:39.830Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 90%
+2023-09-07T12:25:39.839Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 91%
+2023-09-07T12:25:39.849Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 92%
+2023-09-07T12:25:39.863Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 93%
+2023-09-07T12:25:39.875Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 94%
+2023-09-07T12:25:39.889Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 95%
+2023-09-07T12:25:39.901Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 96%
+2023-09-07T12:25:39.911Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 97%
+2023-09-07T12:25:39.921Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 98%
+2023-09-07T12:25:39.934Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 99%
+2023-09-07T12:25:39.944Z [Modules] Streaming discord_voice@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip: 100%
+2023-09-07T12:25:39.945Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-09-07T12:25:39.945Z [Modules] Installing updates...
+2023-09-07T12:25:39.945Z [Modules] Installing discord_desktop_core@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-1.zip
+2023-09-07T12:25:40.022Z [Modules] Installing discord_erlpack@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_erlpack-1.zip
+2023-09-07T12:25:40.075Z [Modules] Installing discord_spellcheck@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_spellcheck-1.zip
+2023-09-07T12:25:40.859Z [Modules] Installing discord_utils@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-1.zip
+2023-09-07T12:25:41.289Z [Modules] Installing discord_voice@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-1.zip
+2023-09-07T12:25:42.058Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-09-07T12:25:42.058Z [Modules] Host is up to date.
+2023-09-07T12:25:42.058Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-07T12:25:42.063Z [Modules] No module updates available.
+2023-09-07T12:25:46.280Z [Modules] Starting to install discord_krisp...
+2023-09-07T12:25:46.280Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-09-07T12:25:46.281Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip
+2023-09-07T12:25:46.299Z [Modules] Starting to install discord_game_utils...
+2023-09-07T12:25:46.478Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 1%
+2023-09-07T12:25:46.504Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 2%
+2023-09-07T12:25:46.515Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 3%
+2023-09-07T12:25:46.537Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 4%
+2023-09-07T12:25:46.547Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 5%
+2023-09-07T12:25:46.555Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 6%
+2023-09-07T12:25:46.570Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 7%
+2023-09-07T12:25:46.681Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 8%
+2023-09-07T12:25:46.696Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 9%
+2023-09-07T12:25:46.703Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 10%
+2023-09-07T12:25:46.710Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 11%
+2023-09-07T12:25:46.713Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 12%
+2023-09-07T12:25:46.719Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 13%
+2023-09-07T12:25:46.723Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 14%
+2023-09-07T12:25:46.725Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 15%
+2023-09-07T12:25:46.725Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 16%
+2023-09-07T12:25:46.726Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 17%
+2023-09-07T12:25:46.727Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 18%
+2023-09-07T12:25:46.729Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 19%
+2023-09-07T12:25:46.742Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 20%
+2023-09-07T12:25:46.759Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 21%
+2023-09-07T12:25:46.774Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 22%
+2023-09-07T12:25:46.782Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 23%
+2023-09-07T12:25:46.792Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 24%
+2023-09-07T12:25:46.809Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 25%
+2023-09-07T12:25:46.816Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 26%
+2023-09-07T12:25:46.903Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 27%
+2023-09-07T12:25:47.070Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 28%
+2023-09-07T12:25:47.079Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 29%
+2023-09-07T12:25:47.092Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 30%
+2023-09-07T12:25:47.105Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 31%
+2023-09-07T12:25:47.114Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 32%
+2023-09-07T12:25:47.124Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 33%
+2023-09-07T12:25:47.134Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 34%
+2023-09-07T12:25:47.144Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 35%
+2023-09-07T12:25:47.158Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 36%
+2023-09-07T12:25:47.167Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 37%
+2023-09-07T12:25:47.173Z [Modules] Host is up to date.
+2023-09-07T12:25:47.173Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-07T12:25:47.178Z [Modules] No module updates available.
+2023-09-07T12:25:47.184Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 38%
+2023-09-07T12:25:47.200Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 39%
+2023-09-07T12:25:47.217Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 40%
+2023-09-07T12:25:47.229Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 41%
+2023-09-07T12:25:47.243Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 42%
+2023-09-07T12:25:47.259Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 43%
+2023-09-07T12:25:47.278Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 44%
+2023-09-07T12:25:47.284Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 45%
+2023-09-07T12:25:47.297Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 46%
+2023-09-07T12:25:47.314Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 47%
+2023-09-07T12:25:47.323Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 48%
+2023-09-07T12:25:47.337Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 49%
+2023-09-07T12:25:47.349Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 50%
+2023-09-07T12:25:47.362Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 51%
+2023-09-07T12:25:47.375Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 52%
+2023-09-07T12:25:47.388Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 53%
+2023-09-07T12:25:47.401Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 54%
+2023-09-07T12:25:47.416Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 55%
+2023-09-07T12:25:47.431Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 56%
+2023-09-07T12:25:47.441Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 57%
+2023-09-07T12:25:47.454Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 58%
+2023-09-07T12:25:47.470Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 59%
+2023-09-07T12:25:47.480Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 60%
+2023-09-07T12:25:47.496Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 61%
+2023-09-07T12:25:47.507Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 62%
+2023-09-07T12:25:47.520Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 63%
+2023-09-07T12:25:47.529Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 64%
+2023-09-07T12:25:47.584Z [Modules] Starting to install discord_rpc...
+2023-09-07T12:25:47.644Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 65%
+2023-09-07T12:25:47.646Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 66%
+2023-09-07T12:25:47.647Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 67%
+2023-09-07T12:25:47.648Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 68%
+2023-09-07T12:25:47.649Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 69%
+2023-09-07T12:25:47.651Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 70%
+2023-09-07T12:25:47.653Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 71%
+2023-09-07T12:25:47.654Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 72%
+2023-09-07T12:25:47.655Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 73%
+2023-09-07T12:25:47.657Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 74%
+2023-09-07T12:25:47.666Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 75%
+2023-09-07T12:25:47.683Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 76%
+2023-09-07T12:25:47.812Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 77%
+2023-09-07T12:25:47.813Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 78%
+2023-09-07T12:25:47.814Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 79%
+2023-09-07T12:25:47.816Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 80%
+2023-09-07T12:25:47.818Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 81%
+2023-09-07T12:25:47.825Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 82%
+2023-09-07T12:25:47.832Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 85%
+2023-09-07T12:25:47.918Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 86%
+2023-09-07T12:25:47.919Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 87%
+2023-09-07T12:25:47.921Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 88%
+2023-09-07T12:25:47.922Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 89%
+2023-09-07T12:25:47.923Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 90%
+2023-09-07T12:25:47.924Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 91%
+2023-09-07T12:25:47.925Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 92%
+2023-09-07T12:25:48.200Z [Modules] Streaming discord_krisp@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip: 100%
+2023-09-07T12:25:48.205Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-09-07T12:25:48.205Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip
+2023-09-07T12:25:48.205Z [Modules] Installing discord_krisp@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_krisp-1.zip
+2023-09-07T12:25:48.387Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 1%
+2023-09-07T12:25:48.394Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 3%
+2023-09-07T12:25:48.396Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 5%
+2023-09-07T12:25:48.396Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 6%
+2023-09-07T12:25:48.398Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 9%
+2023-09-07T12:25:48.399Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 10%
+2023-09-07T12:25:48.403Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 11%
+2023-09-07T12:25:48.405Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 13%
+2023-09-07T12:25:48.408Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 16%
+2023-09-07T12:25:48.415Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 19%
+2023-09-07T12:25:48.419Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 20%
+2023-09-07T12:25:48.421Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 23%
+2023-09-07T12:25:48.421Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 24%
+2023-09-07T12:25:48.424Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 26%
+2023-09-07T12:25:48.424Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 27%
+2023-09-07T12:25:48.428Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 29%
+2023-09-07T12:25:48.428Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 30%
+2023-09-07T12:25:48.432Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 32%
+2023-09-07T12:25:48.435Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 34%
+2023-09-07T12:25:48.438Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 36%
+2023-09-07T12:25:48.441Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 37%
+2023-09-07T12:25:48.444Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 40%
+2023-09-07T12:25:48.448Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 43%
+2023-09-07T12:25:48.448Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 44%
+2023-09-07T12:25:48.453Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 47%
+2023-09-07T12:25:48.454Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 48%
+2023-09-07T12:25:48.457Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 50%
+2023-09-07T12:25:48.457Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 51%
+2023-09-07T12:25:48.460Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 53%
+2023-09-07T12:25:48.461Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 55%
+2023-09-07T12:25:48.465Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 57%
+2023-09-07T12:25:48.468Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 59%
+2023-09-07T12:25:48.470Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 61%
+2023-09-07T12:25:48.477Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 64%
+2023-09-07T12:25:48.481Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 65%
+2023-09-07T12:25:48.484Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 66%
+2023-09-07T12:25:48.522Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 68%
+2023-09-07T12:25:48.522Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 70%
+2023-09-07T12:25:48.525Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 73%
+2023-09-07T12:25:48.526Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 74%
+2023-09-07T12:25:48.528Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 81%
+2023-09-07T12:25:48.529Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 83%
+2023-09-07T12:25:48.530Z [Modules] Streaming discord_game_utils@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip: 100%
+2023-09-07T12:25:48.531Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-09-07T12:25:48.532Z [Modules] Streaming discord_rpc@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip
+2023-09-07T12:25:48.657Z [Modules] Installing discord_game_utils@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_game_utils-1.zip
+2023-09-07T12:25:48.714Z [Modules] Finished module installations. [success: 2] [failure: 0]
+2023-09-07T12:25:48.728Z [Modules] Streaming discord_rpc@1 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip: 100%
+2023-09-07T12:25:48.729Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-09-07T12:25:48.730Z [Modules] Installing discord_rpc@1 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_rpc-1.zip
+2023-09-07T12:25:48.747Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-09-07T13:25:47.174Z [Modules] Host is up to date.
+2023-09-07T13:25:47.175Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-07T13:25:47.249Z [Modules] No module updates available.
+2023-09-07T14:49:02.661Z [Modules] Host is up to date.
+2023-09-07T14:49:02.662Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-07T14:49:02.683Z [Modules] Failed fetching module versions: Error: getaddrinfo ENOTFOUND discord.com
+2023-09-13T07:58:10.590Z [Modules] Modules initializing
+2023-09-13T07:58:10.594Z [Modules] Distribution: remote
+2023-09-13T07:58:10.594Z [Modules] Host updates: disabled
+2023-09-13T07:58:10.594Z [Modules] Module updates: enabled
+2023-09-13T07:58:10.595Z [Modules] Module install path: /home/comodino/.config/discord/0.0.29/modules
+2023-09-13T07:58:10.595Z [Modules] Module installed file path: /home/comodino/.config/discord/0.0.29/modules/installed.json
+2023-09-13T07:58:10.595Z [Modules] Module download path: /home/comodino/.config/discord/0.0.29/modules/pending
+2023-09-13T07:58:10.926Z [Modules] No updates to install
+2023-09-13T07:58:10.926Z [Modules] Host is up to date.
+2023-09-13T07:58:10.927Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T07:58:11.552Z [Modules] Module update available: discord_desktop_core@2 [installed: 1]
+2023-09-13T07:58:11.552Z [Modules] Module update available: discord_utils@2 [installed: 1]
+2023-09-13T07:58:11.552Z [Modules] Module update available: discord_voice@2 [installed: 1]
+2023-09-13T07:58:11.552Z [Modules] Fetching discord_desktop_core@2 from https://discord.com/api/modules/stable/discord_desktop_core/2
+2023-09-13T07:58:11.553Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip
+2023-09-13T07:58:11.817Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 1%
+2023-09-13T07:58:11.821Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 2%
+2023-09-13T07:58:11.824Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 3%
+2023-09-13T07:58:11.827Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 5%
+2023-09-13T07:58:11.830Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 7%
+2023-09-13T07:58:11.834Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 9%
+2023-09-13T07:58:11.837Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 11%
+2023-09-13T07:58:11.840Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 13%
+2023-09-13T07:58:11.850Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 16%
+2023-09-13T07:58:11.852Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 19%
+2023-09-13T07:58:11.853Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 20%
+2023-09-13T07:58:11.856Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 24%
+2023-09-13T07:58:11.860Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 25%
+2023-09-13T07:58:11.863Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 27%
+2023-09-13T07:58:11.873Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 28%
+2023-09-13T07:58:11.876Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 31%
+2023-09-13T07:58:11.879Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 33%
+2023-09-13T07:58:11.883Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 35%
+2023-09-13T07:58:11.886Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 36%
+2023-09-13T07:58:11.896Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 38%
+2023-09-13T07:58:11.921Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 41%
+2023-09-13T07:58:11.922Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 45%
+2023-09-13T07:58:11.928Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 48%
+2023-09-13T07:58:11.929Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 52%
+2023-09-13T07:58:11.929Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 59%
+2023-09-13T07:58:11.930Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 62%
+2023-09-13T07:58:11.931Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 65%
+2023-09-13T07:58:11.955Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 67%
+2023-09-13T07:58:11.967Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 70%
+2023-09-13T07:58:11.968Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 74%
+2023-09-13T07:58:11.968Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 80%
+2023-09-13T07:58:11.969Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 85%
+2023-09-13T07:58:11.974Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 88%
+2023-09-13T07:58:11.975Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 92%
+2023-09-13T07:58:11.976Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 98%
+2023-09-13T07:58:11.976Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 99%
+2023-09-13T07:58:11.977Z [Modules] Streaming discord_desktop_core@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip: 100%
+2023-09-13T07:58:11.979Z [Modules] Fetching discord_utils@2 from https://discord.com/api/modules/stable/discord_utils/2
+2023-09-13T07:58:11.979Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip
+2023-09-13T07:58:12.478Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 1%
+2023-09-13T07:58:12.482Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 2%
+2023-09-13T07:58:12.485Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 3%
+2023-09-13T07:58:12.507Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 4%
+2023-09-13T07:58:12.508Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 8%
+2023-09-13T07:58:12.510Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 10%
+2023-09-13T07:58:12.511Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 11%
+2023-09-13T07:58:12.513Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 13%
+2023-09-13T07:58:12.514Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 14%
+2023-09-13T07:58:12.518Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 15%
+2023-09-13T07:58:12.521Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 16%
+2023-09-13T07:58:12.524Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 17%
+2023-09-13T07:58:12.528Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 19%
+2023-09-13T07:58:12.531Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 20%
+2023-09-13T07:58:12.534Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 21%
+2023-09-13T07:58:12.537Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 23%
+2023-09-13T07:58:12.541Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 24%
+2023-09-13T07:58:12.544Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 25%
+2023-09-13T07:58:12.547Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 27%
+2023-09-13T07:58:12.550Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 28%
+2023-09-13T07:58:12.553Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 29%
+2023-09-13T07:58:12.557Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 30%
+2023-09-13T07:58:12.560Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 31%
+2023-09-13T07:58:12.563Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 32%
+2023-09-13T07:58:12.565Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 34%
+2023-09-13T07:58:12.579Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 36%
+2023-09-13T07:58:12.580Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 39%
+2023-09-13T07:58:12.583Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 41%
+2023-09-13T07:58:12.586Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 42%
+2023-09-13T07:58:12.590Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 43%
+2023-09-13T07:58:12.593Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 44%
+2023-09-13T07:58:12.596Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 45%
+2023-09-13T07:58:12.599Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 46%
+2023-09-13T07:58:12.602Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 47%
+2023-09-13T07:58:12.615Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 49%
+2023-09-13T07:58:12.618Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 51%
+2023-09-13T07:58:12.622Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 52%
+2023-09-13T07:58:12.623Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 55%
+2023-09-13T07:58:12.626Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 56%
+2023-09-13T07:58:12.635Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 57%
+2023-09-13T07:58:12.636Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 58%
+2023-09-13T07:58:12.639Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 59%
+2023-09-13T07:58:12.648Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 60%
+2023-09-13T07:58:12.650Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 62%
+2023-09-13T07:58:12.651Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 64%
+2023-09-13T07:58:12.655Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 66%
+2023-09-13T07:58:12.658Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 67%
+2023-09-13T07:58:12.660Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 69%
+2023-09-13T07:58:12.664Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 70%
+2023-09-13T07:58:12.667Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 71%
+2023-09-13T07:58:12.671Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 73%
+2023-09-13T07:58:12.675Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 74%
+2023-09-13T07:58:12.677Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 76%
+2023-09-13T07:58:12.684Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 78%
+2023-09-13T07:58:12.687Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 79%
+2023-09-13T07:58:12.691Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 81%
+2023-09-13T07:58:12.694Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 82%
+2023-09-13T07:58:12.697Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 83%
+2023-09-13T07:58:12.700Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 85%
+2023-09-13T07:58:12.703Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 86%
+2023-09-13T07:58:12.708Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 87%
+2023-09-13T07:58:12.710Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 89%
+2023-09-13T07:58:12.713Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 90%
+2023-09-13T07:58:12.716Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 91%
+2023-09-13T07:58:12.720Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 92%
+2023-09-13T07:58:12.724Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 93%
+2023-09-13T07:58:12.726Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 94%
+2023-09-13T07:58:12.730Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 95%
+2023-09-13T07:58:12.742Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 96%
+2023-09-13T07:58:12.743Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 97%
+2023-09-13T07:58:12.745Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 99%
+2023-09-13T07:58:12.746Z [Modules] Streaming discord_utils@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip: 100%
+2023-09-13T07:58:12.747Z [Modules] Fetching discord_voice@2 from https://discord.com/api/modules/stable/discord_voice/2
+2023-09-13T07:58:12.747Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip
+2023-09-13T07:58:12.922Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 1%
+2023-09-13T07:58:12.939Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 2%
+2023-09-13T07:58:12.951Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 3%
+2023-09-13T07:58:12.964Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 4%
+2023-09-13T07:58:12.977Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 5%
+2023-09-13T07:58:13.007Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 6%
+2023-09-13T07:58:13.008Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 7%
+2023-09-13T07:58:13.036Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 8%
+2023-09-13T07:58:13.055Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 9%
+2023-09-13T07:58:13.058Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 10%
+2023-09-13T07:58:13.082Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 11%
+2023-09-13T07:58:13.732Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 12%
+2023-09-13T07:58:13.750Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 13%
+2023-09-13T07:58:13.763Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 14%
+2023-09-13T07:58:13.779Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 15%
+2023-09-13T07:58:13.883Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 16%
+2023-09-13T07:58:13.893Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 17%
+2023-09-13T07:58:13.907Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 18%
+2023-09-13T07:58:13.919Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 19%
+2023-09-13T07:58:13.936Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 20%
+2023-09-13T07:58:13.949Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 21%
+2023-09-13T07:58:13.965Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 22%
+2023-09-13T07:58:13.979Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 23%
+2023-09-13T07:58:13.995Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 24%
+2023-09-13T07:58:14.021Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 25%
+2023-09-13T07:58:14.080Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 26%
+2023-09-13T07:58:14.099Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 27%
+2023-09-13T07:58:14.139Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 28%
+2023-09-13T07:58:15.052Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 29%
+2023-09-13T07:58:15.128Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 30%
+2023-09-13T07:58:15.268Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 31%
+2023-09-13T07:58:15.387Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 32%
+2023-09-13T07:58:15.493Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 33%
+2023-09-13T07:58:15.608Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 34%
+2023-09-13T07:58:15.693Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 35%
+2023-09-13T07:58:15.804Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 36%
+2023-09-13T07:58:15.911Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 37%
+2023-09-13T07:58:16.093Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 38%
+2023-09-13T07:58:16.169Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 39%
+2023-09-13T07:58:16.328Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 40%
+2023-09-13T07:58:16.453Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 41%
+2023-09-13T07:58:16.562Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 42%
+2023-09-13T07:58:16.662Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 43%
+2023-09-13T07:58:16.850Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 44%
+2023-09-13T07:58:17.029Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 45%
+2023-09-13T07:58:17.124Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 46%
+2023-09-13T07:58:17.414Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 47%
+2023-09-13T07:58:17.532Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 48%
+2023-09-13T07:58:17.699Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 49%
+2023-09-13T07:58:17.746Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 50%
+2023-09-13T07:58:17.834Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 51%
+2023-09-13T07:58:17.883Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 52%
+2023-09-13T07:58:17.916Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 53%
+2023-09-13T07:58:17.945Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 54%
+2023-09-13T07:58:17.971Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 55%
+2023-09-13T07:58:17.994Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 56%
+2023-09-13T07:58:18.010Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 57%
+2023-09-13T07:58:18.029Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 58%
+2023-09-13T07:58:18.046Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 59%
+2023-09-13T07:58:18.069Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 60%
+2023-09-13T07:58:18.082Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 61%
+2023-09-13T07:58:18.098Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 62%
+2023-09-13T07:58:18.111Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 63%
+2023-09-13T07:58:18.128Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 64%
+2023-09-13T07:58:18.141Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 65%
+2023-09-13T07:58:18.157Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 66%
+2023-09-13T07:58:18.174Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 67%
+2023-09-13T07:58:18.195Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 68%
+2023-09-13T07:58:18.212Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 69%
+2023-09-13T07:58:18.228Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 70%
+2023-09-13T07:58:18.239Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 71%
+2023-09-13T07:58:18.255Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 72%
+2023-09-13T07:58:18.272Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 73%
+2023-09-13T07:58:18.297Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 74%
+2023-09-13T07:58:18.307Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 75%
+2023-09-13T07:58:18.329Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 76%
+2023-09-13T07:58:18.337Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 77%
+2023-09-13T07:58:18.350Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 78%
+2023-09-13T07:58:18.363Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 79%
+2023-09-13T07:58:18.382Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 80%
+2023-09-13T07:58:18.882Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 81%
+2023-09-13T07:58:18.950Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 82%
+2023-09-13T07:58:18.965Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 83%
+2023-09-13T07:58:18.979Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 84%
+2023-09-13T07:58:18.992Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 85%
+2023-09-13T07:58:19.005Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 86%
+2023-09-13T07:58:19.044Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 87%
+2023-09-13T07:58:19.115Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 88%
+2023-09-13T07:58:19.128Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 89%
+2023-09-13T07:58:19.142Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 90%
+2023-09-13T07:58:19.155Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 91%
+2023-09-13T07:58:19.168Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 92%
+2023-09-13T07:58:19.185Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 93%
+2023-09-13T07:58:19.224Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 94%
+2023-09-13T07:58:19.296Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 95%
+2023-09-13T07:58:19.311Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 96%
+2023-09-13T07:58:20.020Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 97%
+2023-09-13T07:58:20.046Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 98%
+2023-09-13T07:58:20.076Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 99%
+2023-09-13T07:58:20.137Z [Modules] Streaming discord_voice@2 to /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip: 100%
+2023-09-13T07:58:20.138Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-09-13T07:58:20.139Z [Modules] Installing updates...
+2023-09-13T07:58:20.139Z [Modules] Installing discord_desktop_core@2 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_desktop_core-2.zip
+2023-09-13T07:58:20.229Z [Modules] Installing discord_utils@2 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_utils-2.zip
+2023-09-13T07:58:20.817Z [Modules] Installing discord_voice@2 from /home/comodino/.config/discord/0.0.29/modules/pending/discord_voice-2.zip
+2023-09-13T07:58:21.670Z [Modules] Finished module installations. [success: 3] [failure: 0]
+2023-09-13T07:58:21.671Z [Modules] Host is up to date.
+2023-09-13T07:58:21.671Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T07:58:21.675Z [Modules] No module updates available.
+2023-09-13T07:58:25.246Z [Modules] Host is up to date.
+2023-09-13T07:58:25.246Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T07:58:25.250Z [Modules] No module updates available.
+2023-09-13T09:13:32.020Z [Modules] Host is up to date.
+2023-09-13T09:13:32.021Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T09:13:32.074Z [Modules] No module updates available.
+2023-09-13T14:46:59.389Z [Modules] Modules initializing
+2023-09-13T14:46:59.393Z [Modules] Distribution: remote
+2023-09-13T14:46:59.393Z [Modules] Host updates: disabled
+2023-09-13T14:46:59.394Z [Modules] Module updates: enabled
+2023-09-13T14:46:59.395Z [Modules] Module install path: /home/comodino/.config/discord/0.0.29/modules
+2023-09-13T14:46:59.395Z [Modules] Module installed file path: /home/comodino/.config/discord/0.0.29/modules/installed.json
+2023-09-13T14:46:59.395Z [Modules] Module download path: /home/comodino/.config/discord/0.0.29/modules/pending
+2023-09-13T14:46:59.729Z [Modules] No updates to install
+2023-09-13T14:46:59.729Z [Modules] Host is up to date.
+2023-09-13T14:46:59.730Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T14:47:00.131Z [Modules] No module updates available.
+2023-09-13T14:47:03.936Z [Modules] Host is up to date.
+2023-09-13T14:47:03.936Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T14:47:03.941Z [Modules] No module updates available.
+2023-09-13T15:47:03.941Z [Modules] Host is up to date.
+2023-09-13T15:47:03.941Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-13T15:47:04.212Z [Modules] No module updates available.
+2023-09-14T06:50:43.717Z [Modules] Host is up to date.
+2023-09-14T06:50:43.717Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T06:50:47.820Z [Modules] No module updates available.
+2023-09-14T07:50:43.725Z [Modules] Host is up to date.
+2023-09-14T07:50:43.726Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T07:50:43.799Z [Modules] No module updates available.
+2023-09-14T08:47:20.942Z [Modules] Modules initializing
+2023-09-14T08:47:20.946Z [Modules] Distribution: remote
+2023-09-14T08:47:20.946Z [Modules] Host updates: disabled
+2023-09-14T08:47:20.947Z [Modules] Module updates: enabled
+2023-09-14T08:47:20.948Z [Modules] Module install path: /home/comodino/.config/discord/0.0.29/modules
+2023-09-14T08:47:20.948Z [Modules] Module installed file path: /home/comodino/.config/discord/0.0.29/modules/installed.json
+2023-09-14T08:47:20.948Z [Modules] Module download path: /home/comodino/.config/discord/0.0.29/modules/pending
+2023-09-14T08:47:21.310Z [Modules] No updates to install
+2023-09-14T08:47:21.311Z [Modules] Host is up to date.
+2023-09-14T08:47:21.312Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T08:47:21.580Z [Modules] No module updates available.
+2023-09-14T08:47:25.524Z [Modules] Host is up to date.
+2023-09-14T08:47:25.524Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T08:47:25.529Z [Modules] No module updates available.
+2023-09-14T09:47:25.526Z [Modules] Host is up to date.
+2023-09-14T09:47:25.527Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T09:47:25.596Z [Modules] No module updates available.
+2023-09-14T11:01:39.316Z [Modules] Host is up to date.
+2023-09-14T11:01:39.316Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T11:01:39.545Z [Modules] No module updates available.
+2023-09-14T13:52:54.187Z [Modules] Modules initializing
+2023-09-14T13:52:54.190Z [Modules] Distribution: remote
+2023-09-14T13:52:54.190Z [Modules] Host updates: disabled
+2023-09-14T13:52:54.190Z [Modules] Module updates: enabled
+2023-09-14T13:52:54.191Z [Modules] Module install path: /home/comodino/.config/discord/0.0.29/modules
+2023-09-14T13:52:54.191Z [Modules] Module installed file path: /home/comodino/.config/discord/0.0.29/modules/installed.json
+2023-09-14T13:52:54.191Z [Modules] Module download path: /home/comodino/.config/discord/0.0.29/modules/pending
+2023-09-14T13:52:54.501Z [Modules] No updates to install
+2023-09-14T13:52:54.502Z [Modules] Host is up to date.
+2023-09-14T13:52:54.503Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T13:52:54.813Z [Modules] No module updates available.
+2023-09-14T13:52:58.181Z [Modules] Host is up to date.
+2023-09-14T13:52:58.181Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-14T13:52:58.186Z [Modules] No module updates available.
+2023-09-15T08:58:49.929Z [Modules] Host is up to date.
+2023-09-15T08:58:49.929Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T08:58:50.206Z [Modules] No module updates available.
+2023-09-15T09:58:49.929Z [Modules] Host is up to date.
+2023-09-15T09:58:49.929Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T09:58:50.206Z [Modules] No module updates available.
+2023-09-15T10:58:49.928Z [Modules] Host is up to date.
+2023-09-15T10:58:49.928Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T10:58:50.081Z [Modules] No module updates available.
+2023-09-15T12:01:51.733Z [Modules] Host is up to date.
+2023-09-15T12:01:51.733Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T12:01:52.323Z [Modules] No module updates available.
+2023-09-15T13:01:51.731Z [Modules] Host is up to date.
+2023-09-15T13:01:51.731Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T13:01:52.013Z [Modules] No module updates available.
+2023-09-15T14:01:51.731Z [Modules] Host is up to date.
+2023-09-15T14:01:51.731Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-15T14:01:52.351Z [Modules] No module updates available.
+2023-09-18T13:31:09.605Z [Modules] Modules initializing
+2023-09-18T13:31:09.608Z [Modules] Distribution: remote
+2023-09-18T13:31:09.608Z [Modules] Host updates: disabled
+2023-09-18T13:31:09.608Z [Modules] Module updates: enabled
+2023-09-18T13:31:09.609Z [Modules] Module install path: /home/comodino/.config/discord/0.0.29/modules
+2023-09-18T13:31:09.609Z [Modules] Module installed file path: /home/comodino/.config/discord/0.0.29/modules/installed.json
+2023-09-18T13:31:09.609Z [Modules] Module download path: /home/comodino/.config/discord/0.0.29/modules/pending
+2023-09-18T13:31:09.940Z [Modules] No updates to install
+2023-09-18T13:31:09.941Z [Modules] Host is up to date.
+2023-09-18T13:31:09.941Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T13:31:10.689Z [Modules] No module updates available.
+2023-09-18T13:31:15.477Z [Modules] Host is up to date.
+2023-09-18T13:31:15.477Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T13:31:15.482Z [Modules] No module updates available.
+2023-09-18T14:31:15.496Z [Modules] Host is up to date.
+2023-09-18T14:31:15.497Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T14:31:15.999Z [Modules] No module updates available.
+2023-09-18T15:31:20.060Z [Modules] Host is up to date.
+2023-09-18T15:31:20.060Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T15:31:20.470Z [Modules] No module updates available.
+2023-09-18T16:31:20.062Z [Modules] Host is up to date.
+2023-09-18T16:31:20.062Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-18T16:31:20.831Z [Modules] No module updates available.
+2023-09-19T07:00:10.084Z [Modules] Host is up to date.
+2023-09-19T07:00:10.084Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-09-19T07:00:14.279Z [Modules] No module updates available.

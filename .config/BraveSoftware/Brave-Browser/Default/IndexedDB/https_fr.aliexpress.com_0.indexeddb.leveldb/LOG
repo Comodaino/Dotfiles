@@ -1,0 +1,6 @@
+2023/09/07-11:39:30.226 1559 Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fr.aliexpress.com_0.indexeddb.leveldb since it was missing.
+2023/09/07-11:39:30.239 1559 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fr.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/07-11:40:02.244 154c Level-0 table #5: started
+2023/09/07-11:40:02.249 154c Level-0 table #5: 813 bytes OK
+2023/09/07-11:40:02.255 154c Delete type=0 #3
+2023/09/07-11:40:02.255 154c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
