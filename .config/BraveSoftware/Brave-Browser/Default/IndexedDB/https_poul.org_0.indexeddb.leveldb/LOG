@@ -1,34 +1,7 @@
-2023/09/19-19:29:40.333 739 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_poul.org_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/19-19:29:40.333 739 Recovering log #37
-2023/09/19-19:29:40.333 739 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_poul.org_0.indexeddb.leveldb/000037.log 
-2023/09/19-19:29:40.333 739 Delete type=2 #35
-2023/09/19-19:30:10.450 746 Level-0 table #42: started
-2023/09/19-19:30:10.455 746 Level-0 table #42: 538 bytes OK
-2023/09/19-19:30:10.461 746 Delete type=0 #37
-2023/09/19-19:30:10.462 739 Manual compaction at level-0 from '\x00\x0b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0b\x00\x00\x05' @ 201 : 1
-2023/09/19-19:30:10.462 739 Compacting 1@0 + 1@1 files
-2023/09/19-19:30:10.466 739 Generated table #43@0: 5 keys, 278 bytes
-2023/09/19-19:30:10.466 739 Compacted 1@0 + 1@1 files => 278 bytes
-2023/09/19-19:30:10.472 739 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/09/19-19:30:10.472 739 Delete type=2 #42
-2023/09/19-19:30:10.472 739 Manual compaction at level-0 from '\x00\x0b\x00\x00\x05' @ 201 : 1 .. '\x00\x0c\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/09/19-19:30:12.464 73a Level-0 table #45: started
-2023/09/19-19:30:12.468 73a Level-0 table #45: 237 bytes OK
-2023/09/19-19:30:12.474 73a Delete type=0 #41
-2023/09/19-19:30:12.474 73a Delete type=2 #39
-2023/09/19-19:30:12.474 73a Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 215 : 0
-2023/09/19-19:30:12.474 73a Compacting 1@0 + 1@1 files
-2023/09/19-19:30:12.478 73a Generated table #46@0: 4 keys, 234 bytes
-2023/09/19-19:30:12.478 73a Compacted 1@0 + 1@1 files => 234 bytes
-2023/09/19-19:30:12.484 73a compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/09/19-19:30:12.484 73a Delete type=2 #45
-2023/09/19-19:30:12.484 73a Delete type=2 #43
-2023/09/19-19:30:12.485 73a Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 215 : 0 .. (end); will stop at (end)
-2023/09/19-19:30:12.485 73a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 217 : 1
-2023/09/19-19:30:12.485 73a Compacting 1@1 + 1@2 files
-2023/09/19-19:30:12.489 73a Generated table #47@1: 6 keys, 253 bytes
-2023/09/19-19:30:12.489 73a Compacted 1@1 + 1@2 files => 253 bytes
-2023/09/19-19:30:12.495 73a compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/09/19-19:30:12.495 73a Delete type=2 #8
-2023/09/19-19:30:12.495 73a Delete type=2 #46
-2023/09/19-19:30:12.495 73a Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 217 : 1 .. (end); will stop at (end)
+2023/11/14-10:31:42.515 5bfdb Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_poul.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/14-10:31:42.515 5bfdb Recovering log #196
+2023/11/14-10:31:42.515 5bfdb Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_poul.org_0.indexeddb.leveldb/000196.log 
+2023/11/14-10:31:42.957 5bfdf Level-0 table #202: started
+2023/11/14-10:31:42.961 5bfdf Level-0 table #202: 538 bytes OK
+2023/11/14-10:31:42.967 5bfdf Delete type=0 #196
+2023/11/14-10:31:42.967 5bfdb Manual compaction at level-0 from '\x002\x00\x00\x00' @ 72057594037927935 : 1 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at (end)

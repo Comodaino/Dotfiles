@@ -1,0 +1,912 @@
+2023-10-17 08:08:04 Using browser-only version of superagent in non-browser environment
+2023-10-17 08:08:04 Configuration directory URI: 'file:///home/comodino/.arduinoIDE'
+2023-10-17 08:08:04 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2023-10-17 08:08:04 2023-10-17T06:08:04.182Z root INFO Backend Object.initialize: 5.9 ms [Finished 0.544 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.185Z root INFO Backend Object.configure: 5.1 ms [Finished 0.544 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.186Z root INFO Backend a.onStart: 1.9 ms [Finished 0.544 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.187Z root INFO Backend a.configure: 0.5 ms [Finished 0.573 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.187Z root INFO Backend u.onStart: 0.4 ms [Finished 0.573 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.189Z root INFO Backend d.configure: 0.1 ms [Finished 0.574 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.190Z root INFO Backend d.initialize: 29.9 ms [Finished 0.574 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.190Z root INFO Backend c.onStart: 0.3 ms [Finished 0.574 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.191Z root INFO Backend s.configure: 4.3 ms [Finished 0.578 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.192Z config INFO >>> Initializing CLI configuration...
+2023-10-17 08:08:04 2023-10-17T06:08:04.192Z root INFO Backend c.initialize: 0.8 ms [Finished 0.579 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.193Z root INFO Backend P.onStart: 0.9 ms [Finished 0.579 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.193Z config INFO Loading CLI configuration from /home/comodino/.arduinoIDE/arduino-cli.yaml...
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z daemon INFO Starting daemon from /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/resources/arduino-cli...
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z root INFO Backend s.initialize: 0.5 ms [Finished 0.581 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z root INFO Backend w.onStart: 1.4 ms [Finished 0.582 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z root INFO Backend r.configure: 2.5 ms [Finished 0.582 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z discovery-log INFO start
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z discovery-log INFO start new deferred
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z root INFO Backend d.initialize: 0.5 ms [Finished 0.583 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z root INFO Backend y.onStart: 2.1 ms [Finished 0.584 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.194Z root INFO Backend r.configure: 1.9 ms [Finished 0.585 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.195Z root INFO Backend s.onStart: 0.5 ms [Finished 0.586 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.195Z root INFO Backend h.configure: 0.6 ms [Finished 0.586 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.195Z root INFO Backend a.configure: 0.3 ms [Finished 0.586 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.195Z root INFO Backend s.configure: 0.1 ms [Finished 0.587 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.195Z root INFO Backend l.configure: 0.1 ms [Finished 0.587 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.197Z root INFO Theia app listening on http://localhost:41515.
+2023-10-17 08:08:04 2023-10-17T06:08:04.198Z root INFO Finished starting backend application: 3.2 ms [Finished 0.589 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.199Z root WARN The local plugin referenced by local-dir:/home/comodino/.arduinoIDE/extensions does not exist.
+2023-10-17 08:08:04 2023-10-17T06:08:04.199Z root WARN The local plugin referenced by local-dir:/home/comodino/.arduinoIDE/plugins does not exist.
+2023-10-17 08:08:04 2023-10-17T06:08:04.242Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":["https://espressif.github.io/arduino-esp32/package_esp32_index.json"]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"builtin":{"libraries":"/home/comodino/.arduino15/libraries"},"data":"/home/comodino/.arduino15","downloads":"/home/comodino/.arduino15/staging","user":"/home/comodino/Arduino"},"library":{"enable_unsafe_install":false},"locale":"en","logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2023-10-17 08:08:04 2023-10-17T06:08:04.242Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2023-10-17 08:08:04 2023-10-17T06:08:04.242Z config INFO Loaded the CLI configuration.
+2023-10-17 08:08:04 2023-10-17T06:08:04.244Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/comodino/.arduino15","sketchDirUri":"file:///home/comodino/Arduino","additionalUrls":["https://espressif.github.io/arduino-esp32/package_esp32_index.json"],"network":"none","locale":"en"}
+2023-10-17 08:08:04 2023-10-17T06:08:04.244Z config INFO Validating the CLI configuration...
+2023-10-17 08:08:04 2023-10-17T06:08:04.246Z config INFO The CLI config is valid.
+2023-10-17 08:08:04 2023-10-17T06:08:04.246Z config INFO <<< Initialized the CLI configuration.
+2023-10-17 08:08:04 2023-10-17T06:08:04.253Z root INFO Resolve plugins list: 59.8 ms [Finished 0.645 s after backend start]
+2023-10-17 08:08:04 2023-10-17T06:08:04.358Z daemon INFO time="2023-10-17T08:08:04+02:00" level=info msg="Using config file: /home/comodino/.arduinoIDE/arduino-cli.yaml"
+time="2023-10-17T08:08:04+02:00" level=info msg="arduino-cli version 0.34.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Executing `arduino-cli daemon`"
+Daemon is now listening on 127.0.0.1:40471
+{"IP":"127.0.0.1","Port":"40471"}
+2023-10-17 08:08:04 2023-10-17T06:08:04.358Z daemon INFO Daemon is running.
+2023-10-17 08:08:04 2023-10-17T06:08:04.537Z daemon INFO time="2023-10-17T08:08:04+02:00" level=info msg="Checking signature" index=/home/comodino/.arduino15/package_index.json signatureFile=/home/comodino/.arduino15/package_index.json.sig trusted=true
+time="2023-10-17T08:08:04+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/package_esp32_index.json
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading hardware from: /home/comodino/.arduino15/packages"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading package arduino from: /home/comodino/.arduino15/packages/arduino/hardware"
+time="2023-10-17T08:08:04+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+time="2023-10-17T08:08:04+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2023-10-17T08:08:04+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded platform" platform="arduino:esp32@2.0.13"
+time="2023-10-17T08:08:04+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/arduino/tools"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/arduino/tools"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading package builtin from: /home/comodino/.arduino15/packages/builtin"
+time="2023-10-17T08:08:04+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/builtin/tools"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/builtin/tools"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.13.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading package esp32 from: /home/comodino/.arduino15/packages/esp32/hardware"
+time="2023-10-17T08:08:04+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/installed.json
+2023-10-17 08:08:04 2023-10-17T06:08:04.602Z daemon INFO time="2023-10-17T08:08:04+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.14"
+time="2023-10-17T08:08:04+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/esp32/tools"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/esp32/tools"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.11.0-esp32-20221026"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:04+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2023-10-17T08:08:04+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/arduino/hardware/esp32/2.0.13/libraries location=platform
+time="2023-10-17T08:08:04+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+time="2023-10-17T08:08:04+02:00" level=info msg="Loading libraries index file" index=/home/comodino/.arduino15/library_index.json
+2023-10-17 08:08:04 2023-10-17T06:08:04.816Z daemon INFO time="2023-10-17T08:08:04+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:08:04+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:05 2023-10-17T06:08:05.064Z discovery-log INFO start request start watch
+2023-10-17 08:08:05 2023-10-17T06:08:05.064Z discovery-log INFO start requested start watch
+2023-10-17 08:08:05 2023-10-17T06:08:05.064Z discovery-log INFO start resolved watching
+2023-10-17 08:08:05 2023-10-17T06:08:05.071Z daemon INFO time="2023-10-17T08:08:05+02:00" level=info msg="starting discovery builtin:serial-discovery process"
+time="2023-10-17T08:08:05+02:00" level=info msg="starting discovery builtin:dfu-discovery process"
+time="2023-10-17T08:08:05+02:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2023-10-17T08:08:05+02:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2023-10-17T08:08:05+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:serial-discovery"
+time="2023-10-17T08:08:05+02:00" level=info msg="started discovery builtin:dfu-discovery process"
+time="2023-10-17T08:08:05+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:dfu-discovery"
+time="2023-10-17T08:08:05+02:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2023-10-17T08:08:05+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:mdns-discovery"
+2023-10-17 08:08:05 2023-10-17T06:08:05.136Z daemon INFO time="2023-10-17T08:08:05+02:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:08:05+02:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+time="2023-10-17T08:08:05+02:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2023-10-17T08:08:05+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:08:05+02:00" level=info msg="sending command START_SYNC to discovery builtin:dfu-discovery"
+time="2023-10-17T08:08:05+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: start_sync, message: OK"
+time="2023-10-17T08:08:05+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:08:05+02:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2023-10-17T08:08:05+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+2023-10-17 08:08:05 2023-10-17T06:08:05.395Z root INFO Deploy plugins list: 59.8 ms [Finished 1.787 s after backend start]
+2023-10-17 08:08:06 2023-10-17T06:08:06.094Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 218.7 ms [Finished 1.761 s after frontend start]
+2023-10-17 08:08:06 2023-10-17T06:08:06.096Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2023-10-17 08:08:06 2023-10-17T06:08:06.096Z root ERROR Error: node-loader:
+Error: libxkbfile.so.1: cannot open shared object file: No such file or directory
+    at 82973 (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:7060)
+    at __webpack_require__ (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:6742209)
+    at r._init (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458313)
+    at r.getCurrentKeyboardLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458512)
+    at t.getCurrentKeyboardLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458919)
+    at a.getNativeLayoutSync (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130751)
+    at a.getNativeLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130692)
+    at u.onRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082913)
+    at c.requestHandler (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082732)
+    at c.handleRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1073797)
+2023-10-17 08:08:06 2023-10-17T06:08:06.097Z root ERROR TypeError: Cannot read properties of null (reading 'getKeyMap')
+    at r.getKeyMap (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458398)
+    at t.getKeyMap (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458979)
+    at a.getNativeLayoutSync (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130788)
+    at a.getNativeLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130692)
+    at u.onRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082913)
+    at c.requestHandler (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082732)
+    at c.handleRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1073797)
+    at c.handleMessage (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1072048)
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1071621
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1039194
+2023-10-17 08:08:06 2023-10-17T06:08:06.280Z root INFO Start frontend contributions: 499.1 ms [Finished 1.947 s after frontend start]
+2023-10-17 08:08:06 2023-10-17T06:08:06.282Z root INFO Changed application state from 'init' to 'started_contributions'.
+2023-10-17 08:08:06 2023-10-17T06:08:06.292Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2023-10-17 08:08:06 2023-10-17T06:08:06.293Z root INFO >>> Restoring the layout state...
+2023-10-17 08:08:06 2023-10-17T06:08:06.293Z root INFO <<< Nothing to restore.
+2023-10-17 08:08:06 2023-10-17T06:08:06.326Z root INFO Initialize the workbench layout: 25.1 ms [Finished 2.010 s after frontend start]
+2023-10-17 08:08:06 2023-10-17T06:08:06.343Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2023-10-17 08:08:06 2023-10-17T06:08:06.395Z root INFO [3181f1c1-9025-476a-81df-6ff0158923f0] Waiting for backend deployment: 145.5 ms [Finished 2.086 s after frontend start]
+2023-10-17 08:08:07 2023-10-17T06:08:07.036Z root ERROR Request initAuthSession failed with error: The name org.freedesktop.secrets was not provided by any .service files Error: The name org.freedesktop.secrets was not provided by any .service files
+2023-10-17 08:08:07 2023-10-17T06:08:07.039Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166) starting instance
+2023-10-17 08:08:07 2023-10-17T06:08:07.551Z root INFO [3181f1c1-9025-476a-81df-6ff0158923f0] Sync of 23 plugins: 1125.2 ms [Finished 3.211 s after frontend start]
+2023-10-17 08:08:07 2023-10-17T06:08:07.553Z root INFO [3181f1c1-9025-476a-81df-6ff0158923f0] Loading plugin contributions
+2023-10-17 08:08:07 2023-10-17T06:08:07.553Z root INFO [3181f1c1-9025-476a-81df-6ff0158923f0] Load contributions of 23 plugins: 30.8 ms [Finished 3.242 s after frontend start]
+2023-10-17 08:08:07 2023-10-17T06:08:07.706Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2023-10-17 08:08:07 2023-10-17T06:08:07.706Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2023-10-17 08:08:08 2023-10-17T06:08:08.075Z root INFO Frontend application start: 2012.2 ms [Finished 4.466 s after backend start]
+2023-10-17 08:08:08 2023-10-17T06:08:08.111Z root INFO Replace loading indicator with ready workbench UI (animation): 1373.3 ms [Finished 3.409 s after frontend start]
+2023-10-17 08:08:08 2023-10-17T06:08:08.193Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2023-10-17 08:08:08 2023-10-17T06:08:08.193Z root WARN Linked preference "workbench.colorCustomizations" not found. Source: "editor.bracketPairColorization.enabled"
+2023-10-17 08:08:08 2023-10-17T06:08:08.813Z root ERROR ---- !!!SLOW!!! DURATION: search took 510.060 ms. Args: [{"type":"Updatable"}] ----
+2023-10-17 08:08:08 2023-10-17T06:08:08.910Z daemon INFO time="2023-10-17T08:08:08+02:00" level=info msg="Updating libraries index"
+2023-10-17 08:08:08 2023-10-17T06:08:08.910Z daemon INFO time="2023-10-17T08:08:08+02:00" level=info msg="Updating index" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2023-10-17T08:08:08+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/packages/package_index.tar.bz2"
+time="2023-10-17T08:08:08+02:00" level=info msg="Starting download" url="https://downloads.arduino.cc/libraries/library_index.tar.bz2"
+2023-10-17 08:08:08 2023-10-17T06:08:08.913Z root INFO core-client-provider [platform-index] Downloading index: package_index.tar.bz2
+
+2023-10-17 08:08:08 2023-10-17T06:08:08.914Z root INFO core-client-provider [library-index] Downloading index: library_index.tar.bz2
+
+2023-10-17 08:08:09 2023-10-17T06:08:09.040Z root ERROR [hosted-plugin: 166] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.linux as cortex-debug.armToolchainPath is null
+2023-10-17 08:08:09 2023-10-17T06:08:09.041Z root ERROR [hosted-plugin: 166] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.osx as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.windows as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.linux as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.osx as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.windows as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.linux as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.osx as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.windows as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.linux as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.osx as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.windows as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.linux as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.osx as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.windows as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.linux as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.osx as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.windows as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.linux as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.osx as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.windows as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.linux as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.osx as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.windows as cortex-debug.stm32cubeprogrammer is null
+2023-10-17 08:08:09 2023-10-17T06:08:09.052Z daemon INFO time="2023-10-17T08:08:09+02:00" level=info msg="Updating index" url="https://espressif.github.io/arduino-esp32/package_esp32_index.json"
+2023-10-17 08:08:09 2023-10-17T06:08:09.052Z daemon INFO time="2023-10-17T08:08:09+02:00" level=info msg="Starting download" url="https://espressif.github.io/arduino-esp32/package_esp32_index.json"
+2023-10-17 08:08:09 2023-10-17T06:08:09.053Z root INFO core-client-provider [platform-index] Downloading index: package_esp32_index.json
+
+2023-10-17 08:08:09 2023-10-17T06:08:09.054Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): PluginManagerExtImpl/init()
+2023-10-17 08:08:09 2023-10-17T06:08:09.057Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-arduino-api@0.1.2 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.118Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(cortex-debug@1.5.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.118Z root INFO [hosted-plugin: 166] Debugger contribution has been registered: cortex-debug
+2023-10-17 08:08:09 2023-10-17T06:08:09.119Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-arduino-tools@0.0.2-beta.8 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.119Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(cpp@1.52.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.120Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(json@1.46.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.121Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(json-language-features@1.46.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.124Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-bg@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.125Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-cs@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.126Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-de@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.127Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-es@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.128Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-fr@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.129Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-hu@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.129Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-it@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.130Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-ja@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.131Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-ko@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.131Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-nl@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.131Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-pl@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.131Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-pt-BR@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.132Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-ru@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.132Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-tr@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.132Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-uk@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.132Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-zh-hans@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.133Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): initializing(vscode-language-pack-zh-hant@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:08:09 2023-10-17T06:08:09.138Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-api/extension/dist/extension.js)
+2023-10-17 08:08:09 2023-10-17T06:08:09.145Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2023-10-17 08:08:09 2023-10-17T06:08:09.182Z root INFO [3181f1c1-9025-476a-81df-6ff0158923f0] Starting plugins.
+2023-10-17 08:08:09 2023-10-17T06:08:09.208Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2023-10-17 08:08:09 2023-10-17T06:08:09.243Z root INFO [hosted-plugin: 166] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2023-10-17 08:08:09 2023-10-17T06:08:09.246Z root INFO [hosted-plugin: 166] GDB server console created
+2023-10-17 08:08:09 2023-10-17T06:08:09.252Z root INFO [3181f1c1-9025-476a-81df-6ff0158923f0] Start of 23 plugins: 1685.8 ms [Finished 4.943 s after frontend start]
+2023-10-17 08:08:10 2023-10-17T06:08:10.418Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Checking signature" index=/home/comodino/.arduino15/package_index.json signatureFile=/home/comodino/.arduino15/package_index.json.sig trusted=true
+time="2023-10-17T08:08:10+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/package_esp32_index.json
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading hardware from: /home/comodino/.arduino15/packages"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading package arduino from: /home/comodino/.arduino15/packages/arduino/hardware"
+2023-10-17 08:08:10 2023-10-17T06:08:10.419Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+2023-10-17 08:08:10 2023-10-17T06:08:10.421Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+2023-10-17 08:08:10 2023-10-17T06:08:10.421Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded platform" platform="arduino:esp32@2.0.13"
+2023-10-17 08:08:10 2023-10-17T06:08:10.422Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/arduino/tools"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/arduino/tools"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+2023-10-17 08:08:10 2023-10-17T06:08:10.422Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading package builtin from: /home/comodino/.arduino15/packages/builtin"
+time="2023-10-17T08:08:10+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/builtin/tools"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/builtin/tools"
+2023-10-17 08:08:10 2023-10-17T06:08:10.422Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+2023-10-17 08:08:10 2023-10-17T06:08:10.422Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.13.0"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading package esp32 from: /home/comodino/.arduino15/packages/esp32/hardware"
+2023-10-17 08:08:10 2023-10-17T06:08:10.422Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/installed.json
+2023-10-17 08:08:10 2023-10-17T06:08:10.460Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.14"
+time="2023-10-17T08:08:10+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/esp32/tools"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/esp32/tools"
+2023-10-17 08:08:10 2023-10-17T06:08:10.461Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.11.0-esp32-20221026"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+2023-10-17 08:08:10 2023-10-17T06:08:10.461Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:10+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:10 2023-10-17T06:08:10.461Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="sending command QUIT to discovery builtin:serial-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.461Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:serial-discovery received message type: quit, message: OK"
+2023-10-17 08:08:10 2023-10-17T06:08:10.461Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="killing discovery builtin:serial-discovery process"
+2023-10-17 08:08:10 2023-10-17T06:08:10.461Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Discovery event channel closed builtin:serial-discovery. Exiting goroutine."
+2023-10-17 08:08:10 2023-10-17T06:08:10.462Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="killed discovery builtin:serial-discovery process"
+time="2023-10-17T08:08:10+02:00" level=info msg="Closed and removed discovery builtin:serial-discovery"
+time="2023-10-17T08:08:10+02:00" level=info msg="sending command QUIT to discovery builtin:mdns-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.462Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: quit, message: OK"
+time="2023-10-17T08:08:10+02:00" level=info msg="killing discovery builtin:mdns-discovery process"
+time="2023-10-17T08:08:10+02:00" level=info msg="Discovery event channel closed builtin:mdns-discovery. Exiting goroutine."
+2023-10-17 08:08:10 2023-10-17T06:08:10.462Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="killed discovery builtin:mdns-discovery process"
+time="2023-10-17T08:08:10+02:00" level=info msg="Closed and removed discovery builtin:mdns-discovery"
+time="2023-10-17T08:08:10+02:00" level=info msg="sending command QUIT to discovery builtin:dfu-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.462Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: quit, message: OK"
+time="2023-10-17T08:08:10+02:00" level=info msg="killing discovery builtin:dfu-discovery process"
+2023-10-17 08:08:10 2023-10-17T06:08:10.462Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Discovery event channel closed builtin:dfu-discovery. Exiting goroutine."
+2023-10-17 08:08:10 2023-10-17T06:08:10.463Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="killed discovery builtin:dfu-discovery process"
+time="2023-10-17T08:08:10+02:00" level=info msg="Closed and removed discovery builtin:dfu-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.463Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="starting discovery builtin:serial-discovery process"
+2023-10-17 08:08:10 2023-10-17T06:08:10.463Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2023-10-17T08:08:10+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:serial-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.464Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+2023-10-17 08:08:10 2023-10-17T06:08:10.464Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.465Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+2023-10-17 08:08:10 2023-10-17T06:08:10.465Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="starting discovery builtin:mdns-discovery process"
+2023-10-17 08:08:10 2023-10-17T06:08:10.465Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2023-10-17T08:08:10+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:mdns-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.467Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:08:10+02:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.467Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+time="2023-10-17T08:08:10+02:00" level=info msg="starting discovery builtin:dfu-discovery process"
+2023-10-17 08:08:10 2023-10-17T06:08:10.468Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="started discovery builtin:dfu-discovery process"
+2023-10-17 08:08:10 2023-10-17T06:08:10.468Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:dfu-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.470Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:08:10+02:00" level=info msg="sending command START_SYNC to discovery builtin:dfu-discovery"
+2023-10-17 08:08:10 2023-10-17T06:08:10.471Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: start_sync, message: OK"
+2023-10-17 08:08:10 2023-10-17T06:08:10.471Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+2023-10-17 08:08:10 2023-10-17T06:08:10.471Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+2023-10-17 08:08:10 2023-10-17T06:08:10.471Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/arduino/hardware/esp32/2.0.13/libraries location=platform
+2023-10-17 08:08:10 2023-10-17T06:08:10.471Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Loading libraries index file" index=/home/comodino/.arduino15/library_index.json
+2023-10-17 08:08:10 2023-10-17T06:08:10.625Z daemon INFO time="2023-10-17T08:08:10+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:08:10+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:15 2023-10-17T06:08:15.377Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.405Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.414Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+2023-10-17 08:08:15 2023-10-17T06:08:15.415Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.441Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.446Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.467Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.489Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.498Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+2023-10-17 08:08:15 2023-10-17T06:08:15.498Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.598Z root INFO Starting language server: esp32:esp32:esp32:UploadSpeed=921600,CPUFreq=240,FlashFreq=80,FlashMode=qio,FlashSize=4M,PartitionScheme=default,DebugLevel=none,PSRAM=disabled,LoopCore=1,EventsCore=1,EraseFlash=none,JTAGAdapter=default
+2023-10-17 08:08:15 2023-10-17T06:08:15.626Z root INFO [hosted-plugin: 166] PLUGIN_HOST(166): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle)
+2023-10-17 08:08:15 2023-10-17T06:08:15.739Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+2023-10-17 08:08:15 2023-10-17T06:08:15.740Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+2023-10-17 08:08:15 2023-10-17T06:08:15.740Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.741Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+2023-10-17 08:08:15 2023-10-17T06:08:15.741Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:15+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:15 2023-10-17T06:08:15.742Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:08:15+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+2023-10-17 08:08:15 2023-10-17T06:08:15.742Z daemon INFO time="2023-10-17T08:08:15+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:16 2023-10-17T06:08:16.045Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.045Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.045Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.046Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+2023-10-17 08:08:16 2023-10-17T06:08:16.046Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.046Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+2023-10-17 08:08:16 2023-10-17T06:08:16.046Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:16 2023-10-17T06:08:16.307Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.307Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.308Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+2023-10-17 08:08:16 2023-10-17T06:08:16.308Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.309Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+2023-10-17 08:08:16 2023-10-17T06:08:16.309Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:16 2023-10-17T06:08:16.577Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.578Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+2023-10-17 08:08:16 2023-10-17T06:08:16.578Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.578Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+2023-10-17 08:08:16 2023-10-17T06:08:16.578Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.579Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+2023-10-17 08:08:16 2023-10-17T06:08:16.579Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:16 2023-10-17T06:08:16.840Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+2023-10-17 08:08:16 2023-10-17T06:08:16.840Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.840Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.840Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.841Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+2023-10-17 08:08:16 2023-10-17T06:08:16.841Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:16+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:16 2023-10-17T06:08:16.841Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+2023-10-17 08:08:16 2023-10-17T06:08:16.841Z daemon INFO time="2023-10-17T08:08:16+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:17 2023-10-17T06:08:17.178Z daemon INFO time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+2023-10-17 08:08:17 2023-10-17T06:08:17.179Z daemon INFO time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+2023-10-17 08:08:17 2023-10-17T06:08:17.179Z daemon INFO time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Required tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:08:17+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:08:17+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+time="2023-10-17T08:08:17+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:08:17 2023-10-17T06:08:17.448Z root INFO Executing 'arduino.languageserver.notifyBuildDidComplete' with "file:///tmp/arduino/sketches/8478C4EE2AABEAB2846DCE24844C7348"
+2023-10-17 08:08:17 2023-10-17T06:08:17.519Z root ERROR Unexpected error when firing event on build did complete. "file:///tmp/arduino/sketches/8478C4EE2AABEAB2846DCE24844C7348" Error: Language client is not ready yet
+    at LanguageClient.sendNotification (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle.js:8932:19)
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle.js:179:28
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:556773
+    at t.CommandRegistryImpl.executeLocalCommand (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:557417)
+    at t.CommandRegistryImpl.$executeCommand (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:556929)
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:537919
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async c.handleRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:114225)
+2023-10-17 08:08:17 2023-10-17T06:08:17.520Z root ERROR Request executeCommand failed with error: Language client is not ready yet Error: Language client is not ready yet
+    at LanguageClient.sendNotification (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle.js:8932:19)
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-tools/extension/dist/bundle.js:179:28
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:556773
+    at t.CommandRegistryImpl.executeLocalCommand (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:557417)
+    at t.CommandRegistryImpl.$executeCommand (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:556929)
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:537919
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async c.handleRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-host.js:2:114225)
+2023-10-17 08:09:50 2023-10-17T06:09:50.580Z root ERROR ---- !!!SLOW!!! DURATION: search took 360.548 ms. Args: [{"query":"","type":"All","topic":"All"}] ----
+2023-10-17 08:09:52 2023-10-17T06:09:52.457Z root INFO ---- DURATION: search took 89.007 ms. Args: [{"query":"serial","type":"All","topic":"All"}] ----
+2023-10-17 08:11:20 Using browser-only version of superagent in non-browser environment
+2023-10-17 08:11:20 Configuration directory URI: 'file:///home/comodino/.arduinoIDE'
+2023-10-17 08:11:20 Configuring to accept webviews on '^.+\.webview\..+$' hostname.
+2023-10-17 08:11:20 2023-10-17T06:11:20.626Z root INFO Backend Object.initialize: 5.0 ms [Finished 0.487 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.626Z root INFO Backend Object.configure: 4.2 ms [Finished 0.487 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.626Z root INFO Backend a.onStart: 1.8 ms [Finished 0.487 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.627Z root INFO Backend a.configure: 0.5 ms [Finished 0.513 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.628Z root INFO Backend u.onStart: 0.4 ms [Finished 0.513 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.629Z root INFO Backend d.configure: 0.1 ms [Finished 0.513 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.630Z root INFO Backend d.initialize: 26.4 ms [Finished 0.514 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.630Z root INFO Backend c.onStart: 0.3 ms [Finished 0.514 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.631Z root INFO Backend s.configure: 1.1 ms [Finished 0.515 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.632Z config INFO >>> Initializing CLI configuration...
+2023-10-17 08:11:20 2023-10-17T06:11:20.632Z root INFO Backend c.initialize: 0.7 ms [Finished 0.515 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.633Z root INFO Backend P.onStart: 1.0 ms [Finished 0.516 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.633Z config INFO Loading CLI configuration from /home/comodino/.arduinoIDE/arduino-cli.yaml...
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z daemon INFO Starting daemon from /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/resources/arduino-cli...
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z root INFO Backend s.initialize: 0.4 ms [Finished 0.517 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z root INFO Backend w.onStart: 1.0 ms [Finished 0.518 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z root INFO Backend r.configure: 2.0 ms [Finished 0.518 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z discovery-log INFO start
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z discovery-log INFO start new deferred
+2023-10-17 08:11:20 2023-10-17T06:11:20.634Z root INFO Backend d.initialize: 0.4 ms [Finished 0.518 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend y.onStart: 2.1 ms [Finished 0.520 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend r.configure: 1.9 ms [Finished 0.521 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend s.onStart: 0.6 ms [Finished 0.522 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend h.configure: 0.6 ms [Finished 0.522 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend a.configure: 0.3 ms [Finished 0.523 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend s.configure: 0.1 ms [Finished 0.523 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.635Z root INFO Backend l.configure: 0.1 ms [Finished 0.523 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.638Z root INFO Theia app listening on http://localhost:39159.
+2023-10-17 08:11:20 2023-10-17T06:11:20.638Z root INFO Finished starting backend application: 3.6 ms [Finished 0.526 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.639Z root WARN The local plugin referenced by local-dir:/home/comodino/.arduinoIDE/plugins does not exist.
+2023-10-17 08:11:20 2023-10-17T06:11:20.640Z root WARN The local plugin referenced by local-dir:/home/comodino/.arduinoIDE/extensions does not exist.
+2023-10-17 08:11:20 2023-10-17T06:11:20.653Z config INFO Loaded CLI configuration: {"board_manager":{"additional_urls":["https://espressif.github.io/arduino-esp32/package_esp32_index.json"]},"build_cache":{"compilations_before_purge":10,"ttl":"720h0m0s"},"daemon":{"port":"50051"},"directories":{"builtin":{"libraries":"/home/comodino/.arduino15/libraries"},"data":"/home/comodino/.arduino15","downloads":"/home/comodino/.arduino15/staging","user":"/home/comodino/Arduino"},"library":{"enable_unsafe_install":false},"locale":"en","logging":{"file":"","format":"text","level":"info"},"metrics":{"addr":":9090","enabled":true},"output":{"no_color":false},"sketch":{"always_export_binaries":false},"updater":{"enable_notification":true}}
+2023-10-17 08:11:20 2023-10-17T06:11:20.653Z config INFO 'directories.data' and 'directories.user' are set in the CLI configuration model.
+2023-10-17 08:11:20 2023-10-17T06:11:20.653Z config INFO Loaded the CLI configuration.
+2023-10-17 08:11:20 2023-10-17T06:11:20.663Z config INFO Mapped the CLI configuration: {"dataDirUri":"file:///home/comodino/.arduino15","sketchDirUri":"file:///home/comodino/Arduino","additionalUrls":["https://espressif.github.io/arduino-esp32/package_esp32_index.json"],"network":"none","locale":"en"}
+2023-10-17 08:11:20 2023-10-17T06:11:20.664Z config INFO Validating the CLI configuration...
+2023-10-17 08:11:20 2023-10-17T06:11:20.666Z config INFO The CLI config is valid.
+2023-10-17 08:11:20 2023-10-17T06:11:20.666Z config INFO <<< Initialized the CLI configuration.
+2023-10-17 08:11:20 2023-10-17T06:11:20.667Z daemon INFO time="2023-10-17T08:11:20+02:00" level=info msg="Using config file: /home/comodino/.arduinoIDE/arduino-cli.yaml"
+time="2023-10-17T08:11:20+02:00" level=info msg="arduino-cli version 0.34.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Executing `arduino-cli daemon`"
+2023-10-17 08:11:20 2023-10-17T06:11:20.674Z daemon INFO Daemon is now listening on 127.0.0.1:39085
+{"IP":"127.0.0.1","Port":"39085"}
+2023-10-17 08:11:20 2023-10-17T06:11:20.674Z daemon INFO Daemon is running.
+2023-10-17 08:11:20 2023-10-17T06:11:20.700Z root INFO Resolve plugins list: 66.3 ms [Finished 0.587 s after backend start]
+2023-10-17 08:11:20 2023-10-17T06:11:20.718Z daemon INFO time="2023-10-17T08:11:20+02:00" level=info msg="Checking signature" index=/home/comodino/.arduino15/package_index.json signatureFile=/home/comodino/.arduino15/package_index.json.sig trusted=true
+time="2023-10-17T08:11:20+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/package_esp32_index.json
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading hardware from: /home/comodino/.arduino15/packages"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading package arduino from: /home/comodino/.arduino15/packages/arduino/hardware"
+time="2023-10-17T08:11:20+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/packages/arduino/hardware/avr/1.8.6/installed.json
+time="2023-10-17T08:11:20+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded platform" platform="arduino:avr@1.8.6"
+time="2023-10-17T08:11:20+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded platform" platform="arduino:esp32@2.0.13"
+time="2023-10-17T08:11:20+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/arduino/tools"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/arduino/tools"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="arduino:arduinoOTA@1.3.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="arduino:avr-gcc@7.3.0-atmel3.6.1-arduino7"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="arduino:avrdude@6.3.0-arduino17"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="arduino:dfu-util@0.11.0-arduino5"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading package builtin from: /home/comodino/.arduino15/packages/builtin"
+time="2023-10-17T08:11:20+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/builtin/tools"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/builtin/tools"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="builtin:ctags@5.8-arduino11"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="builtin:dfu-discovery@0.1.2"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="builtin:mdns-discovery@1.0.9"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="builtin:serial-discovery@1.4.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="builtin:serial-monitor@0.13.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading package esp32 from: /home/comodino/.arduino15/packages/esp32/hardware"
+time="2023-10-17T08:11:20+02:00" level=info msg="Missing signature file" index=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/installed.json
+2023-10-17 08:11:20 2023-10-17T06:11:20.808Z daemon INFO time="2023-10-17T08:11:20+02:00" level=info msg="Adding monitor tool" protocol=serial tool="builtin:serial-monitor"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded platform" platform="esp32:esp32@2.0.14"
+time="2023-10-17T08:11:20+02:00" level=info msg="Checking existence of 'tools' path: /home/comodino/.arduino15/packages/esp32/tools"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading tools from dir: /home/comodino/.arduino15/packages/esp32/tools"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:esptool_py@4.5.1"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:mklittlefs@3.0.0-gnu12-dc7f933"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:mkspiffs@0.2.3"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.11.0-esp32-20221026"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:openocd-esp32@v0.12.0-esp32-20230419"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:riscv32-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp-elf-gdb@11.2_20220823"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s2-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Loaded tool" tool="esp32:xtensa-esp32s3-elf-gcc@esp-2021r2-patch5-8.4.0"
+time="2023-10-17T08:11:20+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/arduino/hardware/avr/1.8.6/libraries location=platform
+time="2023-10-17T08:11:20+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/arduino/hardware/esp32/2.0.13/libraries location=platform
+time="2023-10-17T08:11:20+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/packages/esp32/hardware/esp32/2.0.14/libraries location=platform
+time="2023-10-17T08:11:20+02:00" level=info msg="Loading libraries index file" index=/home/comodino/.arduino15/library_index.json
+2023-10-17 08:11:21 2023-10-17T06:11:21.016Z daemon INFO time="2023-10-17T08:11:20+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/.arduino15/libraries location=ide
+time="2023-10-17T08:11:20+02:00" level=info msg="Adding libraries dir" dir=/home/comodino/Arduino/libraries location=user
+2023-10-17 08:11:21 2023-10-17T06:11:21.037Z discovery-log INFO start request start watch
+2023-10-17 08:11:21 2023-10-17T06:11:21.037Z discovery-log INFO start requested start watch
+2023-10-17 08:11:21 2023-10-17T06:11:21.037Z discovery-log INFO start resolved watching
+2023-10-17 08:11:21 2023-10-17T06:11:21.080Z daemon INFO time="2023-10-17T08:11:21+02:00" level=info msg="starting discovery builtin:serial-discovery process"
+time="2023-10-17T08:11:21+02:00" level=info msg="starting discovery builtin:dfu-discovery process"
+time="2023-10-17T08:11:21+02:00" level=info msg="starting discovery builtin:mdns-discovery process"
+time="2023-10-17T08:11:21+02:00" level=info msg="started discovery builtin:serial-discovery process"
+time="2023-10-17T08:11:21+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:serial-discovery"
+time="2023-10-17T08:11:21+02:00" level=info msg="started discovery builtin:dfu-discovery process"
+time="2023-10-17T08:11:21+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:dfu-discovery"
+time="2023-10-17T08:11:21+02:00" level=info msg="started discovery builtin:mdns-discovery process"
+time="2023-10-17T08:11:21+02:00" level=info msg="sending command HELLO 1 \"arduino-cli 0.34.0\" to discovery builtin:mdns-discovery"
+time="2023-10-17T08:11:21+02:00" level=info msg="from discovery builtin:serial-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:11:21+02:00" level=info msg="sending command START_SYNC to discovery builtin:serial-discovery"
+time="2023-10-17T08:11:21+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:11:21+02:00" level=info msg="sending command START_SYNC to discovery builtin:mdns-discovery"
+time="2023-10-17T08:11:21+02:00" level=info msg="from discovery builtin:serial-discovery received message type: start_sync, message: OK"
+time="2023-10-17T08:11:21+02:00" level=info msg="from discovery builtin:mdns-discovery received message type: start_sync, message: OK"
+time="2023-10-17T08:11:21+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: hello, message: OK, protocol version: 1"
+time="2023-10-17T08:11:21+02:00" level=info msg="sending command START_SYNC to discovery builtin:dfu-discovery"
+time="2023-10-17T08:11:21+02:00" level=info msg="from discovery builtin:dfu-discovery received message type: start_sync, message: OK"
+2023-10-17 08:11:21 2023-10-17T06:11:21.477Z root INFO Deploy plugins list: 66.3 ms [Finished 1.365 s after backend start]
+2023-10-17 08:11:22 2023-10-17T06:11:22.220Z root WARN Frontend a.configure took longer than the expected maximum 100 milliseconds: 216.9 ms [Finished 1.501 s after frontend start]
+2023-10-17 08:11:22 2023-10-17T06:11:22.222Z root WARN A command editor.action.toggleStickyScroll is already registered.
+2023-10-17 08:11:22 2023-10-17T06:11:22.223Z root ERROR Error: node-loader:
+Error: libxkbfile.so.1: cannot open shared object file: No such file or directory
+    at 82973 (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:7060)
+    at __webpack_require__ (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:6742209)
+    at r._init (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458313)
+    at r.getCurrentKeyboardLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458512)
+    at t.getCurrentKeyboardLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458919)
+    at a.getNativeLayoutSync (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130751)
+    at a.getNativeLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130692)
+    at u.onRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082913)
+    at c.requestHandler (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082732)
+    at c.handleRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1073797)
+2023-10-17 08:11:22 2023-10-17T06:11:22.223Z root ERROR TypeError: Cannot read properties of null (reading 'getKeyMap')
+    at r.getKeyMap (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458398)
+    at t.getKeyMap (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:3458979)
+    at a.getNativeLayoutSync (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130788)
+    at a.getNativeLayout (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1130692)
+    at u.onRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082913)
+    at c.requestHandler (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1082732)
+    at c.handleRequest (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1073797)
+    at c.handleMessage (/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1072048)
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1071621
+    at /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/main.js:2:1039194
+2023-10-17 08:11:22 2023-10-17T06:11:22.386Z root INFO Start frontend contributions: 457.4 ms [Finished 1.667 s after frontend start]
+2023-10-17 08:11:22 2023-10-17T06:11:22.387Z root INFO Changed application state from 'init' to 'started_contributions'.
+2023-10-17 08:11:22 2023-10-17T06:11:22.398Z root INFO Changed application state from 'started_contributions' to 'attached_shell'.
+2023-10-17 08:11:22 2023-10-17T06:11:22.398Z root INFO >>> Restoring the layout state...
+2023-10-17 08:11:22 2023-10-17T06:11:22.399Z root INFO <<< Nothing to restore.
+2023-10-17 08:11:22 2023-10-17T06:11:22.427Z root INFO Initialize the workbench layout: 22.5 ms [Finished 1.726 s after frontend start]
+2023-10-17 08:11:22 2023-10-17T06:11:22.441Z root INFO Changed application state from 'attached_shell' to 'initialized_layout'.
+2023-10-17 08:11:22 2023-10-17T06:11:22.473Z root INFO [d5ddde6d-5a38-4561-8214-64adeabd1c8e] Waiting for backend deployment: 117.8 ms [Finished 1.776 s after frontend start]
+2023-10-17 08:11:23 2023-10-17T06:11:23.011Z root ERROR Request initAuthSession failed with error: The name org.freedesktop.secrets was not provided by any .service files Error: The name org.freedesktop.secrets was not provided by any .service files
+2023-10-17 08:11:23 2023-10-17T06:11:23.023Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162) starting instance
+2023-10-17 08:11:23 2023-10-17T06:11:23.526Z root INFO [d5ddde6d-5a38-4561-8214-64adeabd1c8e] Sync of 23 plugins: 1021.0 ms [Finished 2.797 s after frontend start]
+2023-10-17 08:11:23 2023-10-17T06:11:23.528Z root INFO [d5ddde6d-5a38-4561-8214-64adeabd1c8e] Loading plugin contributions
+2023-10-17 08:11:23 2023-10-17T06:11:23.528Z root INFO [d5ddde6d-5a38-4561-8214-64adeabd1c8e] Load contributions of 23 plugins: 32.9 ms [Finished 2.830 s after frontend start]
+2023-10-17 08:11:23 2023-10-17T06:11:23.660Z root WARN 'cpp' language is remapped from 'source.cpp.embedded.macro' to 'source.cpp' scope
+2023-10-17 08:11:23 2023-10-17T06:11:23.660Z root WARN a registered grammar configuration for 'cpp' language is overridden
+2023-10-17 08:11:24 2023-10-17T06:11:24.151Z root INFO Replace loading indicator with ready workbench UI (animation): 1229.6 ms [Finished 2.978 s after frontend start]
+2023-10-17 08:11:24 2023-10-17T06:11:24.153Z root INFO Changed application state from 'initialized_layout' to 'ready'.
+2023-10-17 08:11:24 2023-10-17T06:11:24.154Z root WARN Linked preference "workbench.colorCustomizations" not found. Source: "editor.bracketPairColorization.enabled"
+2023-10-17 08:11:24 2023-10-17T06:11:24.164Z root INFO Frontend application start: 1921.5 ms [Finished 3.997 s after backend start]
+2023-10-17 08:11:24 2023-10-17T06:11:24.789Z root ERROR ---- !!!SLOW!!! DURATION: search took 475.805 ms. Args: [{"type":"Updatable"}] ----
+2023-10-17 08:11:24 2023-10-17T06:11:24.997Z root ERROR [hosted-plugin: 162] Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.linux as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.osx as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.armToolchainPath.windows as cortex-debug.armToolchainPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.linux as cortex-debug.JLinkGDBServerPath is null
+2023-10-17 08:11:24 2023-10-17T06:11:24.998Z root ERROR [hosted-plugin: 162] Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.osx as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.JLinkGDBServerPath.windows as cortex-debug.JLinkGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.linux as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.osx as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.openocdPath.windows as cortex-debug.openocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.linux as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.osx as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.pyocdPath.windows as cortex-debug.pyocdPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.linux as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.osx as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.PEGDBServerPath.windows as cortex-debug.PEGDBServerPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.linux as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stutilPath.osx as cortex-debug.stutilPath is null
+2023-10-17 08:11:24 2023-10-17T06:11:24.998Z root ERROR [hosted-plugin: 162] Conflict in settings file Default: Ignoring cortex-debug.stutilPath.windows as cortex-debug.stutilPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.linux as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.osx as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stlinkPath.windows as cortex-debug.stlinkPath is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.linux as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.osx as cortex-debug.stm32cubeprogrammer is null
+Conflict in settings file Default: Ignoring cortex-debug.stm32cubeprogrammer.windows as cortex-debug.stm32cubeprogrammer is null
+2023-10-17 08:11:25 2023-10-17T06:11:25.012Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): PluginManagerExtImpl/init()
+2023-10-17 08:11:25 2023-10-17T06:11:25.014Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-arduino-api@0.1.2 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.073Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(cortex-debug@1.5.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.073Z root INFO [hosted-plugin: 162] Debugger contribution has been registered: cortex-debug
+2023-10-17 08:11:25 2023-10-17T06:11:25.074Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-arduino-tools@0.0.2-beta.8 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.075Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(cpp@1.52.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.075Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(json@1.46.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.076Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(json-language-features@1.46.1 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.077Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-bg@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.078Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-cs@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.079Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-de@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.080Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-es@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.081Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-fr@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.082Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-hu@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.082Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-it@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.083Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-ja@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.083Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-ko@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.084Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-nl@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.084Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-pl@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.085Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-pt-BR@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.086Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-ru@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.086Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-tr@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.087Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-uk@1.48.3 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.087Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-zh-hans@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.088Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): initializing(vscode-language-pack-zh-hant@1.78.0 with /home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/lib/backend/plugin-vscode-init)
+2023-10-17 08:11:25 2023-10-17T06:11:25.093Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-arduino-api/extension/dist/extension.js)
+2023-10-17 08:11:25 2023-10-17T06:11:25.099Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/vscode-builtin-json-language-features/extension/client/dist/jsonMain)
+2023-10-17 08:11:25 2023-10-17T06:11:25.133Z root INFO [d5ddde6d-5a38-4561-8214-64adeabd1c8e] Starting plugins.
+2023-10-17 08:11:25 2023-10-17T06:11:25.157Z root INFO [hosted-plugin: 162] PLUGIN_HOST(162): PluginManagerExtImpl/loadPlugin(/home/comodino/.cache/appimage-run/60bb59682d70e02ab3b1ebcecb66d07193c85cbc5277ad8e9577b2f1f7ff1a47/resources/app/plugins/cortex-debug/extension/dist/extension.js)
+2023-10-17 08:11:25 2023-10-17T06:11:25.188Z root INFO [hosted-plugin: 162] Debug configuration provider has been registered: cortex-debug, trigger: 1
+2023-10-17 08:11:25 2023-10-17T06:11:25.190Z root INFO [hosted-plugin: 162] GDB server console created
+2023-10-17 08:11:25 2023-10-17T06:11:25.196Z root INFO [d5ddde6d-5a38-4561-8214-64adeabd1c8e] Start of 23 plugins: 1653.5 ms [Finished 4.502 s after frontend start]
+2023-10-17 08:11:27 2023-10-17T06:11:27.838Z root ERROR ---- !!!SLOW!!! DURATION: search took 267.395 ms. Args: [{"query":"","type":"All","topic":"All"}] ----
+2023-10-17 08:11:29 2023-10-17T06:11:29.907Z root ERROR ---- !!!SLOW!!! DURATION: search took 263.051 ms. Args: [{"query":"T","type":"All","topic":"All"}] ----
+2023-10-17 08:11:31 2023-10-17T06:11:31.405Z root ERROR ---- !!!SLOW!!! DURATION: search took 244.483 ms. Args: [{"query":"","type":"All","topic":"All"}] ----
+2023-10-17 08:11:33 2023-10-17T06:11:33.682Z root INFO ---- DURATION: search took 79.868 ms. Args: [{"query":"Universal","type":"All","topic":"All"}] ----
+2023-10-17 08:11:36 2023-10-17T06:11:36.744Z root INFO ---- DURATION: search took 75.340 ms. Args: [{"query":"UniversalTelegramBot","type":"All","topic":"All"}] ----
+2023-10-17 08:11:46 2023-10-17T06:11:46.932Z root INFO ---- DURATION: search took 89.161 ms. Args: [{"query":"Wif","type":"All","topic":"All"}] ----
+2023-10-17 08:11:48 2023-10-17T06:11:48.643Z root INFO ---- DURATION: search took 99.886 ms. Args: [{"query":"WiFi","type":"All","topic":"All"}] ----
+2023-10-17 08:11:50 2023-10-17T06:11:50.342Z root INFO ---- DURATION: search took 83.773 ms. Args: [{"query":"WiFiClient","type":"All","topic":"All"}] ----
+2023-10-17 08:11:52 2023-10-17T06:11:52.168Z root INFO ---- DURATION: search took 74.071 ms. Args: [{"query":"WiFiClientSe","type":"All","topic":"All"}] ----
+2023-10-17 08:11:53 2023-10-17T06:11:53.441Z root INFO ---- DURATION: search took 76.314 ms. Args: [{"query":"WiFiClientSecure","type":"All","topic":"All"}] ----
+2023-10-17 08:11:54 2023-10-17T06:11:54.824Z root INFO ---- DURATION: search took 72.841 ms. Args: [{"query":"WiFiClientSecur","type":"All","topic":"All"}] ----
+2023-10-17 08:11:56 2023-10-17T06:11:56.339Z root ERROR ---- !!!SLOW!!! DURATION: search took 397.622 ms. Args: [{"query":"","type":"All","topic":"All"}] ----
+2023-10-17 08:12:00 2023-10-17T06:12:00.486Z root INFO ---- DURATION: search took 74.051 ms. Args: [{"query":"ArduinoJson","type":"All","topic":"All"}] ----

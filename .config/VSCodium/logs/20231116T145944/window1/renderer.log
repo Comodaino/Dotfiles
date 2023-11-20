@@ -1,0 +1,19 @@
+2023-11-16 14:59:45.072 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-16 14:59:47.913 [error] s.actions is not iterable: TypeError: s.actions is not iterable
+    at e.CodeActionsContribution.getSourceActions (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:18168)
+    at e.CodeActionsContribution.updateConfigurationSchema (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:17855)
+    at f._handler (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:17563)
+    at f._handle (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1517:2397)
+    at f.setHandler (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1517:2220)
+    at new e.CodeActionsContribution (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:17489)
+    at d._createInstance (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:619:1522)
+    at d.createInstance (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:619:947)
+    at new o (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1558:4955)
+    at d._createInstance (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:619:1522)
+    at d.createInstance (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:619:947)
+    at w.safeCreateContribution (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1556:91765)
+    at h (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1556:91462)
+2023-11-16 14:59:48.524 [info] [perf] Render performance baseline is 29ms
+2023-11-16 15:02:27.738 [warning] Settings pattern "security.*" doesn't match any settings
+2023-11-16 15:02:27.739 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: interactiveEditor.editMode, accessibility.verbosity.diff-editor, accessibility.verbosity.terminal
+2023-11-16 15:03:16.797 [warning] Settings pattern "security.*" doesn't match any settings

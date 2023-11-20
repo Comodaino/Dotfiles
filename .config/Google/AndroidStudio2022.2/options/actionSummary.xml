@@ -1,0 +1,46 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="Android.DeviceManager">
+      <i c="3" l="1698678879037" />
+    </e>
+    <e n="Android.RunAndroidSdkManager">
+      <i c="2" l="1698743592080" />
+    </e>
+    <e n="AttachDebuggerAction">
+      <i c="2" l="1698678856901" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1698743599668" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1698678393670" />
+    </e>
+    <e n="Run">
+      <i c="2" l="1698678883060" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1698678398433" />
+    </e>
+    <e n="Stop">
+      <i c="2" l="1698678873745" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="2" l="1698678310664" />
+    </e>
+    <e n="com.android.tools.idea.streaming.StreamingToolWindowFactory$init$1">
+      <i c="1" l="1698678776560" />
+    </e>
+    <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
+      <i c="1" l="1698678401039" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1698678890088" />
+    </e>
+    <e n="flutter.NewProject">
+      <i c="1" l="1698678526999" />
+    </e>
+    <e n="io.flutter.actions.DeviceSelectorAction$SelectDeviceAction">
+      <i c="2" l="1698678881788" />
+    </e>
+  </component>
+</application>

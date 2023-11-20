@@ -1,6 +1,6 @@
 [Desktop Entry]
 Icon=/home/comodino/.local/share/JetBrains/Toolbox/toolbox.svg
-Exec=/nix/store/41lyl4jsshray1z6jxhwkqmfj2n4hgdj-jetbrains-toolbox-extracted/jetbrains-toolbox --minimize
+Exec=/nix/store/dc706xz4pfwism2jv1n8kwcbsf6pbhjh-jetbrains-toolbox-extracted/jetbrains-toolbox --minimize
 Version=1.0
 Type=Application
 Categories=Development

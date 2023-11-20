@@ -1,0 +1,203 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="jbr-17" />
+      <type value="JavaSDK" />
+      <version value="JetBrains Runtime version 17.0.6" />
+      <homePath value="$APPLICATION_HOME_DIR$/jbr" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.base" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.compiler" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.datatransfer" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.desktop" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.instrument" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.logging" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.management" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.management.rmi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.naming" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.net.http" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.prefs" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.rmi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.scripting" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.se" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.security.jgss" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.security.sasl" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.smartcardio" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.sql" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.sql.rowset" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.transaction.xa" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.xml" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.xml.crypto" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.accessibility" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.attach" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.charsets" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.compiler" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.dynalink" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.httpserver" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.le" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jartool" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.javadoc" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jcmd" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jdeps" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jdi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jfr" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jlink" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jsobject" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.localedata" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.management" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.management.agent" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.net" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.sctp" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.security.auth" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.unsupported" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite">
+            <root url="https://docs.oracle.com/en/java/javase/17/docs/api/" type="simple" />
+          </root>
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+    <jdk version="2">
+      <name value="Android API 34, extension level 7 Platform" />
+      <type value="Android SDK" />
+      <homePath value="$USER_HOME$/Android/Sdk" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Android/Sdk/platforms/android-34/data/annotations.zip!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jar://$USER_HOME$/Android/Sdk/platforms/android-34/android.jar!/" type="simple" />
+            <root url="file://$USER_HOME$/Android/Sdk/platforms/android-34/data/res" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/Android/Sdk/sources/android-34" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional jdk="jbr-17" sdk="android-34" />
+    </jdk>
+    <jdk version="2">
+      <name value="Android Studio default JDK" />
+      <type value="JavaSDK" />
+      <version value="JetBrains Runtime version 17.0.6" />
+      <homePath value="$APPLICATION_HOME_DIR$/jbr" />
+      <roots>
+        <annotationsPath>
+          <root type="composite">
+            <root url="jar://$APPLICATION_HOME_DIR$/plugins/java/lib/resources/jdkAnnotations.jar!/" type="simple" />
+          </root>
+        </annotationsPath>
+        <classPath>
+          <root type="composite">
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.base" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.compiler" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.datatransfer" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.desktop" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.instrument" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.logging" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.management" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.management.rmi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.naming" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.net.http" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.prefs" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.rmi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.scripting" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.se" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.security.jgss" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.security.sasl" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.smartcardio" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.sql" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.sql.rowset" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.transaction.xa" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.xml" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/java.xml.crypto" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.accessibility" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.attach" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.charsets" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.compiler" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.crypto.cryptoki" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.crypto.ec" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.dynalink" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.hotspot.agent" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.httpserver" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.ed" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.jvmstat" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.le" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.opt" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.vm.ci" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.vm.compiler" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.internal.vm.compiler.management" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jartool" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.javadoc" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jcmd" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jdeps" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jdi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jdwp.agent" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jfr" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jlink" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.jsobject" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.localedata" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.management" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.management.agent" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.management.jfr" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.naming.dns" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.naming.rmi" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.net" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.sctp" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.security.auth" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.security.jgss" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.unsupported" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.unsupported.desktop" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.xml.dom" type="simple" />
+            <root url="jrt:///nix/store/yr5ppk2sqnigvkb73y3g9wx5466iakrv-android-studio-stable-2022.2.1.19-unwrapped/jbr!/jdk.zipfs" type="simple" />
+          </root>
+        </classPath>
+        <javadocPath>
+          <root type="composite" />
+        </javadocPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional />
+    </jdk>
+  </component>
+</application>

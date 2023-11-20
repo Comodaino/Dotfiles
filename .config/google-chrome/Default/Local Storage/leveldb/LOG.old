@@ -1,0 +1,8 @@
+2023/10/03-12:28:41.692 3 Reusing MANIFEST /home/comodino/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2023/10/03-12:28:41.693 3 Recovering log #8
+2023/10/03-12:28:41.693 3 Level-0 table #11: started
+2023/10/03-12:28:41.699 3 Level-0 table #11: 23584 bytes OK
+2023/10/03-12:28:41.700 3 Recovering log #11
+2023/10/03-12:28:41.701 3 Reusing old log /home/comodino/.config/google-chrome/Default/Local Storage/leveldb/000011.log 
+2023/10/03-12:28:41.708 3 Delete type=2 #12
+2023/10/03-12:28:41.708 3 Delete type=0 #8

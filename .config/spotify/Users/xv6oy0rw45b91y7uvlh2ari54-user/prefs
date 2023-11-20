@@ -1,2 +1,4 @@
 audio.play_bitrate_non_metered_migrated=true
-app.player.volume=40166
+ui.hide_hpto=true
+ui.right_panel_content=0
+app.player.volume=50032

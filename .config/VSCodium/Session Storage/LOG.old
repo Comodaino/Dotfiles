@@ -1,2 +1,3 @@
-2023/09/20-10:43:19.538 88e3 Creating DB /home/comodino/.config/VSCodium/Session Storage since it was missing.
-2023/09/20-10:43:19.552 88e3 Reusing MANIFEST /home/comodino/.config/VSCodium/Session Storage/MANIFEST-000001
+2023/11/16-14:59:41.883 197d6 Reusing MANIFEST /home/comodino/.config/VSCodium/Session Storage/MANIFEST-000001
+2023/11/16-14:59:41.883 197d6 Recovering log #3
+2023/11/16-14:59:41.884 197d6 Reusing old log /home/comodino/.config/VSCodium/Session Storage/000003.log 

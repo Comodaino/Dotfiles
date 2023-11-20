@@ -1,7 +1,13 @@
-2023/09/13-08:29:47.878 85f Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_campus-rover.gitbook.io_0.indexeddb.leveldb since it was missing.
-2023/09/13-08:29:47.890 85f Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_campus-rover.gitbook.io_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/13-08:29:48.209 86c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
-2023/09/13-08:32:23.180 860 Level-0 table #5: started
-2023/09/13-08:32:23.184 860 Level-0 table #5: 4956 bytes OK
-2023/09/13-08:32:23.190 860 Delete type=0 #3
-2023/09/13-08:32:23.190 860 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/28-13:47:26.964 1b40 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_campus-rover.gitbook.io_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/28-13:47:26.964 1b40 Recovering log #7
+2023/10/28-13:47:26.965 1b40 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_campus-rover.gitbook.io_0.indexeddb.leveldb/000007.log 
+2023/10/28-13:47:27.500 1b44 Level-0 table #11: started
+2023/10/28-13:47:27.504 1b44 Level-0 table #11: 3007 bytes OK
+2023/10/28-13:47:27.511 1b44 Delete type=0 #7
+2023/10/28-13:47:27.512 1b40 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at '\x00\x07\x00\x00\x05' @ 321 : 1
+2023/10/28-13:47:27.512 1b40 Compacting 1@0 + 1@1 files
+2023/10/28-13:47:27.516 1b40 Generated table #12@0: 36 keys, 1880 bytes
+2023/10/28-13:47:27.516 1b40 Compacted 1@0 + 1@1 files => 1880 bytes
+2023/10/28-13:47:27.522 1b40 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/10/28-13:47:27.523 1b40 Delete type=2 #11
+2023/10/28-13:47:27.523 1b40 Manual compaction at level-0 from '\x00\x07\x00\x00\x05' @ 321 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

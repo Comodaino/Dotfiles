@@ -1,0 +1,36 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/MyApplication">
+          <value>
+            <RecentProjectMetaInfo frameTitle="My Application – ~/AndroidStudioProjects/MyApplication/app/src/main/java/com/example/myapplication/MainActivity.kt" projectWorkspaceId="2XUKicNGt9FARhNgXNwOTMYihI8">
+              <option name="activationTimestamp" value="1698678677413" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-222.4459.24.2221.9971841" />
+              <option name="buildTimestamp" value="1681926702846" />
+              <frame x="12" y="46" width="941" height="1022" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1698678347200" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AndroidStudioProjects/mtg_counter">
+          <value>
+            <RecentProjectMetaInfo frameTitle="mtg_counter – /nix/store/klg0j43fggxncjl4fj8dsikcncw2acys-flutter-3.13.4-unwrapped/bin/cache/dart-sdk/lib/core/core.dart" opened="true" projectWorkspaceId="2XULLWETJqZyndqDXPbXXJpL70r">
+              <option name="activationTimestamp" value="1698743601644" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-222.4459.24.2221.9971841" />
+              <option name="buildTimestamp" value="1681926688562" />
+              <frame x="12" y="564" width="941" height="504" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1698678678139" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/AndroidStudioProjects/mtg_counter" />
+    <option name="lastProjectLocation" value="$USER_HOME$/AndroidStudioProjects" />
+  </component>
+</application>

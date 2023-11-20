@@ -1,40 +1,85 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Redo">
+      <i c="5" l="1700233987243" />
+    </e>
+    <e n="$SelectAll">
+      <i c="35" l="1700237443565" />
+    </e>
+    <e n="$Undo">
+      <i c="34" l="1700237333373" />
+    </e>
+    <e n="CPP.NewHeaderFile">
+      <i c="1" l="1696427447060" />
+    </e>
     <e n="EditorBackSpace">
-      <i c="22" l="1695107239090" />
+      <i c="457" l="1700237441807" />
     </e>
     <e n="EditorChooseLookupItemReplace">
       <i c="1" l="1695107151153" />
     </e>
     <e n="EditorCopy">
-      <i c="2" l="1695107287486" />
+      <i c="84" l="1700237444017" />
+    </e>
+    <e n="EditorCut">
+      <i c="23" l="1700237258874" />
     </e>
     <e n="EditorDown">
-      <i c="1" l="1694590453748" />
+      <i c="15" l="1700237118518" />
     </e>
     <e n="EditorEnter">
-      <i c="13" l="1695107282941" />
+      <i c="143" l="1700237264162" />
     </e>
     <e n="EditorEscape">
-      <i c="1" l="1694590450947" />
+      <i c="3" l="1696860190110" />
     </e>
     <e n="EditorLeft">
-      <i c="51" l="1695107229691" />
+      <i c="154" l="1700237441572" />
+    </e>
+    <e n="EditorPaste">
+      <i c="116" l="1700237440883" />
+    </e>
+    <e n="EditorPasteFromX11">
+      <i c="1" l="1696418486284" />
     </e>
     <e n="EditorRight">
-      <i c="10" l="1695107214369" />
+      <i c="112" l="1700237118974" />
     </e>
     <e n="EditorStartNewLine">
       <i c="1" l="1695107200886" />
     </e>
+    <e n="EditorTab">
+      <i c="3" l="1700236110850" />
+    </e>
+    <e n="EditorTabsEntryPoint">
+      <i c="1" l="1700218239454" />
+    </e>
     <e n="EditorUp">
-      <i c="1" l="1695107102011" />
+      <i c="15" l="1696860356738" />
+    </e>
+    <e n="Find">
+      <i c="6" l="1697723548863" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="1" l="1696860148071" />
+    </e>
+    <e n="OpenFile">
+      <i c="2" l="1700233838830" />
+    </e>
+    <e n="ReformatCode">
+      <i c="6" l="1697711740463" />
+    </e>
+    <e n="RenameElement">
+      <i c="1" l="1696427688165" />
     </e>
     <e n="Run">
       <i c="1" l="1694590436510" />
     </e>
     <e n="SaveAll">
-      <i c="8" l="1695107298095" />
+      <i c="91" l="1700237264896" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="2" l="1700218243603" />
     </e>
     <e n="ShowIntentionActions">
       <i c="1" l="1694590430894" />
@@ -44,6 +89,33 @@
     </e>
     <e n="com.intellij.codeInsight.daemon.impl.DaemonTooltipWithActionRenderer$addActionsRow$2">
       <i c="1" l="1695107220433" />
+    </e>
+    <e n="com.intellij.find.SearchReplaceComponent$CloseAction">
+      <i c="1" l="1697182459428" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="11" l="1697182457154" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.SelectAllAction">
+      <i c="1" l="1696860772541" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.ToggleSelectionOnlyAction">
+      <i c="2" l="1696860770830" />
+    </e>
+    <e n="com.intellij.ide.actions.SettingsEntryPointAction$1">
+      <i c="2" l="1700218245276" />
+    </e>
+    <e n="com.intellij.ide.plugins.newui.PluginsTab$3$1">
+      <i c="1" l="1698502141687" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1700233837092" />
+    </e>
+    <e n="com.intellij.space.vcs.actions.SpaceMainToolBarAction">
+      <i c="2" l="1700218242583" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1700233940074" />
     </e>
   </component>
 </application>

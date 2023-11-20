@@ -11,6 +11,7 @@
     ./packages.nix
     ./home.nix
     ./custompkgs/default.nix
+    ./pulseaudio.nix
   ];
 # Bootloader.
 boot = {
@@ -23,10 +24,24 @@ boot = {
   };
 };
 
-  security.pam.services.swaylock = {};
 
-  networking.hostName = "aLittleComfortable"; # Define your hostname.
-  networking.networkmanager.enable = true;
+virtualisation.docker.enable = true;
+virtualisation.docker.rootless = {
+  enable = true;
+  setSocketVariable = true;
+};
+
+
+programs.steam = {
+  enable = true;
+  remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+  dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+};
+
+security.pam.services.swaylock = {};
+
+networking.hostName = "aLittleComfortable"; # Define your hostname.
+networking.networkmanager.enable = true;
 #networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -46,7 +61,7 @@ boot = {
   users.defaultUserShell = pkgs.fish;
   environment.interactiveShellInit = ''
   alias c = 'clear & sl & clear & ~/.config/bin/diyfetch'
-'';
+  '';
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "it_IT.UTF-8";
     LC_IDENTIFICATION = "it_IT.UTF-8";
@@ -72,8 +87,21 @@ boot = {
   users.users.comodino = {
     isNormalUser = true;
     description = "Alessio Spineto";
-    extraGroups = [ "networkmanager" "wheel" "input" "video" "libvirtd"  ];
+    extraGroups = [ "networkmanager" "wheel" "input" "video" "libvirtd" "dialout" "docker"];
   };
+
+  environment.etc = {
+	"wireplumber/bluetooth.lua.d/51-bluez-config.lua".text = ''
+		bluez_monitor.properties = {
+			["bluez5.enable-sbc-xq"] = true,
+			["bluez5.enable-msbc"] = true,
+			["bluez5.enable-hw-volume"] = true,
+			["bluez5.headset-roles"] = "[ hsp_hs hsp_ag hfp_hf hfp_ag ]"
+		}
+	'';
+}
+;
+
 
   # started in user sessions.
   # programs.mtr.enable = true;

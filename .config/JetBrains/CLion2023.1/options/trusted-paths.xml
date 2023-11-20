@@ -2,6 +2,8 @@
   <component name="Trusted.Paths">
     <option name="TRUSTED_PROJECT_PATHS">
       <map>
+        <entry key="$USER_HOME$/LilyGo-LoRa-Series/examples/ArduinoLoRa/LoRaSender" value="true" />
+        <entry key="$USER_HOME$/arduino_third_day" value="true" />
         <entry key="$USER_HOME$/sl" value="true" />
       </map>
     </option>

@@ -27,6 +27,7 @@
     background-color: @background;
     background-image: url("/home/leo/Pictures/Wallpapers/Rick_Astley-1600x1069 (1).jpg", both);
     border-color: @bordercolor;
+    border-radius: 7px;
 }
 #listview {
     border-color: @separatorcolor;

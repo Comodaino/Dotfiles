@@ -2,11 +2,13 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///home/comodino/labFOR": "__default__profile__"
+            "file:///home/comodino/labFOR": "__default__profile__",
+            "file:///home/comodino/flutter_projects/mtg_counter": "__default__profile__",
+            "file:///home/comodino/programming_languages": "__default__profile__",
+            "file:///home/comodino/progetto-lora": "__default__profile__",
+            "file:///home/comodino/progetto_lora": "__default__profile__"
         },
-        "emptyWindows": {
-            "1695199473679": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "e33b317c398a8ea5a308082b44c9c29c96aa78af248c423f5f92b39e004f7c4e",
@@ -15,13 +17,12 @@
         "folders": [
             {
                 "folderUri": "file:///home/comodino/labFOR"
+            },
+            {
+                "folderUri": "file:///home/comodino/progetto_lora"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1695199473679"
-            }
-        ]
+        "emptyWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -61,10 +62,44 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/progetto_lora",
+                                        "path": "/home/comodino/progetto_lora",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/progetto_lora"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/programming_languages",
+                                        "path": "/home/comodino/programming_languages",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/programming_languages"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/flutter_projects/mtg_counter",
+                                        "path": "/home/comodino/flutter_projects/mtg_counter",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/flutter_projects/mtg_counter"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -79,6 +114,61 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/Downloads/Telegram%20Desktop/PrusaSlicer_config_bundle%20%283%29.ini",
+                                        "path": "/home/comodino/Downloads/Telegram Desktop/PrusaSlicer_config_bundle (3).ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Telegram Desktop/PrusaSlicer_config_bundle (3).ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/Downloads/Telegram%20Desktop/PrusaSlicer_config_bundle%20%282%29.ini",
+                                        "path": "/home/comodino/Downloads/Telegram Desktop/PrusaSlicer_config_bundle (2).ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Telegram Desktop/PrusaSlicer_config_bundle (2).ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/Downloads/Telegram%20Desktop/PrusaSlicer_config_bundle.ini",
+                                        "path": "/home/comodino/Downloads/Telegram Desktop/PrusaSlicer_config_bundle.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Telegram Desktop/PrusaSlicer_config_bundle.ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/Downloads/Telegram%20Desktop/connection.scad",
+                                        "path": "/home/comodino/Downloads/Telegram Desktop/connection.scad",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Telegram Desktop/connection.scad"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/comodino/intro/slides/markdown.md",
+                                        "path": "/home/comodino/intro/slides/markdown.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/intro/slides/markdown.md"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -136,7 +226,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -610,6 +701,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -675,10 +773,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -702,8 +796,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     },
                     {
                         "id": "editor.action.toggleStickyScroll",
@@ -1385,6 +1478,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+\\"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1631,13 +1729,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/comodino/labFOR",
-            "backupPath": "/home/comodino/.config/VSCodium/Backups/7ac525391448ff762254716f60a7be1c",
+            "folder": "file:///home/comodino/progetto_lora",
+            "backupPath": "/home/comodino/.config/VSCodium/Backups/5fa063b2c51b9d4d23591796798df707",
             "uiState": {
                 "mode": 1,
                 "x": 12,
                 "y": 46,
-                "width": 941,
+                "width": 1896,
                 "height": 1022
             }
         },

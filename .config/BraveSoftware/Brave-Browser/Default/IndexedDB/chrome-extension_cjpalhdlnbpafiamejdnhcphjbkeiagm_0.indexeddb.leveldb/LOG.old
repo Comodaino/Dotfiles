@@ -1,0 +1,6 @@
+2023/10/18-10:17:52.530 874 Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb since it was missing.
+2023/10/18-10:17:52.541 874 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/18-10:17:54.791 875 Level-0 table #5: started
+2023/10/18-10:17:54.795 875 Level-0 table #5: 243 bytes OK
+2023/10/18-10:17:54.801 875 Delete type=0 #3
+2023/10/18-10:17:54.802 875 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

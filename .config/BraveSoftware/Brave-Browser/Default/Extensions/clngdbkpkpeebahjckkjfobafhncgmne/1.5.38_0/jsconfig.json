@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "/*": ["./*"]
+    }
+  },
+  "exclude": ["node_modules"],
+  "typeAcquisition": {
+    "include": ["./types.d.ts"]
+  }
+}

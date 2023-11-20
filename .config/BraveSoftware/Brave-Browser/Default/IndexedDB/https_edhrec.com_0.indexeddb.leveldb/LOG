@@ -1,7 +1,15 @@
-2023/09/19-10:14:23.757 89e Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_edhrec.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/19-10:14:23.757 89e Recovering log #3
-2023/09/19-10:14:23.757 89e Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_edhrec.com_0.indexeddb.leveldb/000003.log 
-2023/09/19-10:18:10.033 89f Level-0 table #5: started
-2023/09/19-10:18:10.037 89f Level-0 table #5: 1386 bytes OK
-2023/09/19-10:18:10.044 89f Delete type=0 #3
-2023/09/19-10:18:10.044 89f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/09-13:24:19.863 8de Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_edhrec.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/09-13:24:19.864 8de Recovering log #7
+2023/11/09-13:24:19.864 8de Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_edhrec.com_0.indexeddb.leveldb/000007.log 
+2023/11/10-10:02:38.650 8de Level-0 table #12: started
+2023/11/10-10:02:38.655 8de Level-0 table #12: 636 bytes OK
+2023/11/10-10:02:38.662 8de Delete type=0 #7
+2023/11/10-10:02:38.662 8de Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/10-10:02:38.662 8de Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 138 : 1
+2023/11/10-10:02:38.662 8de Compacting 1@1 + 1@2 files
+2023/11/10-10:02:38.666 8de Generated table #13@1: 19 keys, 554 bytes
+2023/11/10-10:02:38.666 8de Compacted 1@1 + 1@2 files => 554 bytes
+2023/11/10-10:02:38.672 8de compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/10-10:02:38.672 8de Delete type=2 #12
+2023/11/10-10:02:38.672 8de Delete type=2 #9
+2023/11/10-10:02:38.673 8de Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00_\x00_\x00s\x00a\x00k' @ 138 : 1 .. (end); will stop at (end)

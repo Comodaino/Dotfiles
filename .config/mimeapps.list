@@ -4,10 +4,16 @@ x-scheme-handler/mailto=userapp-Thunderbird-0XWEB2.desktop
 message/rfc822=userapp-Thunderbird-0XWEB2.desktop
 x-scheme-handler/mid=userapp-Thunderbird-0XWEB2.desktop
 x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
 
 [Added Associations]
-application/zip=feh.desktop;thunar.desktop;
+application/zip=f3d-plugin-native.desktop;f3d.desktop;feh.desktop;thunar.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-0XWEB2.desktop;
 x-scheme-handler/mid=userapp-Thunderbird-0XWEB2.desktop;
 image/png=feh.desktop;
 application/x-ipynb+json=codium.desktop;nvim.desktop;
+application/pdf=brave-browser.desktop;org.pwmt.zathura-pdf-mupdf.desktop;

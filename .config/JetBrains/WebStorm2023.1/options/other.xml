@@ -1,0 +1,49 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
+    "FindSplitterProportion": "0.51497585",
+    "GeneralSettings.initiallyConfigured": "true",
+    "Markdown Split EditorLayout": "Editor only",
+    "MarketplacePluginsSearchHistory": "/tag:Theme cat\n/tag:Theme\nca/tag:Theme",
+    "NextRunPlatformUpdateBuild": "WS-231.9225.18",
+    "NextRunPlatformUpdateVersion": "2023.1.4",
+    "RunOnceActivity.se.text.search": "true",
+    "TextEditorWithPreview.SplitterProportionKey": "0.7918468",
+    "appcds.runOnSecondStart": "WS-231.9011.35-10d497b87b41070ed811b56b90a0acccd3c65ac8f5b3fbf55838a80d47fe8573",
+    "bundled.plugins.list.saved.version": "WS-231.9011.35",
+    "evlsprt3.231": "22",
+    "experimental.ui.used.once": "true",
+    "file.gist.reindex.count": "21",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.web.preview.reload.on.save": "1",
+    "input.method.disabler.muted": "true",
+    "last_opened_file_path": "/home/comodino/stampa-3d-102",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "registry.to.advanced.settings.migration.build": "WS-231.9011.35",
+    "tasks.pass.word.conversion.enforced": "true",
+    "ts.lib.d.ts.version": "4.8.4",
+    "vcs.log.changes.splitter.proportion": "0.58934516"
+  },
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/comodino/stampa-3d-102",
+      "/home/comodino/progetto-sorpresa"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+</application>

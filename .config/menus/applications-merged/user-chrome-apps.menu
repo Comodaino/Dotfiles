@@ -8,6 +8,12 @@
     <Directory>chrome-apps.directory</Directory>
     <Include>
         <Filename>brave-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop</Filename>
+        <Filename>chrome-aghbiahbpaijignceidepookljebhfak-Default.desktop</Filename>
+        <Filename>chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop</Filename>
+        <Filename>chrome-fhihpiojkbmbpdjeoajapmgkhlnakfjf-Default.desktop</Filename>
+        <Filename>chrome-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop</Filename>
+        <Filename>chrome-kefjledonklijopmnomlcbpllchaibag-Default.desktop</Filename>
+        <Filename>chrome-mpnpojknpmmopombnjdcgaaiekajbnjb-Default.desktop</Filename>
     </Include>
 </Menu>
 </Menu>

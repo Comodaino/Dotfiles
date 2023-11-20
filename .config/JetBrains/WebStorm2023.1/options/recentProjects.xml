@@ -1,0 +1,62 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/WebstormProjects/CDAWeb">
+          <value>
+            <RecentProjectMetaInfo frameTitle="CDAWeb – index.html" projectWorkspaceId="2VfQfcTlI6NyIXrbKdq1Smusbb9">
+              <option name="activationTimestamp" value="1696249801088" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-231.9011.35" />
+              <option name="buildTimestamp" value="1684224185135" />
+              <frame x="2887" y="46" width="941" height="1022" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1696249749848" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/WebstormProjects/cdaweb">
+          <value>
+            <RecentProjectMetaInfo frameTitle="cdaweb – App.css" projectWorkspaceId="2WCwJvja3L2y2CblEYDmCRM0itP">
+              <option name="activationTimestamp" value="1696493990921" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-231.9011.35" />
+              <option name="buildTimestamp" value="1684224194368" />
+              <frame x="1932" y="46" width="941" height="1022" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1696493960482" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/progetto-sorpresa">
+          <value>
+            <RecentProjectMetaInfo frameTitle="progetto-sorpresa – 04-code-full.html" opened="true" projectWorkspaceId="2WLVeFioPsoJB8uZmDvjlwMPV20">
+              <option name="activationTimestamp" value="1697784466100" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-231.9011.35" />
+              <option name="buildTimestamp" value="1684224193838" />
+              <frame x="967" y="46" width="941" height="1022" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1697711840019" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/stampa-3d-102">
+          <value>
+            <RecentProjectMetaInfo frameTitle="stampa-3d-102 – 15-temperatures.html" opened="true" projectWorkspaceId="2YOvjpTQAXtjT94LcLGNXCSm4Lg">
+              <option name="activationTimestamp" value="1700410905307" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-231.9011.35" />
+              <option name="buildTimestamp" value="1684224210254" />
+              <frame x="12" y="46" width="941" height="1022" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1700409580420" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/stampa-3d-102" />
+    <option name="lastProjectLocation" value="$USER_HOME$/WebstormProjects" />
+  </component>
+</application>

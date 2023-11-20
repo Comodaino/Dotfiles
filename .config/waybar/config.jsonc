@@ -56,7 +56,7 @@
     "device": "DP-1",
     "format": "{icon} {percent}%",
     "format-icons": ["", "", "", "", "", "", "", "", ""],
-    "on-click": ""
+    "on-click": "bash ~/.config/bin/brightnessscript.sh"
   },
   "network": {
     "format-wifi": "󰤨  {signalStrength}%",

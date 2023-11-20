@@ -8,6 +8,9 @@
 -- nix -> for lazy-lsp
 -- $ curl -L https://nixos.org/nix/install | sh
 --
+-- shellcheck -> for bashls
+-- # apt install shellcheck
+--
 -- english dictionary 
 -- install aspell
 -- # apt install aspell aspell-en
@@ -54,6 +57,10 @@ vim.opt.expandtab = true
 
 -- No mouse in insert mode
 vim.opt.mouse = 'n'
+
+-- For modicator
+vim.o.termguicolors = true
+vim.o.cursorline = true
 
 ----------------------------------------------------
 
@@ -147,8 +154,10 @@ lazy.opts = {}
 lazy.setup({
   -- Themes
   { 'folke/tokyonight.nvim', priority = 10000 },
+  { 'catppuccin/nvim', priority = 10000 },
   { 'ellisonleao/gruvbox.nvim', priority = 1000 },
   { 'rebelot/kanagawa.nvim', priority = 1000 },
+
 
   -- Various
   { 'LnL7/vim-nix' },
@@ -158,7 +167,9 @@ lazy.setup({
   { 'ellisonleao/glow.nvim', config = true, cmd = 'Glow' },
   { 'kyazdani42/nvim-tree.lua' },
   { 'lewis6991/gitsigns.nvim' },
-  { 'lukas-reineke/indent-blankline.nvim' },
+  { 'lukas-reineke/indent-blankline.nvim', main = "ibl", opts = {}  },
+  { 'mawkler/modicator.nvim' },
+  { 'nathom/filetype.nvim' },
   { 'norcalli/nvim-colorizer.lua' },
   { 'numToStr/Comment.nvim' },
   { 'nvim-lualine/lualine.nvim' },
@@ -170,20 +181,24 @@ lazy.setup({
   { 'tpope/vim-surround' },
   { 'wellle/targets.vim' },
   { 'zhimsel/vim-stay' },
+  { "typicode/bg.nvim", lazy = false },
+
 
   -- StartUp
   { "startup-nvim/startup.nvim" },
 
   -- Lsp
-  { 'dundalek/lazy-lsp.nvim' },
-  { 'neovim/nvim-lspconfig' },
+   { 'dundalek/lazy-lsp.nvim' },
+   { 'neovim/nvim-lspconfig' },
 
   -- Autocomplete
   { 'hrsh7th/cmp-buffer' }, -- buffer
   { 'hrsh7th/cmp-nvim-lsp' }, -- Lsp
-  { 'hrsh7th/cmp-vsnip' }, --snips
+  { 'hrsh7th/cmp-vsnip' }, -- snips
+  { 'hrsh7th/vim-vsnip-integ' }, -- snips again
+  { 'rafamadriz/friendly-snippets' }, -- snipets list
   { 'hrsh7th/nvim-cmp' }, -- main
-  { 'hrsh7th/vim-vsnip' }, --snip source
+  { 'hrsh7th/vim-vsnip' }, -- snip source
   { 'uga-rosa/cmp-dictionary' }, -- dictionary auto
   { 'FelipeLema/cmp-async-path' }, -- path outo asynchronous
 })
@@ -206,7 +221,7 @@ require('kanagawa').setup({
   },
 })
 
-vim.cmd.colorscheme('kanagawa')
+vim.cmd.colorscheme('catppuccin')
 
 -- Lualine
 vim.opt.showmode = false
@@ -235,6 +250,8 @@ require("indent_blankline").setup {
   show_current_context = true,
   show_current_context_start = false,
 }
+
+require "ibl".update { enable = false }
 
 -- Treesitter
 require('nvim-treesitter.configs').setup({
@@ -359,8 +376,50 @@ require('glow').setup({
   width = 120,
 })
 
--- illuminate
+-- Illuminate
 require('illuminate').configure({})
+
+-- Filetype
+require("filetype").setup({
+  overrides = {
+    extensions = {
+      -- Set the filetype of *.pn files to potion
+      sh = "sh",
+    },
+    shebang = {
+      -- Set the filetype of files with a dash shebang to sh
+      dash = "sh",
+    },
+  },
+})
+
+
+-- CursorLine
+-- require('nvim-cursorline').setup {
+--   cursorline = {
+--     enable = true,
+--     timeout = 1000,
+--     number = false,
+--   },
+--   cursorword = {
+--     enable = true,
+--     min_length = 3,
+--     hl = { underline = true },
+--   }
+-- }
+
+-- Modicator
+require('modicator').setup({
+  -- Show warning if any required option is missing
+  show_warnings = true,
+  highlights = {
+    -- Default options for bold/italic
+    defaults = {
+      bold = false,
+      italic = false
+    },
+  },
+})
 
 -- Plugins end
 

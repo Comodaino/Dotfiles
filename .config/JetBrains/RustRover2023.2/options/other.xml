@@ -5,8 +5,16 @@
   </component>
   <component name="PropertyService"><![CDATA[{
   "keyToString": {
+    "CWM_LOGGING_VERSION": "1",
     "ask.about.ctrl.y.shortcut.v2": "true",
+    "bundled.plugins.list.saved.version": "RR-232.9921.62",
+    "evlsprt3.RR-232.9921.62": "6",
+    "experimental.ui.used.version": "232.9921.62",
     "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "input.method.disabler.muted": "true",
+    "previousColorScheme": "_@user_Dark",
     "tasks.pass.word.conversion.enforced": "true"
   },
   "keyToStringList": {

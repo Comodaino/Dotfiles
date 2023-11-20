@@ -1,0 +1,7 @@
+2023/09/21-17:32:49.093 7b7 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_crinacle.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/09/21-17:32:49.093 7b7 Recovering log #3
+2023/09/21-17:32:49.094 7b7 Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_crinacle.com_0.indexeddb.leveldb/000003.log 
+2023/09/22-10:07:13.143 7b8 Level-0 table #5: started
+2023/09/22-10:07:13.152 7b8 Level-0 table #5: 269116 bytes OK
+2023/09/22-10:07:13.158 7b8 Delete type=0 #3
+2023/09/22-10:07:13.158 7b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

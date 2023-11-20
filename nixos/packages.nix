@@ -1,12 +1,28 @@
 
+
+let
+  my-python-packages = ps: with ps; [
+        pandas
+        numpy
+        scipy
+        matplotlib
+        jupyter
+        ipython
+        pyserial
+        # Gtk hell
+        pygobject3
+        pycairo
+  ];
+in
+
 {config, lib, pkgs, modulesPath, ... }:
 {
 
   # Enable networking
   networking.networkmanager.enable = true;
   programs.thunar.plugins = with pkgs.xfce; [
-  thunar-archive-plugin
-  thunar-volman
+    thunar-archive-plugin
+    thunar-volman
   ];
 
   #pipewire enabler
@@ -19,13 +35,27 @@
   # If you want to use JACK applications, uncomment this
   jack.enable = true;
 };
-  programs.fish.enable = true;
-  programs.hyprland.enable = true;
-  services.blueman.enable = true;
-  hardware.bluetooth.enable = true;
-  sound.enable = true;
+programs.fish.enable = true;
+programs.fish.shellAliases = {
+  c = "sl & clear";
+};
 
-  nixpkgs.config.allowUnfree = true;
+
+
+
+programs.hyprland.enable = true;
+services.blueman.enable = true;
+hardware.bluetooth.enable = true;
+sound.enable = true;
+
+services.pcscd.enable = true;
+programs.gnupg.agent = {
+  enable = true;
+  pinentryFlavor = "qt";
+  enableSSHSupport = true;
+}; 
+
+nixpkgs.config.allowUnfree = true;
 
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -58,7 +88,6 @@
     xfce.thunar-archive-plugin
     rofi
     nerdfonts
-    prusa-slicer
     starship
     gnumake
     zip
@@ -82,6 +111,24 @@
     gum
     shotman
     gitpkgs.clearsl
+    lynx
+    steam
+    ani-cli
+    f3d
+    jupyter
+    obs-studio
+    brightnessctl
+    ripgrep
+    nmap
+    openscad
+    plex-media-player
+    sov
+    usbutils
+    zathura
+    networkmanagerapplet
+    cura
+    vlc
+
   #gnome.file-roller
   waybar
   xdg-desktop-portal-hyprland
@@ -92,7 +139,7 @@
   dconf
   flatpak
   eww-wayland
-
+  ranger
 
   #BLUETOOTH
   blueman
@@ -116,11 +163,27 @@
   #DEVELOPMENT
   jetbrains.idea-ultimate
   jetbrains.clion
-  jetbrains.pycharm
+  jetbrains.webstorm
+  jetbrains.pycharm-professional
   vscodium
   ncurses
   jetbrains-toolbox
   llvmPackages_rocm.clang-tools-extra
+  racket
+  arduino
+  nodejs
+  arduino-core 
+  libsecret
+  jupyter
+  docker
+  docker-compose
+  (pkgs.python3.withPackages my-python-packages)
+  haskell.compiler.ghc8107
+  flutter
+  android-studio
+  android-tools 
+  jdk11
+  cmake
 
   #COMMUNICATION
   telegram-desktop
@@ -130,6 +193,6 @@
 
   #SECURITY 
   gnupg
-  pinentry
+  pinentry-curses
 ];
 }

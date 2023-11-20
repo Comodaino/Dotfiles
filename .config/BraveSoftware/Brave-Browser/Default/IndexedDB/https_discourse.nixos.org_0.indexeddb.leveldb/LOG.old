@@ -1,3 +1,15 @@
-2023/09/18-17:46:25.111 7eb Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_discourse.nixos.org_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/18-17:46:25.111 7eb Recovering log #4
-2023/09/18-17:46:25.127 7eb Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_discourse.nixos.org_0.indexeddb.leveldb/000004.log 
+2023/10/27-10:32:46.636 afa Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_discourse.nixos.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/27-10:32:46.636 afa Recovering log #11
+2023/10/27-10:32:46.643 afa Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_discourse.nixos.org_0.indexeddb.leveldb/000011.log 
+2023/10/27-10:33:22.275 afb Level-0 table #16: started
+2023/10/27-10:33:22.286 afb Level-0 table #16: 369442 bytes OK
+2023/10/27-10:33:22.292 afb Delete type=0 #11
+2023/10/27-10:33:22.294 afb Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/27-10:33:22.294 afb Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00P\x04<\x04\xb7xB\x00\x01y\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00n\x00i\x00x\x00o\x00s\x00.\x00o\x00r\x00g\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00p\x00t\x00i\x00m\x00i\x00z\x00e\x00d\x00/\x001\x00X\x00/\x004\x000\x001\x00b\x00e\x003\x007\x003\x008\x006\x009\x00e\x001\x002\x00d\x00f\x00e\x006\x008\x009\x00b\x009\x00d\x007\x00e\x00b\x003\x004\x007\x00f\x007\x008\x00b\x001\x00a\x001\x000\x005\x00f\x000\x00_\x002\x00_\x003\x002\x00x\x003\x002\x00.\x00p\x00n\x00g' @ 43062 : 1
+2023/10/27-10:33:22.294 afb Compacting 1@1 + 1@2 files
+2023/10/27-10:33:22.302 afb Generated table #17@1: 783 keys, 74813 bytes
+2023/10/27-10:33:22.302 afb Compacted 1@1 + 1@2 files => 74813 bytes
+2023/10/27-10:33:22.307 afb compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/27-10:33:22.308 afb Delete type=2 #16
+2023/10/27-10:33:22.308 afb Delete type=2 #13
+2023/10/27-10:33:22.309 afb Manual compaction at level-1 from '\x00\x01\x01 \x03\x00P\x04<\x04\xb7xB\x00\x01y\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00n\x00i\x00x\x00o\x00s\x00.\x00o\x00r\x00g\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00p\x00t\x00i\x00m\x00i\x00z\x00e\x00d\x00/\x001\x00X\x00/\x004\x000\x001\x00b\x00e\x003\x007\x003\x008\x006\x009\x00e\x001\x002\x00d\x00f\x00e\x006\x008\x009\x00b\x009\x00d\x007\x00e\x00b\x003\x004\x007\x00f\x007\x008\x00b\x001\x00a\x001\x000\x005\x00f\x000\x00_\x002\x00_\x003\x002\x00x\x003\x002\x00.\x00p\x00n\x00g' @ 43062 : 1 .. (end); will stop at (end)

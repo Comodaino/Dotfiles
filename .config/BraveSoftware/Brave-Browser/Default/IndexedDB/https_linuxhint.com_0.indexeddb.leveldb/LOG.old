@@ -1,0 +1,6 @@
+2023/10/19-10:44:50.519 874 Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb since it was missing.
+2023/10/19-10:44:50.532 874 Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxhint.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/19-10:44:54.551 875 Level-0 table #5: started
+2023/10/19-10:44:54.556 875 Level-0 table #5: 5743 bytes OK
+2023/10/19-10:44:54.562 875 Delete type=0 #3
+2023/10/19-10:44:54.562 875 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

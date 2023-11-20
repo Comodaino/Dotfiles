@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/sl.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="447">
-              <caret line="124" column="18" lean-forward="true" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+              <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -36,10 +36,10 @@
   </component>
   <component name="FileTypeUsageLocalSummary">
     <fileType name="Markdown">
-      <summary usageCount="2" lastUsed="1695107074370" />
+      <summary usageCount="3" lastUsed="1696418455695" />
     </fileType>
     <fileType name="ObjectiveC">
-      <summary usageCount="4" lastUsed="1695107074764" />
+      <summary usageCount="6" lastUsed="1696418455982" />
     </fileType>
   </component>
   <component name="IdeDocumentHistory">
@@ -56,10 +56,10 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="Markdown">
-      <summary usageCount="2" lastUsage="1695107074373" />
+      <summary usageCount="3" lastUsage="1696418455697" />
     </language>
     <language id="ObjectiveC">
-      <summary usageCount="4" lastUsage="1695107074764" />
+      <summary usageCount="6" lastUsage="1696418455982" />
     </language>
   </component>
   <component name="ProjectView">
@@ -85,12 +85,13 @@
     </history>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="283000" />
+    <option name="totallyTimeSpent" value="298000" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2502637" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24956822" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -108,7 +109,7 @@
       <window_info anchor="right" id="Database" order="0" />
       <window_info anchor="right" id="Notifications" order="1" weight="0.25" />
       <window_info anchor="right" id="make" order="2" side_tool="true" />
-      <unified_weights bottom="0.33023483" left="0.2502637" />
+      <unified_weights bottom="0.33023483" left="0.24956822" />
     </layout>
     <recentWindows>
       <value>Messages</value>
@@ -117,6 +118,10 @@
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
+    <state x="3320" y="315" width="424" height="454" key="FileChooserDialogImpl" timestamp="1696418469415">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state x="3320" y="315" width="424" height="454" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1696418469415" />
     <state x="1167" y="477" key="makefile.clean.confirm.dialog" timestamp="1694590408030">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -137,7 +142,7 @@
     <entry file="file://$PROJECT_DIR$/sl.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="447">
-          <caret line="124" column="18" lean-forward="true" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
+          <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
         </state>
       </provider>
     </entry>

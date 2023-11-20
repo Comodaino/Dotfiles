@@ -1,7 +1,15 @@
-2023/09/19-13:00:27.306 89e Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/19-13:00:27.307 89e Recovering log #3
-2023/09/19-13:00:27.312 89e Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000003.log 
-2023/09/19-13:01:11.308 89f Level-0 table #5: started
-2023/09/19-13:01:11.316 89f Level-0 table #5: 149396 bytes OK
-2023/09/19-13:01:11.323 89f Delete type=0 #3
-2023/09/19-13:01:11.324 89f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/31-10:05:27.899 88d Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/31-10:05:27.899 88d Recovering log #4
+2023/10/31-10:05:27.905 88d Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.facebook.com_0.indexeddb.leveldb/000004.log 
+2023/10/31-10:06:34.718 87f Level-0 table #8: started
+2023/10/31-10:06:34.726 87f Level-0 table #8: 207399 bytes OK
+2023/10/31-10:06:34.733 87f Delete type=0 #4
+2023/10/31-10:06:34.733 87f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/10/31-10:06:34.733 87f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x06\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 6562 : 1
+2023/10/31-10:06:34.733 87f Compacting 1@1 + 1@2 files
+2023/10/31-10:06:34.741 87f Generated table #9@1: 1346 keys, 64845 bytes
+2023/10/31-10:06:34.741 87f Compacted 1@1 + 1@2 files => 64845 bytes
+2023/10/31-10:06:34.747 87f compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/31-10:06:34.747 87f Delete type=2 #5
+2023/10/31-10:06:34.747 87f Delete type=2 #8
+2023/10/31-10:06:34.748 87f Manual compaction at level-1 from '\x00\x06\x01\x02\x01\x0a\x00s\x00w\x00_\x00v\x00e\x00r\x00s\x00i\x00o\x00n' @ 6562 : 1 .. (end); will stop at (end)

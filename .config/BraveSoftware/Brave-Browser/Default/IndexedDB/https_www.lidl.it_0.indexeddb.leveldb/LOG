@@ -1,0 +1,6 @@
+2023/10/27-12:40:45.338 afa Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.lidl.it_0.indexeddb.leveldb since it was missing.
+2023/10/27-12:40:45.349 afa Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.lidl.it_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/27-12:40:53.014 afb Level-0 table #5: started
+2023/10/27-12:40:53.019 afb Level-0 table #5: 1792 bytes OK
+2023/10/27-12:40:53.025 afb Delete type=0 #3
+2023/10/27-12:40:53.025 afb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

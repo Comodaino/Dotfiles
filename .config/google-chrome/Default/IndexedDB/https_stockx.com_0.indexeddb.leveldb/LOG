@@ -1,0 +1,17 @@
+2023/10/03-12:18:35.553 efd6 Creating DB /home/comodino/.config/google-chrome/Default/IndexedDB/https_stockx.com_0.indexeddb.leveldb since it was missing.
+2023/10/03-12:18:35.565 efd6 Reusing MANIFEST /home/comodino/.config/google-chrome/Default/IndexedDB/https_stockx.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/10/03-12:18:35.652 efd6 Level-0 table #5: started
+2023/10/03-12:18:35.656 efd6 Level-0 table #5: 1484 bytes OK
+2023/10/03-12:18:35.663 efd6 Delete type=0 #3
+2023/10/03-12:18:35.663 efd6 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/03-12:18:50.236 efd6 Level-0 table #7: started
+2023/10/03-12:18:50.243 efd6 Level-0 table #7: 471 bytes OK
+2023/10/03-12:18:50.252 efd6 Delete type=0 #4
+2023/10/03-12:18:50.252 efd6 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/10/03-12:18:50.253 efd6 Manual compaction at level-1 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at '\x00\x01\x00\x00\x05' @ 110 : 0
+2023/10/03-12:18:50.253 efd6 Compacting 1@1 + 1@2 files
+2023/10/03-12:18:50.257 efd6 Generated table #8@1: 7 keys, 282 bytes
+2023/10/03-12:18:50.257 efd6 Compacted 1@1 + 1@2 files => 282 bytes
+2023/10/03-12:18:50.263 efd6 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/10/03-12:18:50.263 efd6 Delete type=2 #7
+2023/10/03-12:18:50.263 efd6 Manual compaction at level-1 from '\x00\x01\x00\x00\x05' @ 110 : 0 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

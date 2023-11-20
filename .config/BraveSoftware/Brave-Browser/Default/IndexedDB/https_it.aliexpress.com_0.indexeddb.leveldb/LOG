@@ -1,0 +1,15 @@
+2023/11/09-12:25:53.933 8dd Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_it.aliexpress.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/09-12:25:53.934 8dd Recovering log #4
+2023/11/09-12:25:53.934 8dd Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_it.aliexpress.com_0.indexeddb.leveldb/000004.log 
+2023/11/09-12:26:40.604 8de Level-0 table #8: started
+2023/11/09-12:26:40.607 8de Level-0 table #8: 209 bytes OK
+2023/11/09-12:26:40.614 8de Delete type=0 #4
+2023/11/09-12:26:40.614 8de Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/09-12:26:40.614 8de Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 153 : 1
+2023/11/09-12:26:40.614 8de Compacting 1@1 + 1@2 files
+2023/11/09-12:26:40.618 8de Generated table #9@1: 48 keys, 1701 bytes
+2023/11/09-12:26:40.618 8de Compacted 1@1 + 1@2 files => 1701 bytes
+2023/11/09-12:26:40.624 8de compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/09-12:26:40.624 8de Delete type=2 #5
+2023/11/09-12:26:40.624 8de Delete type=2 #8
+2023/11/09-12:26:40.624 8de Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 153 : 1 .. (end); will stop at (end)

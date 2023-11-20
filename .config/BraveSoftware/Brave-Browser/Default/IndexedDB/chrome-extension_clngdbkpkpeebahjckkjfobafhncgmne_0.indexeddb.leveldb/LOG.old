@@ -1,3 +1,15 @@
-2023/09/20-12:29:42.346 6ec Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_clngdbkpkpeebahjckkjfobafhncgmne_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/20-12:29:42.347 6ec Recovering log #15
-2023/09/20-12:29:42.347 6ec Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_clngdbkpkpeebahjckkjfobafhncgmne_0.indexeddb.leveldb/000015.log 
+2023/11/14-14:44:42.996 a9b Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_clngdbkpkpeebahjckkjfobafhncgmne_0.indexeddb.leveldb/MANIFEST-000001
+2023/11/14-14:44:42.997 a9b Recovering log #35
+2023/11/14-14:44:42.997 a9b Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_clngdbkpkpeebahjckkjfobafhncgmne_0.indexeddb.leveldb/000035.log 
+2023/11/14-14:59:46.132 a9c Level-0 table #40: started
+2023/11/14-14:59:46.136 a9c Level-0 table #40: 209 bytes OK
+2023/11/14-14:59:46.142 a9c Delete type=0 #35
+2023/11/14-14:59:46.142 a9c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/11/14-14:59:46.142 a9c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 132 : 1
+2023/11/14-14:59:46.142 a9c Compacting 1@1 + 1@2 files
+2023/11/14-14:59:46.147 a9c Generated table #41@1: 32 keys, 702 bytes
+2023/11/14-14:59:46.147 a9c Compacted 1@1 + 1@2 files => 702 bytes
+2023/11/14-14:59:46.153 a9c compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/11/14-14:59:46.153 a9c Delete type=2 #37
+2023/11/14-14:59:46.153 a9c Delete type=2 #40
+2023/11/14-14:59:46.153 a9c Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 132 : 1 .. (end); will stop at (end)

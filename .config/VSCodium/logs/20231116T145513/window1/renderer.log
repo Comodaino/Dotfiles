@@ -1,0 +1,16 @@
+2023-11-16 14:55:14.238 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-16 14:55:17.731 [info] [perf] Render performance baseline is 31ms
+2023-11-16 14:55:25.355 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-16 14:55:28.246 [info] [perf] Render performance baseline is 30ms
+2023-11-16 14:56:52.205 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-11-16 14:56:55.605 [info] [perf] Render performance baseline is 29ms
+2023-11-16 14:59:21.501 [error] s.actions is not iterable: TypeError: s.actions is not iterable
+    at e.CodeActionsContribution.getSourceActions (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:18168)
+    at e.CodeActionsContribution.updateConfigurationSchema (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:17855)
+    at f._handler (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:765:17563)
+    at f._handle (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1517:2397)
+    at f.acceptUsers (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1517:2301)
+    at $d._handleExtensionPoint (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2599:34099)
+    at e.NativeExtensionService._doHandleExtensionPoints (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2599:32812)
+    at e.NativeExtensionService._deltaExtensions (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2599:20939)
+    at async e.NativeExtensionService._handleDeltaExtensions (vscode-file://vscode-app/nix/store/94kdlk4g3x5qv3c712lca4n0c9mrc1wy-vscodium-1.78.2.23132/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:2599:19924)
