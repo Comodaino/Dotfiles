@@ -1,7 +1,0 @@
-2023/11/14-10:31:42.515 5bfdb Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_poul.org_0.indexeddb.leveldb/MANIFEST-000001
-2023/11/14-10:31:42.515 5bfdb Recovering log #196
-2023/11/14-10:31:42.515 5bfdb Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_poul.org_0.indexeddb.leveldb/000196.log 
-2023/11/14-10:31:42.957 5bfdf Level-0 table #202: started
-2023/11/14-10:31:42.961 5bfdf Level-0 table #202: 538 bytes OK
-2023/11/14-10:31:42.967 5bfdf Delete type=0 #196
-2023/11/14-10:31:42.967 5bfdb Manual compaction at level-0 from '\x002\x00\x00\x00' @ 72057594037927935 : 1 .. '\x003\x00\x00\x00' @ 0 : 0; will stop at (end)

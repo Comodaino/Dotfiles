@@ -1,7 +1,0 @@
-2023/10/27-09:37:01.258 afa Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxdaymilano.org_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/27-09:37:01.258 afa Recovering log #3
-2023/10/27-09:37:01.258 afa Reusing old log /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_linuxdaymilano.org_0.indexeddb.leveldb/000003.log 
-2023/10/27-09:37:08.439 afb Level-0 table #5: started
-2023/10/27-09:37:08.442 afb Level-0 table #5: 1545 bytes OK
-2023/10/27-09:37:08.448 afb Delete type=0 #3
-2023/10/27-09:37:08.449 afb Manual compaction at level-0 from (begin) .. (end); will stop at (end)

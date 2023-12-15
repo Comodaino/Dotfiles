@@ -1,6 +1,0 @@
-2023/09/14-12:43:22.612 26eb Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.metacritic.com_0.indexeddb.leveldb since it was missing.
-2023/09/14-12:43:22.628 26eb Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.metacritic.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/14-12:43:36.439 26ec Level-0 table #5: started
-2023/09/14-12:43:36.443 26ec Level-0 table #5: 1148 bytes OK
-2023/09/14-12:43:36.450 26ec Delete type=0 #3
-2023/09/14-12:43:36.450 26ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)

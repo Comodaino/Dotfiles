@@ -1,3 +1,0 @@
-2023-09-20 10:43:05.997 [info] Started initializing default profile extensions in extensions installation folder. file:///home/comodino/.vscode-oss/extensions
-2023-09-20 10:43:06.139 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/comodino/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/comodino/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
-2023-09-20 10:43:06.139 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/comodino/.vscode-oss/extensions

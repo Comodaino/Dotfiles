@@ -1,6 +1,0 @@
-2023/09/19-11:06:15.961 89e Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_signin.ebay.it_0.indexeddb.leveldb since it was missing.
-2023/09/19-11:06:15.973 89e Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_signin.ebay.it_0.indexeddb.leveldb/MANIFEST-000001
-2023/09/19-11:06:21.070 89f Level-0 table #5: started
-2023/09/19-11:06:21.074 89f Level-0 table #5: 1274 bytes OK
-2023/09/19-11:06:21.080 89f Delete type=0 #3
-2023/09/19-11:06:21.080 89f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

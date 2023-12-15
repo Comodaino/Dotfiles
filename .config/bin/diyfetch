@@ -6,12 +6,12 @@ main_color=4
 
 info=$(gum style "
 
-[38;5;${main_color}m [0;1;38;5;${main_color}m${USER}[0m@[1;38;5;${main_color}m$(hostname)[0m
+[38;5;${main_color}m [0;1;38;5;${main_color}m${USER}[0m@[1;38;5;${main_color}m$(cat /etc/hostname)[0m
 ├─ [38;5;${main_color}m [0m Huawei Matebook D15
 │  └─ [38;5;${main_color}m [0m AMD Ryzen 5500U
-└─ [38;5;${main_color}m [0m NixOs
+└─ [38;5;${main_color}m󰣇 [0m Arch Linux
    ├─ [38;5;${main_color}m [0m Hyprland
-   ├─ [38;5;${main_color}m [0m Alacritty
+   ├─ [38;5;${main_color}m [0m Wezterm
    └─ [38;5;${main_color}m [0m $(basename "${SHELL}")")
 
 art=$(gum style '

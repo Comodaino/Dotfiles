@@ -65,12 +65,12 @@ truncation_symbol = "…/"
 
 [c]
 symbol = " "
-style = "bg:#f5bde6 fg:#1a1b26"
+style = "bg:#f5a97f fg:#1a1b26"
 format = '[ $symbol ($version) ]($style)'
 
 [docker_context]
 symbol = " "
-style = "bg:#f5bde6 fg:#1a1b26"
+style = "bg:#f5a97f fg:#1a1b26"
 format = '[ $symbol $context ]($style) $path'
 
 [elixir]
@@ -140,4 +140,4 @@ format = '[ $symbol ($version) ]($style)'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "color:#000000"
-format = '[ 󱄅 $time ]($style)'
+format = '[ 󰣇 $time ]($style)'

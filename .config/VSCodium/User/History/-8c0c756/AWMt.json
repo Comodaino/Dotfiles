@@ -1,4 +1,0 @@
-{
-    "haskell.manageHLS": "GHCup",
-    "arduino.useArduinoCli": true
-}

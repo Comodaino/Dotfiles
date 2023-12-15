@@ -1,6 +1,0 @@
-2023/10/04-13:17:03.865 d5d Creating DB /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.arm.com_0.indexeddb.leveldb since it was missing.
-2023/10/04-13:17:03.878 d5d Reusing MANIFEST /home/comodino/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.arm.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/04-13:17:46.090 d5d Level-0 table #5: started
-2023/10/04-13:17:46.095 d5d Level-0 table #5: 1833 bytes OK
-2023/10/04-13:17:46.101 d5d Delete type=0 #3
-2023/10/04-13:17:46.101 d5d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
